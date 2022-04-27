@@ -3,3 +3,4 @@
 .tl_2020_41_tract.zip.icloud
 tract_data.gpkg-shm
 tract_data.gpkg-wal
+*.icloud
