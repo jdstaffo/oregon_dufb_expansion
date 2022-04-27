@@ -23,12 +23,11 @@ in_clause = "state:41"
 key_value = "8a0c471829f0b6d031bc0e9f473f796194d1323f"
 
 # creating a new dictionary with the API payload
-# B19001_001E: HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2019 INFLATION-ADJUSTED DOLLARS)
-# B19019_001E: MEDIAN HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2019 INFLATION-ADJUSTED DOLLARS) BY HOUSEHOLD SIZE
-# B11016_001E: HOUSEHOLD TYPE BY HOUSEHOLD SIZE
-# B99221_001E: ALLOCATION OF FOOD STAMPS/SNAP RECEIPT
-# B19058_001E: PUBLIC ASSISTANCE INCOME OR FOOD STAMPS/SNAP IN THE PAST 12 MONTHS FOR HOUSEHOLDS
-payload = {"get":"NAME,B19001_001E,B19019_001E,B11016_001E,B99221_001E,B19058_001E", "for":for_clause, "in":in_clause, "key":key_value}
+# B01003_001E: TOTAL POPULATION
+# B11001_001E: TOTAL HOUSEHOLDS (FAMILY AND NONFAMILY)
+# B22001_002E: RECEIPT OF FOOD STAMPS/SNAP IN THE PAST 12 MONTHS FOR HOUSEHOLDS (002 = YES)
+# B19058_002E: PUBLIC ASSISTANCE INCOME OR FOOD STAMPS/SNAP IN THE PAST 12 MONTHS FOR HOUSEHOLDS (002 = YES)
+payload = {"get":"NAME,B01003_001E,B11001_001E,B22001_002E,B19058_002E", "for":for_clause, "in":in_clause, "key":key_value}
 
 # calling the request
 response = requests.get(api, payload)
@@ -55,15 +54,14 @@ datarows = row_list[1:]
 acs_data = pd.DataFrame(columns=colnames, data=datarows)
 
 # renaming columns
-acs_data = acs_data.rename(columns = {"B19001_001E":"income", 
-                              "B19019_001E":"hh income",
-                              "B11016_001E":"hh size",
-                              "B99221_001E":"SNAP",
-                              "B19058_001E":"public assist"})
+acs_data = acs_data.rename(columns = {"B01003_001E":"Population",
+                                      "B11001_001E":"Households",
+                                      "B22001_002E":"Receipt of SNAP",
+                                      "B19058_002E":"Public Assist"})
 
 # creating new column for each tract's GEOID
 # GEOID: state, county, and tract IDs
 acs_data["GEOID"] = acs_data["state"]+acs_data["county"]+acs_data["tract"]
 
 # writing to output csv
-acs_data.to_csv("2020_ACS_API_request.csv")
+acs_data.to_csv("2020_ACS_API_request.csv", index=False)
