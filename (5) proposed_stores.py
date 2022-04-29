@@ -19,11 +19,10 @@ high_need["TRACTCE"] = high_need["TRACTCE"].astype(str)
 high_need["GEOID"] = high_need["GEOID"].astype(str)
 
 # reading in input crosswalk file of zip codes and census tracts and prepping for merge
-zip_tracts = pd.read_csv("ZIP_TRACT_122020.csv")
-zip_tracts = zip_tracts.rename(columns={"TRACT":"GEOID"})
-zip_tracts["GEOID"] = zip_tracts["GEOID"].astype(str)
-zip_tracts["ZIP"] = zip_tracts["ZIP"].astype(str)
-zip_tracts_trim = zip_tracts[["ZIP", "GEOID"]].copy()
+zip_tracts = pd.read_csv("ZIP_TRACT_122021.csv", dtype=str)
+zip_tracts = zip_tracts.rename(columns={"tract":"GEOID"})
+OR_zip_tracts = zip_tracts.query("usps_zip_pref_state == 'OR'")
+zip_tracts_trim = OR_zip_tracts[["zip", "GEOID"]].copy()
 
 # merging the two sets of data on the tract ID column
 high_need = high_need.merge(zip_tracts_trim, on="GEOID", how="left", validate="m:m", indicator=True)
@@ -32,7 +31,13 @@ high_need = high_need.merge(zip_tracts_trim, on="GEOID", how="left", validate="m
 print("\nMerge indicator:")
 print(high_need["_merge"].value_counts())
 
+# printing the tracts without zip codes
+print("\nTracts without zip codes:")
+print(high_need["zip"].isna())
+
+# finding duplicate records - some census tracts overlap with multiple zip codes
 dup_high_need = high_need.duplicated(subset = "GEOID", keep=False)
 dups = high_need[dup_high_need]
+print("\nDuplicated records:")
 print(dups)
 
