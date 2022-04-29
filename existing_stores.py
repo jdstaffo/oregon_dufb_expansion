@@ -71,13 +71,23 @@ stores = stores.merge(store_coords, on="Full address", how="outer", validate="1:
 print("\nMerge indicator:")
 print(stores["_merge"].value_counts())
 
+# printing the stores without coordinates
+print("\nStores without coordinates:")
+print(stores["Store name"], stores["lat"].isna())
+
 # inputting missing coordinates - collected from google maps by hand
+stores.at[2, "lat"] = "45.20671871375452"
+stores.at[2, "lon"] = "-123.95964866004289"
 
-## THIS IS WHEERE YOU ARE WORKING
-# write script to print rows with nan for address
-# find coordinates on google maps - or do what Wiloxen suggests
+stores.at[5, "lat"] = "44.55393395819116"
+stores.at[5, "lon"] = "-123.26453513123064"
 
-# dropping the "_merge" column
-stores = stores.drop(columns = ["_merge"])
+# dropping the "_merge" column and the "name" column for clarity
+stores = stores.drop(columns = ["_merge", "name"])
+
+# prepping coordinates to map
+stores_geodata = gpd.GeoDataFrame(stores, geometry=gpd.points_from_xy(stores["lat"], stores["lon"]))
 
 # writing to output file
+stores_geodata.to_file("existing_store_data.gpkg", layer="geometry", index=False)
+
