@@ -15,11 +15,15 @@ tract_geodata = pd.read_csv("tract_data.csv")
 
 # converting geography codes to strings as needed
 tract_geodata["COUNTYFP"] = tract_geodata["COUNTYFP"].astype(str)
+tract_geodata["TRACTCE"] = tract_geodata["TRACTCE"].astype(str)
 tract_geodata["GEOID"] = tract_geodata["GEOID"].astype(str) 
 
 # selecting the 30 tracts with the highest percentage of households recieving SNAP
 tract_geodata = tract_geodata.sort_values("Percent SNAP", ascending=False)
 high_need = tract_geodata[:30]
+
+# writing to output csv file
+high_need.to_csv("high_need.csv", index=False)
 
 # trimming it for joining onto geography data
 high_need_trim = high_need[["GEOID", "COUNTYFP","Percent SNAP"]].copy()
