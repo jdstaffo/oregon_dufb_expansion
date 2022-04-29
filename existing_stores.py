@@ -10,8 +10,7 @@ import pandas as pd
 import requests
 import json
 import geopandas as gpd
-import geopy
-from geopy.geocoders import Nominatim
+import os
 
 stores = pd.read_csv("existing_grocery_stores.csv", dtype=str)
 
@@ -76,18 +75,13 @@ print("\nStores without coordinates:")
 print(stores["Store name"], stores["lat"].isna())
 
 # inputting missing coordinates - collected from google maps by hand
-stores.at[2, "lat"] = "45.20671871375452"
-stores.at[2, "lon"] = "-123.95964866004289"
+stores.at[2,"lat"] = "45.20671871375452"
+stores.at[2,"lon"] = "-123.95964866004289"
 
-stores.at[5, "lat"] = "44.55393395819116"
-stores.at[5, "lon"] = "-123.26453513123064"
+stores.at[5,"lat"] = "44.55393395819116"
+stores.at[5,"lon"] = "-123.26453513123064"
 
 # dropping the "_merge" column and the "name" column for clarity
 stores = stores.drop(columns = ["_merge", "name"])
 
-# prepping coordinates to map
-stores_geodata = gpd.GeoDataFrame(stores, geometry=gpd.points_from_xy(stores["lat"], stores["lon"]))
-
-# writing to output file
-stores_geodata.to_file("existing_store_data.gpkg", layer="geometry", index=False)
-
+stores.to_csv("existing_store_geodata.csv", index=False)
