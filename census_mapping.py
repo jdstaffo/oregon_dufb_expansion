@@ -16,6 +16,9 @@ acs_data = gpd.read_file("2020_ACS_API_request.csv", dtype=float)
 acs_data["Percent SNAP"] = round(acs_data["Receipt of SNAP"].astype(float) / acs_data["Households"].astype(float) * 100, 4)
 acs_data["Percent Public Assist"] = round(acs_data["Public Assist"].astype(float) / acs_data["Households"].astype(float) * 100, 4)
 
+# saving new columns to new csv
+acs_data.to_csv("2020_ACS_with_percents.csv", index=False)
+
 # trimming it for joining onto geography data
 acs_trim = acs_data[["GEOID", "Percent SNAP", "Percent Public Assist"]].copy()
 
@@ -43,3 +46,5 @@ geodata.to_file("tract_data.gpkg", layer="GEOID", index=False)
 geodata.to_file("tract_data.gpkg", layer="TRACTCE", index=False)
 geodata.to_file("tract_data.gpkg", layer="Percent SNAP", index=False)
 
+# writing to output csv file
+geodata.to_csv("tract_data.csv", index=False)

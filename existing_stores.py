@@ -9,8 +9,6 @@ Created on Mon Apr 25 09:36:12 2022
 import pandas as pd
 import requests
 import json
-import geopandas as gpd
-import os
 
 stores = pd.read_csv("existing_grocery_stores.csv", dtype=str)
 
