@@ -6,18 +6,24 @@ Created on Thu Apr 14 19:40:18 2022
 @author: juliadstafford
 """
 
+import pandas as pd
 import geopandas as gpd
 import os
 
 # reading in input file of ACS data
-acs_data = gpd.read_file("2020_ACS_API_request.csv", dtype=float)
+oregon_acs_data = pd.read_csv("2020_ACS_API_request.csv", dtype=str)
 
-# creating new column for percentage of households recieving SNAP or public assistance more broadly in each tract
-acs_data["Percent SNAP"] = round(acs_data["Receipt of SNAP"].astype(float) / acs_data["Households"].astype(float) * 100, 4)
-acs_data["Percent Public Assist"] = round(acs_data["Public Assist"].astype(float) / acs_data["Households"].astype(float) * 100, 4)
+# creating new column for percentage of households recieving SNAP or public assistance more broadly in each tracto
+oregon_acs_data["Percent SNAP"] = round(oregon_acs_data["Receipt of SNAP"].astype(float) / oregon_acs_data["Households"].astype(float) * 100, 4)
+oregon_acs_data["Percent Public Assist"] = round(oregon_acs_data["Public Assist"].astype(float) / oregon_acs_data["Households"].astype(float) * 100, 4)
 
 # saving new columns to new csv
-acs_data.to_csv("2020_ACS_with_percents.csv", index=False)
+oregon_acs_data.to_csv("2020_ACS_with_percents.csv", index=False)
+#%%
+
+##FIX THIS SO THAT IT"S NOT ON GEOID - should be on zip instead
+## AND READ IN ZCTA data, not tract
+
 
 # trimming it for joining onto geography data
 acs_trim = acs_data[["GEOID", "Percent SNAP", "Percent Public Assist"]].copy()

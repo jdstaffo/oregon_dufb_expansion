@@ -1,1002 +1,412 @@
-NAME,Population,Households,Receipt of SNAP,Public Assist,state,county,tract,GEOID
-"Census Tract 9.02, Lane County, Oregon",4735,1879,309,309,41,039,000902,41039000902
-"Census Tract 9.03, Lane County, Oregon",5611,2285,677,684,41,039,000903,41039000903
-"Census Tract 9.04, Lane County, Oregon",3076,1187,278,278,41,039,000904,41039000904
-"Census Tract 10.01, Lane County, Oregon",2596,1146,95,95,41,039,001001,41039001001
-"Census Tract 10.02, Lane County, Oregon",3814,1738,404,420,41,039,001002,41039001002
-"Census Tract 11.01, Lane County, Oregon",6017,2277,199,199,41,039,001101,41039001101
-"Census Tract 11.02, Lane County, Oregon",3793,1430,215,229,41,039,001102,41039001102
-"Census Tract 12.01, Lane County, Oregon",4274,1515,419,448,41,039,001201,41039001201
-"Census Tract 12.02, Lane County, Oregon",4175,1823,483,492,41,039,001202,41039001202
-"Census Tract 13.01, Lane County, Oregon",3492,1403,446,521,41,039,001301,41039001301
-"Census Tract 13.02, Lane County, Oregon",5033,1967,437,529,41,039,001302,41039001302
-"Census Tract 14, Lane County, Oregon",2733,1010,204,206,41,039,001400,41039001400
-"Census Tract 15, Lane County, Oregon",4872,2167,759,774,41,039,001500,41039001500
-"Census Tract 16, Lane County, Oregon",5145,1853,342,342,41,039,001600,41039001600
-"Census Tract 17, Lane County, Oregon",5635,1903,375,401,41,039,001700,41039001700
-"Census Tract 18.01, Lane County, Oregon",6099,2117,361,485,41,039,001801,41039001801
-"Census Tract 18.03, Lane County, Oregon",4194,1793,327,336,41,039,001803,41039001803
-"Census Tract 18.04, Lane County, Oregon",4634,1457,305,305,41,039,001804,41039001804
-"Census Tract 19.02, Lane County, Oregon",5968,2187,585,620,41,039,001902,41039001902
-"Census Tract 19.03, Lane County, Oregon",3158,1087,357,367,41,039,001903,41039001903
-"Census Tract 19.04, Lane County, Oregon",5838,2227,360,360,41,039,001904,41039001904
-"Census Tract 20.01, Lane County, Oregon",3345,1336,248,261,41,039,002001,41039002001
-"Census Tract 20.02, Lane County, Oregon",4777,2132,494,576,41,039,002002,41039002002
-"Census Tract 21.01, Lane County, Oregon",2743,1063,264,266,41,039,002101,41039002101
-"Census Tract 21.03, Lane County, Oregon",4133,1834,481,481,41,039,002103,41039002103
-"Census Tract 21.04, Lane County, Oregon",2536,1152,304,304,41,039,002104,41039002104
-"Census Tract 22.01, Lane County, Oregon",3728,1591,184,199,41,039,002201,41039002201
-"Census Tract 22.03, Lane County, Oregon",4317,1794,174,174,41,039,002203,41039002203
-"Census Tract 22.04, Lane County, Oregon",2920,1479,105,128,41,039,002204,41039002204
-"Census Tract 23.01, Lane County, Oregon",4387,1885,582,599,41,039,002301,41039002301
-"Census Tract 23.02, Lane County, Oregon",4443,1568,234,234,41,039,002302,41039002302
-"Census Tract 24.01, Lane County, Oregon",3925,1497,98,132,41,039,002401,41039002401
-"Census Tract 24.03, Lane County, Oregon",4000,1712,145,176,41,039,002403,41039002403
-"Census Tract 24.04, Lane County, Oregon",3512,1477,214,244,41,039,002404,41039002404
-"Census Tract 25.01, Lane County, Oregon",5219,1764,402,427,41,039,002501,41039002501
-"Census Tract 25.04, Lane County, Oregon",3179,1147,402,402,41,039,002504,41039002504
-"Census Tract 25.05, Lane County, Oregon",3849,1686,269,269,41,039,002505,41039002505
-"Census Tract 25.06, Lane County, Oregon",3845,1380,106,106,41,039,002506,41039002506
-"Census Tract 26, Lane County, Oregon",6185,2356,475,475,41,039,002600,41039002600
-"Census Tract 27, Lane County, Oregon",4536,1639,405,405,41,039,002700,41039002700
-"Census Tract 28, Lane County, Oregon",5009,1887,436,457,41,039,002800,41039002800
-"Census Tract 29.02, Lane County, Oregon",4155,1847,286,286,41,039,002902,41039002902
-"Census Tract 29.03, Lane County, Oregon",3050,1268,75,75,41,039,002903,41039002903
-"Census Tract 29.04, Lane County, Oregon",4166,2166,212,212,41,039,002904,41039002904
-"Census Tract 30, Lane County, Oregon",4574,2099,140,140,41,039,003000,41039003000
-"Census Tract 31.01, Lane County, Oregon",6960,2410,452,466,41,039,003101,41039003101
-"Census Tract 31.03, Lane County, Oregon",3372,1174,110,110,41,039,003103,41039003103
-"Census Tract 31.04, Lane County, Oregon",5149,2669,393,407,41,039,003104,41039003104
-"Census Tract 32.01, Lane County, Oregon",3001,1226,418,429,41,039,003201,41039003201
-"Census Tract 32.02, Lane County, Oregon",4572,1912,416,424,41,039,003202,41039003202
-"Census Tract 33.01, Lane County, Oregon",3171,1309,335,335,41,039,003301,41039003301
-"Census Tract 33.02, Lane County, Oregon",3717,1822,641,653,41,039,003302,41039003302
-"Census Tract 34, Lane County, Oregon",5419,2114,824,824,41,039,003400,41039003400
-"Census Tract 35, Lane County, Oregon",4513,1655,238,238,41,039,003500,41039003500
-"Census Tract 36, Lane County, Oregon",3916,1559,442,449,41,039,003600,41039003600
-"Census Tract 37, Lane County, Oregon",5094,897,136,136,41,039,003700,41039003700
-"Census Tract 38.01, Lane County, Oregon",3208,1713,203,203,41,039,003801,41039003801
-"Census Tract 38.02, Lane County, Oregon",5930,2220,238,238,41,039,003802,41039003802
-"Census Tract 39, Lane County, Oregon",3781,2127,544,614,41,039,003900,41039003900
-"Census Tract 40, Lane County, Oregon",2450,1305,599,616,41,039,004000,41039004000
-"Census Tract 41, Lane County, Oregon",4603,1702,245,245,41,039,004100,41039004100
-"Census Tract 42, Lane County, Oregon",3259,1576,503,516,41,039,004200,41039004200
-"Census Tract 43, Lane County, Oregon",7412,3103,867,867,41,039,004300,41039004300
-"Census Tract 44.03, Lane County, Oregon",5066,2223,741,803,41,039,004403,41039004403
-"Census Tract 44.04, Lane County, Oregon",3159,1402,91,91,41,039,004404,41039004404
-"Census Tract 44.05, Lane County, Oregon",4469,1792,157,165,41,039,004405,41039004405
-"Census Tract 44.06, Lane County, Oregon",3153,1221,363,378,41,039,004406,41039004406
-"Census Tract 44.07, Lane County, Oregon",2992,1292,328,328,41,039,004407,41039004407
-"Census Tract 45.01, Lane County, Oregon",2707,1359,239,239,41,039,004501,41039004501
-"Census Tract 45.02, Lane County, Oregon",3275,1763,383,398,41,039,004502,41039004502
-"Census Tract 46, Lane County, Oregon",2904,1320,271,305,41,039,004600,41039004600
-"Census Tract 47, Lane County, Oregon",4238,1753,311,338,41,039,004700,41039004700
-"Census Tract 48, Lane County, Oregon",4866,2208,408,501,41,039,004800,41039004800
-"Census Tract 49, Lane County, Oregon",5070,1810,134,134,41,039,004900,41039004900
-"Census Tract 50, Lane County, Oregon",5275,2488,244,275,41,039,005000,41039005000
-"Census Tract 51, Lane County, Oregon",3439,1518,319,360,41,039,005100,41039005100
-"Census Tract 52, Lane County, Oregon",2450,1090,59,59,41,039,005200,41039005200
-"Census Tract 53, Lane County, Oregon",2631,1109,132,136,41,039,005300,41039005300
-"Census Tract 54, Lane County, Oregon",5295,2236,117,133,41,039,005400,41039005400
-"Census Tract 9900, Lane County, Oregon",0,0,0,0,41,039,990000,41039990000
-"Census Tract 9501, Lincoln County, Oregon",3183,1315,276,276,41,041,950100,41041950100
-"Census Tract 9503.03, Lincoln County, Oregon",2036,803,71,71,41,041,950303,41041950303
-"Census Tract 9503.04, Lincoln County, Oregon",3355,1578,284,284,41,041,950304,41041950304
-"Census Tract 9504.01, Lincoln County, Oregon",1839,841,227,227,41,041,950401,41041950401
-"Census Tract 9504.02, Lincoln County, Oregon",1941,879,193,209,41,041,950402,41041950402
-"Census Tract 9506.01, Lincoln County, Oregon",2627,1270,118,118,41,041,950601,41041950601
-"Census Tract 9506.02, Lincoln County, Oregon",2521,1343,149,160,41,041,950602,41041950602
-"Census Tract 9508, Lincoln County, Oregon",3300,1562,346,374,41,041,950800,41041950800
-"Census Tract 9509, Lincoln County, Oregon",3866,1455,392,392,41,041,950900,41041950900
-"Census Tract 9510, Lincoln County, Oregon",2084,889,243,243,41,041,951000,41041951000
-"Census Tract 9511, Lincoln County, Oregon",1910,775,102,111,41,041,951100,41041951100
-"Census Tract 9512, Lincoln County, Oregon",2317,1053,107,128,41,041,951200,41041951200
-"Census Tract 9513, Lincoln County, Oregon",2807,1089,232,232,41,041,951300,41041951300
-"Census Tract 9514, Lincoln County, Oregon",3329,1283,371,393,41,041,951400,41041951400
-"Census Tract 9515, Lincoln County, Oregon",2879,1561,576,596,41,041,951500,41041951500
-"Census Tract 9516, Lincoln County, Oregon",3657,1743,341,346,41,041,951600,41041951600
-"Census Tract 9517, Lincoln County, Oregon",1788,900,115,115,41,041,951700,41041951700
-"Census Tract 9518, Lincoln County, Oregon",3897,1502,367,367,41,041,951800,41041951800
-"Census Tract 9901, Lincoln County, Oregon",0,0,0,0,41,041,990100,41041990100
-"Census Tract 201.01, Linn County, Oregon",5337,1974,197,235,41,043,020101,41043020101
-"Census Tract 201.02, Linn County, Oregon",2196,948,150,163,41,043,020102,41043020102
-"Census Tract 201.03, Linn County, Oregon",3199,1085,93,93,41,043,020103,41043020103
-"Census Tract 202, Linn County, Oregon",1932,763,114,114,41,043,020200,41043020200
-"Census Tract 203, Linn County, Oregon",7461,2774,394,394,41,043,020300,41043020300
-"Census Tract 204, Linn County, Oregon",4027,1784,571,625,41,043,020400,41043020400
-"Census Tract 205, Linn County, Oregon",4198,1682,271,271,41,043,020500,41043020500
-"Census Tract 206.01, Linn County, Oregon",3138,1413,61,61,41,043,020601,41043020601
-"Census Tract 206.02, Linn County, Oregon",6186,1971,407,421,41,043,020602,41043020602
-"Census Tract 207, Linn County, Oregon",6010,2197,536,536,41,043,020700,41043020700
-"Census Tract 208.01, Linn County, Oregon",2558,924,259,273,41,043,020801,41043020801
-"Census Tract 208.02, Linn County, Oregon",6763,2310,676,676,41,043,020802,41043020802
-"Census Tract 301, Linn County, Oregon",6493,2484,173,187,41,043,030100,41043030100
-"Census Tract 302.01, Linn County, Oregon",3279,1231,211,238,41,043,030201,41043030201
-"Census Tract 302.02, Linn County, Oregon",3573,1494,206,206,41,043,030202,41043030202
-"Census Tract 303, Linn County, Oregon",2738,904,115,119,41,043,030300,41043030300
-"Census Tract 304.01, Linn County, Oregon",7669,2907,687,751,41,043,030401,41043030401
-"Census Tract 304.03, Linn County, Oregon",3527,1379,438,438,41,043,030403,41043030403
-"Census Tract 304.04, Linn County, Oregon",3773,1543,408,408,41,043,030404,41043030404
-"Census Tract 305, Linn County, Oregon",4660,1786,248,263,41,043,030500,41043030500
-"Census Tract 306, Linn County, Oregon",7641,2708,450,457,41,043,030600,41043030600
-"Census Tract 307, Linn County, Oregon",3962,1698,152,152,41,043,030700,41043030700
-"Census Tract 308.01, Linn County, Oregon",5202,1874,456,467,41,043,030801,41043030801
-"Census Tract 308.02, Linn County, Oregon",3759,1301,217,217,41,043,030802,41043030802
-"Census Tract 309.03, Linn County, Oregon",6058,2434,581,589,41,043,030903,41043030903
-"Census Tract 309.04, Linn County, Oregon",3968,1593,385,393,41,043,030904,41043030904
-"Census Tract 309.05, Linn County, Oregon",3553,1461,258,258,41,043,030905,41043030905
-"Census Tract 309.06, Linn County, Oregon",4356,1668,292,331,41,043,030906,41043030906
-"Census Tract 9400, Malheur County, Oregon",0,0,0,0,41,045,940000,41045940000
-"Census Tract 9702, Malheur County, Oregon",4490,1933,620,620,41,045,970200,41045970200
-"Census Tract 9703, Malheur County, Oregon",3804,1504,339,360,41,045,970300,41045970300
-"Census Tract 9704, Malheur County, Oregon",5503,1771,865,865,41,045,970400,41045970400
-"Census Tract 9705, Malheur County, Oregon",4904,1702,422,426,41,045,970500,41045970500
-"Census Tract 9706, Malheur County, Oregon",4450,1577,374,391,41,045,970600,41045970600
-"Census Tract 9707, Malheur County, Oregon",1598,610,71,71,41,045,970700,41045970700
-"Census Tract 9709, Malheur County, Oregon",5883,962,79,105,41,045,970900,41045970900
-"Census Tract 2, Marion County, Oregon",3744,1399,270,270,41,047,000200,41047000200
-"Census Tract 3, Marion County, Oregon",4576,1948,517,545,41,047,000300,41047000300
-"Census Tract 4, Marion County, Oregon",5707,1941,671,671,41,047,000400,41047000400
-"Census Tract 5.01, Marion County, Oregon",3557,1012,288,302,41,047,000501,41047000501
-"Census Tract 5.02, Marion County, Oregon",6843,2156,922,942,41,047,000502,41047000502
-"Census Tract 6, Marion County, Oregon",5095,2104,616,727,41,047,000600,41047000600
-"Census Tract 7.03, Marion County, Oregon",2911,1073,421,421,41,047,000703,41047000703
-"Census Tract 9, Marion County, Oregon",5727,2265,557,557,41,047,000900,41047000900
-"Census Tract 10, Marion County, Oregon",4629,1774,626,626,41,047,001000,41047001000
-"Census Tract 11, Marion County, Oregon",5064,1990,247,267,41,047,001100,41047001100
-"Census Tract 12, Marion County, Oregon",3719,1732,391,407,41,047,001200,41047001200
-"Census Tract 13, Marion County, Oregon",4354,1870,183,212,41,047,001300,41047001300
-"Census Tract 14.01, Marion County, Oregon",6124,2470,252,267,41,047,001401,41047001401
-"Census Tract 14.02, Marion County, Oregon",6001,2234,396,410,41,047,001402,41047001402
-"Census Tract 15.01, Marion County, Oregon",4810,1606,249,287,41,047,001501,41047001501
-"Census Tract 15.02, Marion County, Oregon",5924,2005,609,623,41,047,001502,41047001502
-"Census Tract 15.03, Marion County, Oregon",5583,1891,497,497,41,047,001503,41047001503
-"Census Tract 16.01, Marion County, Oregon",7655,2521,380,408,41,047,001601,41047001601
-"Census Tract 16.03, Marion County, Oregon",8224,2454,207,207,41,047,001603,41047001603
-"Census Tract 16.05, Marion County, Oregon",5018,1655,761,761,41,047,001605,41047001605
-"Census Tract 16.06, Marion County, Oregon",6028,1795,332,348,41,047,001606,41047001606
-"Census Tract 16.07, Marion County, Oregon",5008,1500,715,715,41,047,001607,41047001607
-"Census Tract 16.08, Marion County, Oregon",4663,1549,360,373,41,047,001608,41047001608
-"Census Tract 17.01, Marion County, Oregon",6305,2304,595,773,41,047,001701,41047001701
-"Census Tract 17.02, Marion County, Oregon",5807,1845,542,553,41,047,001702,41047001702
-"Census Tract 17.03, Marion County, Oregon",5351,1675,172,197,41,047,001703,41047001703
-"Census Tract 18.01, Marion County, Oregon",6538,2246,619,619,41,047,001801,41047001801
-"Census Tract 18.02, Marion County, Oregon",9171,2712,496,580,41,047,001802,41047001802
-"Census Tract 18.03, Marion County, Oregon",4748,1150,249,249,41,047,001803,41047001803
-"Census Tract 20.01, Marion County, Oregon",5640,2209,207,207,41,047,002001,41047002001
-"Census Tract 20.02, Marion County, Oregon",4932,2058,141,231,41,047,002002,41047002002
-"Census Tract 21.01, Marion County, Oregon",2237,1133,143,180,41,047,002101,41047002101
-"Census Tract 21.02, Marion County, Oregon",6565,2964,357,357,41,047,002102,41047002102
-"Census Tract 22.01, Marion County, Oregon",2594,1306,86,109,41,047,002201,41047002201
-"Census Tract 22.02, Marion County, Oregon",6454,2578,383,435,41,047,002202,41047002202
-"Census Tract 23.01, Marion County, Oregon",3571,1271,114,133,41,047,002301,41047002301
-"Census Tract 23.03, Marion County, Oregon",8206,2766,340,351,41,047,002303,41047002303
-"Census Tract 23.04, Marion County, Oregon",6661,2672,262,315,41,047,002304,41047002304
-"Census Tract 24, Marion County, Oregon",4079,1500,74,90,41,047,002400,41047002400
-"Census Tract 25.02, Marion County, Oregon",5464,1874,143,151,41,047,002502,41047002502
-"Census Tract 25.03, Marion County, Oregon",4996,2149,282,299,41,047,002503,41047002503
-"Census Tract 25.04, Marion County, Oregon",4290,1463,117,117,41,047,002504,41047002504
-"Census Tract 7.02, Marion County, Oregon",5990,1133,398,408,41,047,000702,41047000702
-"Census Tract 26, Marion County, Oregon",1904,618,51,51,41,047,002600,41047002600
-"Census Tract 27.01, Marion County, Oregon",5193,1847,96,115,41,047,002701,41047002701
-"Census Tract 27.02, Marion County, Oregon",3728,1190,95,95,41,047,002702,41047002702
-"Census Tract 28, Marion County, Oregon",4513,1699,135,150,41,047,002800,41047002800
-"Census Tract 101, Marion County, Oregon",1447,417,42,47,41,047,010100,41047010100
-"Census Tract 102.01, Marion County, Oregon",2622,1037,110,110,41,047,010201,41047010201
-"Census Tract 102.02, Marion County, Oregon",8021,2677,383,446,41,047,010202,41047010202
-"Census Tract 103.03, Marion County, Oregon",4666,1306,162,162,41,047,010303,41047010303
-"Census Tract 103.04, Marion County, Oregon",6699,1764,362,392,41,047,010304,41047010304
-"Census Tract 103.05, Marion County, Oregon",4839,1151,289,289,41,047,010305,41047010305
-"Census Tract 103.07, Marion County, Oregon",6624,2928,260,260,41,047,010307,41047010307
-"Census Tract 103.08, Marion County, Oregon",4485,1490,213,229,41,047,010308,41047010308
-"Census Tract 103.09, Marion County, Oregon",5679,1802,710,746,41,047,010309,41047010309
-"Census Tract 104, Marion County, Oregon",5150,1859,239,239,41,047,010400,41047010400
-"Census Tract 105.01, Marion County, Oregon",6414,2070,103,231,41,047,010501,41047010501
-"Census Tract 105.02, Marion County, Oregon",6477,2322,417,439,41,047,010502,41047010502
-"Census Tract 105.03, Marion County, Oregon",4109,1404,208,216,41,047,010503,41047010503
-"Census Tract 106, Marion County, Oregon",2428,1105,144,144,41,047,010600,41047010600
-"Census Tract 107.01, Marion County, Oregon",8223,3115,435,455,41,047,010701,41047010701
-"Census Tract 107.02, Marion County, Oregon",7488,2641,283,283,41,047,010702,41047010702
-"Census Tract 108.01, Marion County, Oregon",5787,2031,215,215,41,047,010801,41047010801
-"Census Tract 108.02, Marion County, Oregon",6683,2049,370,374,41,047,010802,41047010802
-"Census Tract 9701.01, Morrow County, Oregon",4352,1433,272,280,41,049,970101,41049970101
-"Census Tract 9701.02, Morrow County, Oregon",3894,1302,326,326,41,049,970102,41049970102
-"Census Tract 9702, Morrow County, Oregon",3179,1358,161,161,41,049,970200,41049970200
-"Census Tract 1.01, Multnomah County, Oregon",2740,1388,154,170,41,051,000101,41051000101
-"Census Tract 1.02, Multnomah County, Oregon",3853,1609,18,30,41,051,000102,41051000102
-"Census Tract 2.01, Multnomah County, Oregon",3578,1463,256,256,41,051,000201,41051000201
-"Census Tract 2.02, Multnomah County, Oregon",2743,1443,125,152,41,051,000202,41051000202
-"Census Tract 3.01, Multnomah County, Oregon",6136,2185,214,234,41,051,000301,41051000301
-"Census Tract 3.02, Multnomah County, Oregon",7681,2742,42,42,41,051,000302,41051000302
-"Census Tract 4.01, Multnomah County, Oregon",3934,1506,65,101,41,051,000401,41051000401
-"Census Tract 4.02, Multnomah County, Oregon",3635,1528,161,197,41,051,000402,41051000402
-"Census Tract 5.01, Multnomah County, Oregon",4355,1789,236,256,41,051,000501,41051000501
-"Census Tract 5.02, Multnomah County, Oregon",4901,1919,344,380,41,051,000502,41051000502
-"Census Tract 6.01, Multnomah County, Oregon",5597,2305,373,373,41,051,000601,41051000601
-"Census Tract 6.02, Multnomah County, Oregon",6384,2160,506,514,41,051,000602,41051000602
-"Census Tract 7.01, Multnomah County, Oregon",4924,2005,236,282,41,051,000701,41051000701
-"Census Tract 7.02, Multnomah County, Oregon",5517,2007,313,372,41,051,000702,41051000702
-"Census Tract 8.01, Multnomah County, Oregon",5111,2247,334,351,41,051,000801,41051000801
-"Census Tract 8.02, Multnomah County, Oregon",5251,2185,325,335,41,051,000802,41051000802
-"Census Tract 9.01, Multnomah County, Oregon",4366,1847,146,170,41,051,000901,41051000901
-"Census Tract 9.02, Multnomah County, Oregon",5441,2067,394,458,41,051,000902,41051000902
-"Census Tract 10, Multnomah County, Oregon",6127,2659,207,290,41,051,001000,41051001000
-"Census Tract 11.01, Multnomah County, Oregon",2848,1783,308,325,41,051,001101,41051001101
-"Census Tract 11.02, Multnomah County, Oregon",1490,698,32,35,41,051,001102,41051001102
-"Census Tract 12.02, Multnomah County, Oregon",3466,1491,27,27,41,051,001202,41051001202
-"Census Tract 12.03, Multnomah County, Oregon",2631,1349,122,137,41,051,001203,41051001203
-"Census Tract 12.04, Multnomah County, Oregon",2838,1498,276,276,41,051,001204,41051001204
-"Census Tract 13.01, Multnomah County, Oregon",4082,1906,137,150,41,051,001301,41051001301
-"Census Tract 13.02, Multnomah County, Oregon",3756,1661,109,177,41,051,001302,41051001302
-"Census Tract 14, Multnomah County, Oregon",5997,2673,315,338,41,051,001400,41051001400
-"Census Tract 15, Multnomah County, Oregon",3789,1466,58,66,41,051,001500,41051001500
-"Census Tract 16.01, Multnomah County, Oregon",5738,2476,310,310,41,051,001601,41051001601
-"Census Tract 16.02, Multnomah County, Oregon",5024,2034,380,380,41,051,001602,41051001602
-"Census Tract 17.02, Multnomah County, Oregon",4042,1569,258,275,41,051,001702,41051001702
-"Census Tract 17.03, Multnomah County, Oregon",3860,1969,248,275,41,051,001703,41051001703
-"Census Tract 17.04, Multnomah County, Oregon",2635,1209,93,118,41,051,001704,41051001704
-"Census Tract 18.01, Multnomah County, Oregon",4630,2159,453,507,41,051,001801,41051001801
-"Census Tract 18.02, Multnomah County, Oregon",3730,1690,118,132,41,051,001802,41051001802
-"Census Tract 19, Multnomah County, Oregon",5436,1993,76,76,41,051,001900,41051001900
-"Census Tract 20.01, Multnomah County, Oregon",2624,1334,104,175,41,051,002001,41051002001
-"Census Tract 20.02, Multnomah County, Oregon",3702,2322,309,388,41,051,002002,41051002002
-"Census Tract 21.01, Multnomah County, Oregon",1491,831,105,135,41,051,002101,41051002101
-"Census Tract 21.02, Multnomah County, Oregon",2156,1323,150,150,41,051,002102,41051002102
-"Census Tract 22.03, Multnomah County, Oregon",4534,2286,442,481,41,051,002203,41051002203
-"Census Tract 23.03, Multnomah County, Oregon",3752,2335,244,286,41,051,002303,41051002303
-"Census Tract 24.01, Multnomah County, Oregon",2842,1142,132,140,41,051,002401,41051002401
-"Census Tract 24.02, Multnomah County, Oregon",3186,1910,161,266,41,051,002402,41051002402
-"Census Tract 25.01, Multnomah County, Oregon",4993,1756,24,72,41,051,002501,41051002501
-"Census Tract 25.02, Multnomah County, Oregon",4541,2245,147,147,41,051,002502,41051002502
-"Census Tract 26, Multnomah County, Oregon",3046,1189,13,23,41,051,002600,41051002600
-"Census Tract 27.01, Multnomah County, Oregon",3008,1177,18,25,41,051,002701,41051002701
-"Census Tract 27.02, Multnomah County, Oregon",3752,2114,330,355,41,051,002702,41051002702
-"Census Tract 28.01, Multnomah County, Oregon",3055,1201,42,47,41,051,002801,41051002801
-"Census Tract 28.02, Multnomah County, Oregon",3257,1290,119,162,41,051,002802,41051002802
-"Census Tract 29.01, Multnomah County, Oregon",4771,2039,268,281,41,051,002901,41051002901
-"Census Tract 29.02, Multnomah County, Oregon",6428,2719,244,346,41,051,002902,41051002902
-"Census Tract 29.03, Multnomah County, Oregon",4800,1781,282,282,41,051,002903,41051002903
-"Census Tract 30, Multnomah County, Oregon",5284,2071,80,80,41,051,003000,41051003000
-"Census Tract 31, Multnomah County, Oregon",5331,2089,137,146,41,051,003100,41051003100
-"Census Tract 32, Multnomah County, Oregon",4550,1768,60,60,41,051,003200,41051003200
-"Census Tract 33.01, Multnomah County, Oregon",3083,1281,311,335,41,051,003301,41051003301
-"Census Tract 33.02, Multnomah County, Oregon",3957,1480,349,367,41,051,003302,41051003302
-"Census Tract 34.01, Multnomah County, Oregon",4144,1760,271,271,41,051,003401,41051003401
-"Census Tract 34.02, Multnomah County, Oregon",4629,2308,313,333,41,051,003402,41051003402
-"Census Tract 35.01, Multnomah County, Oregon",3406,1467,289,295,41,051,003501,41051003501
-"Census Tract 35.02, Multnomah County, Oregon",2990,1153,69,73,41,051,003502,41051003502
-"Census Tract 36.01, Multnomah County, Oregon",4687,2149,247,247,41,051,003601,41051003601
-"Census Tract 36.02, Multnomah County, Oregon",7274,2802,175,227,41,051,003602,41051003602
-"Census Tract 36.03, Multnomah County, Oregon",1802,694,79,79,41,051,003603,41051003603
-"Census Tract 37.01, Multnomah County, Oregon",4393,2014,364,364,41,051,003701,41051003701
-"Census Tract 37.02, Multnomah County, Oregon",2792,1080,200,212,41,051,003702,41051003702
-"Census Tract 38.01, Multnomah County, Oregon",2704,1285,144,152,41,051,003801,41051003801
-"Census Tract 38.02, Multnomah County, Oregon",3811,1526,167,175,41,051,003802,41051003802
-"Census Tract 38.03, Multnomah County, Oregon",4387,1871,205,205,41,051,003803,41051003803
-"Census Tract 39.02, Multnomah County, Oregon",3679,1426,121,132,41,051,003902,41051003902
-"Census Tract 39.03, Multnomah County, Oregon",3471,1251,154,223,41,051,003903,41051003903
-"Census Tract 39.04, Multnomah County, Oregon",4131,1644,281,281,41,051,003904,41051003904
-"Census Tract 40.02, Multnomah County, Oregon",6524,1674,145,160,41,051,004002,41051004002
-"Census Tract 40.03, Multnomah County, Oregon",8222,2909,708,708,41,051,004003,41051004003
-"Census Tract 41.02, Multnomah County, Oregon",5380,2327,372,402,41,051,004102,41051004102
-"Census Tract 41.04, Multnomah County, Oregon",3585,1352,443,460,41,051,004104,41051004104
-"Census Tract 42, Multnomah County, Oregon",4177,1932,292,292,41,051,004200,41051004200
-"Census Tract 43, Multnomah County, Oregon",1024,488,88,88,41,051,004300,41051004300
-"Census Tract 45, Multnomah County, Oregon",2815,1525,39,67,41,051,004500,41051004500
-"Census Tract 46.01, Multnomah County, Oregon",3442,1579,13,13,41,051,004601,41051004601
-"Census Tract 46.02, Multnomah County, Oregon",2091,839,3,10,41,051,004602,41051004602
-"Census Tract 47, Multnomah County, Oregon",4652,2535,198,220,41,051,004700,41051004700
-"Census Tract 48, Multnomah County, Oregon",2788,2004,242,276,41,051,004800,41051004800
-"Census Tract 49.01, Multnomah County, Oregon",2469,1649,207,240,41,051,004901,41051004901
-"Census Tract 49.02, Multnomah County, Oregon",2597,1780,321,371,41,051,004902,41051004902
-"Census Tract 50.01, Multnomah County, Oregon",2805,1964,60,103,41,051,005001,41051005001
-"Census Tract 50.02, Multnomah County, Oregon",712,531,38,38,41,051,005002,41051005002
-"Census Tract 51.01, Multnomah County, Oregon",3145,2333,324,324,41,051,005101,41051005101
-"Census Tract 51.02, Multnomah County, Oregon",3414,2025,166,268,41,051,005102,41051005102
-"Census Tract 51.03, Multnomah County, Oregon",2805,1980,660,692,41,051,005103,41051005103
-"Census Tract 52.01, Multnomah County, Oregon",1955,1413,623,642,41,051,005201,41051005201
-"Census Tract 52.02, Multnomah County, Oregon",2456,1760,97,97,41,051,005202,41051005202
-"Census Tract 55, Multnomah County, Oregon",2807,1753,425,425,41,051,005500,41051005500
-"Census Tract 56.01, Multnomah County, Oregon",2708,1979,365,406,41,051,005601,41051005601
-"Census Tract 56.02, Multnomah County, Oregon",3537,893,103,103,41,051,005602,41051005602
-"Census Tract 57.01, Multnomah County, Oregon",615,210,15,15,41,051,005701,41051005701
-"Census Tract 57.02, Multnomah County, Oregon",3531,2388,95,115,41,051,005702,41051005702
-"Census Tract 58, Multnomah County, Oregon",4760,2394,46,46,41,051,005800,41051005800
-"Census Tract 59.01, Multnomah County, Oregon",2538,1176,165,165,41,051,005901,41051005901
-"Census Tract 59.02, Multnomah County, Oregon",3640,2407,50,50,41,051,005902,41051005902
-"Census Tract 59.03, Multnomah County, Oregon",3086,1739,0,0,41,051,005903,41051005903
-"Census Tract 60.01, Multnomah County, Oregon",1445,743,85,85,41,051,006001,41051006001
-"Census Tract 60.02, Multnomah County, Oregon",2566,1081,73,83,41,051,006002,41051006002
-"Census Tract 61, Multnomah County, Oregon",2716,1057,65,65,41,051,006100,41051006100
-"Census Tract 62, Multnomah County, Oregon",3230,1224,31,31,41,051,006200,41051006200
-"Census Tract 63, Multnomah County, Oregon",5655,1699,18,36,41,051,006300,41051006300
-"Census Tract 64.02, Multnomah County, Oregon",6333,2378,87,210,41,051,006402,41051006402
-"Census Tract 64.03, Multnomah County, Oregon",4164,1712,177,177,41,051,006403,41051006403
-"Census Tract 64.04, Multnomah County, Oregon",3553,1678,140,140,41,051,006404,41051006404
-"Census Tract 65.01, Multnomah County, Oregon",5921,2478,71,183,41,051,006501,41051006501
-"Census Tract 65.02, Multnomah County, Oregon",4730,2420,256,274,41,051,006502,41051006502
-"Census Tract 66.01, Multnomah County, Oregon",2700,1248,0,5,41,051,006601,41051006601
-"Census Tract 41.03, Multnomah County, Oregon",4717,1769,107,154,41,051,004103,41051004103
-"Census Tract 66.02, Multnomah County, Oregon",5839,2586,163,163,41,051,006602,41051006602
-"Census Tract 67.01, Multnomah County, Oregon",3360,1321,55,55,41,051,006701,41051006701
-"Census Tract 67.02, Multnomah County, Oregon",3308,1298,190,220,41,051,006702,41051006702
-"Census Tract 68.01, Multnomah County, Oregon",2146,1015,175,175,41,051,006801,41051006801
-"Census Tract 68.02, Multnomah County, Oregon",3720,1471,34,34,41,051,006802,41051006802
-"Census Tract 69, Multnomah County, Oregon",2710,1138,0,23,41,051,006900,41051006900
-"Census Tract 70.01, Multnomah County, Oregon",5230,2118,34,49,41,051,007001,41051007001
-"Census Tract 70.02, Multnomah County, Oregon",3364,1243,24,38,41,051,007002,41051007002
-"Census Tract 1.01, Benton County, Oregon",4055,1667,469,469,41,003,000101,41003000101
-"Census Tract 1.02, Benton County, Oregon",3223,1245,123,155,41,003,000102,41003000102
-"Census Tract 2.02, Benton County, Oregon",5713,2454,94,94,41,003,000202,41003000202
-"Census Tract 4.01, Benton County, Oregon",3027,1221,13,13,41,003,000401,41003000401
-"Census Tract 4.02, Benton County, Oregon",5026,2136,174,188,41,003,000402,41003000402
-"Census Tract 5, Benton County, Oregon",3484,1407,64,88,41,003,000500,41003000500
-"Census Tract 6, Benton County, Oregon",4587,2097,391,391,41,003,000600,41003000600
-"Census Tract 9, Benton County, Oregon",5679,2570,153,153,41,003,000900,41003000900
-"Census Tract 10.01, Benton County, Oregon",4128,1767,364,375,41,003,001001,41003001001
-"Census Tract 71, Multnomah County, Oregon",2469,1041,27,37,41,051,007100,41051007100
-"Census Tract 72.01, Multnomah County, Oregon",2371,1182,94,94,41,051,007201,41051007201
-"Census Tract 72.02, Multnomah County, Oregon",3155,1290,236,245,41,051,007202,41051007202
-"Census Tract 73, Multnomah County, Oregon",1099,155,37,37,41,051,007300,41051007300
-"Census Tract 74, Multnomah County, Oregon",3845,1292,289,289,41,051,007400,41051007400
-"Census Tract 75, Multnomah County, Oregon",5073,1818,274,296,41,051,007500,41051007500
-"Census Tract 76, Multnomah County, Oregon",3471,1492,322,345,41,051,007600,41051007600
-"Census Tract 77, Multnomah County, Oregon",2110,902,146,158,41,051,007700,41051007700
-"Census Tract 78, Multnomah County, Oregon",2347,850,225,225,41,051,007800,41051007800
-"Census Tract 79, Multnomah County, Oregon",4298,1841,243,251,41,051,007900,41051007900
-"Census Tract 80.01, Multnomah County, Oregon",2933,1294,308,308,41,051,008001,41051008001
-"Census Tract 80.02, Multnomah County, Oregon",2397,872,163,163,41,051,008002,41051008002
-"Census Tract 81, Multnomah County, Oregon",8581,3369,751,828,41,051,008100,41051008100
-"Census Tract 82.01, Multnomah County, Oregon",3288,1343,93,104,41,051,008201,41051008201
-"Census Tract 82.03, Multnomah County, Oregon",5655,2289,610,627,41,051,008203,41051008203
-"Census Tract 82.04, Multnomah County, Oregon",3227,931,378,378,41,051,008204,41051008204
-"Census Tract 83.01, Multnomah County, Oregon",3845,1718,675,705,41,051,008301,41051008301
-"Census Tract 83.02, Multnomah County, Oregon",5290,1642,397,489,41,051,008302,41051008302
-"Census Tract 84, Multnomah County, Oregon",4759,1708,390,425,41,051,008400,41051008400
-"Census Tract 85, Multnomah County, Oregon",4791,1599,274,305,41,051,008500,41051008500
-"Census Tract 86, Multnomah County, Oregon",4499,1648,405,438,41,051,008600,41051008600
-"Census Tract 87, Multnomah County, Oregon",5191,1923,189,276,41,051,008700,41051008700
-"Census Tract 88, Multnomah County, Oregon",4128,1609,349,391,41,051,008800,41051008800
-"Census Tract 89.02, Multnomah County, Oregon",4404,1657,275,286,41,051,008902,41051008902
-"Census Tract 89.03, Multnomah County, Oregon",4995,1488,132,209,41,051,008903,41051008903
-"Census Tract 89.04, Multnomah County, Oregon",5644,1711,441,465,41,051,008904,41051008904
-"Census Tract 90.01, Multnomah County, Oregon",5514,1729,618,618,41,051,009001,41051009001
-"Census Tract 90.02, Multnomah County, Oregon",5415,1833,557,685,41,051,009002,41051009002
-"Census Tract 91.01, Multnomah County, Oregon",5929,2129,797,797,41,051,009101,41051009101
-"Census Tract 91.02, Multnomah County, Oregon",6894,2147,363,407,41,051,009102,41051009102
-"Census Tract 92.02, Multnomah County, Oregon",5204,1915,632,642,41,051,009202,41051009202
-"Census Tract 92.03, Multnomah County, Oregon",3519,1285,397,535,41,051,009203,41051009203
-"Census Tract 92.04, Multnomah County, Oregon",3802,1591,269,269,41,051,009204,41051009204
-"Census Tract 93.01, Multnomah County, Oregon",6409,2254,802,860,41,051,009301,41051009301
-"Census Tract 93.02, Multnomah County, Oregon",4844,1839,346,346,41,051,009302,41051009302
-"Census Tract 94, Multnomah County, Oregon",6573,2860,217,236,41,051,009400,41051009400
-"Census Tract 95.01, Multnomah County, Oregon",4548,1882,283,306,41,051,009501,41051009501
-"Census Tract 95.02, Multnomah County, Oregon",3579,1589,94,134,41,051,009502,41051009502
-"Census Tract 96.03, Multnomah County, Oregon",3619,1272,235,281,41,051,009603,41051009603
-"Census Tract 96.04, Multnomah County, Oregon",4970,1724,560,567,41,051,009604,41051009604
-"Census Tract 96.05, Multnomah County, Oregon",5209,2091,372,380,41,051,009605,41051009605
-"Census Tract 96.06, Multnomah County, Oregon",5615,1795,490,597,41,051,009606,41051009606
-"Census Tract 97.01, Multnomah County, Oregon",4918,1780,624,645,41,051,009701,41051009701
-"Census Tract 97.03, Multnomah County, Oregon",4437,1675,385,396,41,051,009703,41051009703
-"Census Tract 97.04, Multnomah County, Oregon",5272,1396,318,412,41,051,009704,41051009704
-"Census Tract 98.01, Multnomah County, Oregon",3828,1417,498,538,41,051,009801,41051009801
-"Census Tract 10.02, Benton County, Oregon",3364,1327,168,188,41,003,001002,41003001002
-"Census Tract 11.01, Benton County, Oregon",4209,1351,127,137,41,003,001101,41003001101
-"Census Tract 11.02, Benton County, Oregon",4298,1768,169,169,41,003,001102,41003001102
-"Census Tract 101.01, Benton County, Oregon",3595,1296,15,26,41,003,010101,41003010101
-"Census Tract 101.02, Benton County, Oregon",5974,2111,31,31,41,003,010102,41003010102
-"Census Tract 102, Benton County, Oregon",4676,1794,76,76,41,003,010200,41003010200
-"Census Tract 103, Benton County, Oregon",3578,1470,240,254,41,003,010300,41003010300
-"Census Tract 104, Benton County, Oregon",4047,1591,198,198,41,003,010400,41003010400
-"Census Tract 106.01, Benton County, Oregon",2763,1551,146,146,41,003,010601,41003010601
-"Census Tract 106.02, Benton County, Oregon",3196,553,108,108,41,003,010602,41003010602
-"Census Tract 107.02, Benton County, Oregon",3823,873,141,141,41,003,010702,41003010702
-"Census Tract 108, Benton County, Oregon",3893,1423,236,259,41,003,010800,41003010800
-"Census Tract 109, Benton County, Oregon",5830,2379,131,131,41,003,010900,41003010900
-"Census Tract 201.01, Clackamas County, Oregon",2287,1122,0,0,41,005,020101,41005020101
-"Census Tract 201.02, Clackamas County, Oregon",2329,1057,70,70,41,005,020102,41005020102
-"Census Tract 202.01, Clackamas County, Oregon",4340,1986,117,134,41,005,020201,41005020201
-"Census Tract 202.02, Clackamas County, Oregon",2512,880,14,14,41,005,020202,41005020202
-"Census Tract 203.02, Clackamas County, Oregon",4448,1853,68,77,41,005,020302,41005020302
-"Census Tract 203.03, Clackamas County, Oregon",5107,2282,55,55,41,005,020303,41005020303
-"Census Tract 203.04, Clackamas County, Oregon",5651,2203,53,92,41,005,020304,41005020304
-"Census Tract 204.01, Clackamas County, Oregon",6127,2105,48,80,41,005,020401,41005020401
-"Census Tract 204.03, Clackamas County, Oregon",4223,1428,17,27,41,005,020403,41005020403
-"Census Tract 204.04, Clackamas County, Oregon",3971,1535,0,7,41,005,020404,41005020404
-"Census Tract 205.03, Clackamas County, Oregon",2428,914,14,24,41,005,020503,41005020503
-"Census Tract 205.04, Clackamas County, Oregon",6950,2583,34,98,41,005,020504,41005020504
-"Census Tract 205.05, Clackamas County, Oregon",2503,1141,7,16,41,005,020505,41005020505
-"Census Tract 205.06, Clackamas County, Oregon",3078,1251,45,45,41,005,020506,41005020506
-"Census Tract 205.07, Clackamas County, Oregon",4022,1401,33,82,41,005,020507,41005020507
-"Census Tract 206.01, Clackamas County, Oregon",2875,1194,8,21,41,005,020601,41005020601
-"Census Tract 206.02, Clackamas County, Oregon",5644,1912,135,135,41,005,020602,41005020602
-"Census Tract 207, Clackamas County, Oregon",4084,1473,183,183,41,005,020700,41005020700
-"Census Tract 208, Clackamas County, Oregon",4263,1981,131,140,41,005,020800,41005020800
-"Census Tract 209, Clackamas County, Oregon",4281,1751,287,287,41,005,020900,41005020900
-"Census Tract 210, Clackamas County, Oregon",4968,2149,231,267,41,005,021000,41005021000
-"Census Tract 211, Clackamas County, Oregon",4855,2182,189,236,41,005,021100,41005021100
-"Census Tract 212, Clackamas County, Oregon",3858,2025,255,413,41,005,021200,41005021200
-"Census Tract 213, Clackamas County, Oregon",5984,2508,230,243,41,005,021300,41005021300
-"Census Tract 214, Clackamas County, Oregon",5227,2040,266,266,41,005,021400,41005021400
-"Census Tract 215, Clackamas County, Oregon",5129,2201,190,252,41,005,021500,41005021500
-"Census Tract 216.01, Clackamas County, Oregon",6662,2563,481,497,41,005,021601,41005021601
-"Census Tract 216.02, Clackamas County, Oregon",5300,2137,216,255,41,005,021602,41005021602
-"Census Tract 217, Clackamas County, Oregon",6780,3131,347,347,41,005,021700,41005021700
-"Census Tract 218.01, Clackamas County, Oregon",5947,2163,47,47,41,005,021801,41005021801
-"Census Tract 218.02, Clackamas County, Oregon",4493,2022,493,505,41,005,021802,41005021802
-"Census Tract 219, Clackamas County, Oregon",3769,1581,299,316,41,005,021900,41005021900
-"Census Tract 220, Clackamas County, Oregon",6857,2661,150,186,41,005,022000,41005022000
-"Census Tract 98.03, Multnomah County, Oregon",7557,2577,837,904,41,051,009803,41051009803
-"Census Tract 98.04, Multnomah County, Oregon",3150,1060,281,297,41,051,009804,41051009804
-"Census Tract 99.03, Multnomah County, Oregon",6983,2423,141,141,41,051,009903,41051009903
-"Census Tract 99.04, Multnomah County, Oregon",3555,1484,233,321,41,051,009904,41051009904
-"Census Tract 99.05, Multnomah County, Oregon",3068,1165,52,72,41,051,009905,41051009905
-"Census Tract 99.06, Multnomah County, Oregon",3966,1421,83,83,41,051,009906,41051009906
-"Census Tract 99.07, Multnomah County, Oregon",5932,2146,221,231,41,051,009907,41051009907
-"Census Tract 100.01, Multnomah County, Oregon",6104,2520,834,903,41,051,010001,41051010001
-"Census Tract 100.02, Multnomah County, Oregon",5822,2165,362,389,41,051,010002,41051010002
-"Census Tract 101.01, Multnomah County, Oregon",5172,1932,361,395,41,051,010101,41051010101
-"Census Tract 101.02, Multnomah County, Oregon",3964,1885,205,205,41,051,010102,41051010102
-"Census Tract 102, Multnomah County, Oregon",6362,2657,201,201,41,051,010200,41051010200
-"Census Tract 103.03, Multnomah County, Oregon",5652,1879,402,413,41,051,010303,41051010303
-"Census Tract 103.04, Multnomah County, Oregon",4534,1445,531,579,41,051,010304,41051010304
-"Census Tract 103.05, Multnomah County, Oregon",3589,1329,117,130,41,051,010305,41051010305
-"Census Tract 103.06, Multnomah County, Oregon",5375,1632,94,124,41,051,010306,41051010306
-"Census Tract 104.02, Multnomah County, Oregon",6709,2004,106,130,41,051,010402,41051010402
-"Census Tract 104.05, Multnomah County, Oregon",6097,2470,181,191,41,051,010405,41051010405
-"Census Tract 104.07, Multnomah County, Oregon",5389,1831,272,272,41,051,010407,41051010407
-"Census Tract 104.08, Multnomah County, Oregon",6794,2226,602,602,41,051,010408,41051010408
-"Census Tract 104.10, Multnomah County, Oregon",4567,1856,600,606,41,051,010410,41051010410
-"Census Tract 104.11, Multnomah County, Oregon",3447,1310,179,235,41,051,010411,41051010411
-"Census Tract 104.12, Multnomah County, Oregon",3122,999,80,117,41,051,010412,41051010412
-"Census Tract 104.13, Multnomah County, Oregon",5030,1823,146,146,41,051,010413,41051010413
-"Census Tract 105, Multnomah County, Oregon",4171,1436,99,99,41,051,010500,41051010500
-"Census Tract 106.01, Multnomah County, Oregon",1514,1148,413,424,41,051,010601,41051010601
-"Census Tract 106.02, Multnomah County, Oregon",1885,1153,619,619,41,051,010602,41051010602
-"Census Tract 9800, Multnomah County, Oregon",0,0,0,0,41,051,980000,41051980000
-"Census Tract 51, Polk County, Oregon",2322,964,266,266,41,053,005100,41053005100
-"Census Tract 52.03, Polk County, Oregon",6254,2151,251,271,41,053,005203,41053005203
-"Census Tract 52.04, Polk County, Oregon",4270,1546,322,322,41,053,005204,41053005204
-"Census Tract 52.05, Polk County, Oregon",7200,2891,209,209,41,053,005205,41053005205
-"Census Tract 52.06, Polk County, Oregon",2126,1014,334,380,41,053,005206,41053005206
-"Census Tract 53.01, Polk County, Oregon",8133,3221,82,82,41,053,005301,41053005301
-"Census Tract 53.02, Polk County, Oregon",2286,901,143,188,41,053,005302,41053005302
-"Census Tract 202.02, Polk County, Oregon",6998,2759,608,608,41,053,020202,41053020202
-"Census Tract 202.03, Polk County, Oregon",3618,1318,546,558,41,053,020203,41053020203
-"Census Tract 202.04, Polk County, Oregon",4954,1939,173,173,41,053,020204,41053020204
-"Census Tract 203.03, Polk County, Oregon",4403,1304,167,173,41,053,020303,41053020303
-"Census Tract 203.04, Polk County, Oregon",7099,2554,710,754,41,053,020304,41053020304
-"Census Tract 203.05, Polk County, Oregon",9296,2553,672,683,41,053,020305,41053020305
-"Census Tract 203.06, Polk County, Oregon",1860,641,30,59,41,053,020306,41053020306
-"Census Tract 204, Polk County, Oregon",6810,2429,580,587,41,053,020400,41053020400
-"Census Tract 205, Polk County, Oregon",7101,2541,156,171,41,053,020500,41053020500
-"Census Tract 9501, Sherman County, Oregon",1686,727,134,142,41,055,950100,41055950100
-"Census Tract 9601.01, Tillamook County, Oregon",1958,923,62,104,41,057,960101,41057960101
-"Census Tract 221.01, Clackamas County, Oregon",7523,2757,342,385,41,005,022101,41005022101
-"Census Tract 221.05, Clackamas County, Oregon",6694,2558,247,247,41,005,022105,41005022105
-"Census Tract 221.07, Clackamas County, Oregon",4450,1973,473,481,41,005,022107,41005022107
-"Census Tract 221.08, Clackamas County, Oregon",3546,1362,355,355,41,005,022108,41005022108
-"Census Tract 221.09, Clackamas County, Oregon",3665,1294,136,136,41,005,022109,41005022109
-"Census Tract 221.10, Clackamas County, Oregon",4787,1749,53,97,41,005,022110,41005022110
-"Census Tract 222.01, Clackamas County, Oregon",5853,2951,984,1020,41,005,022201,41005022201
-"Census Tract 222.05, Clackamas County, Oregon",3668,1463,30,30,41,005,022205,41005022205
-"Census Tract 222.06, Clackamas County, Oregon",6739,2500,102,154,41,005,022206,41005022206
-"Census Tract 222.07, Clackamas County, Oregon",7034,2071,76,76,41,005,022207,41005022207
-"Census Tract 222.08, Clackamas County, Oregon",7586,2526,31,31,41,005,022208,41005022208
-"Census Tract 223.01, Clackamas County, Oregon",4139,1662,256,262,41,005,022301,41005022301
-"Census Tract 223.02, Clackamas County, Oregon",6154,2118,339,339,41,005,022302,41005022302
-"Census Tract 224, Clackamas County, Oregon",4185,1775,148,148,41,005,022400,41005022400
-"Census Tract 225.01, Clackamas County, Oregon",3134,1212,69,125,41,005,022501,41005022501
-"Census Tract 225.02, Clackamas County, Oregon",4466,1706,355,355,41,005,022502,41005022502
-"Census Tract 226.02, Clackamas County, Oregon",4830,1641,129,129,41,005,022602,41005022602
-"Census Tract 226.03, Clackamas County, Oregon",3464,1349,118,127,41,005,022603,41005022603
-"Census Tract 226.05, Clackamas County, Oregon",8353,2718,242,270,41,005,022605,41005022605
-"Census Tract 226.06, Clackamas County, Oregon",5725,1877,134,148,41,005,022606,41005022606
-"Census Tract 227.02, Clackamas County, Oregon",6595,2528,65,99,41,005,022702,41005022702
-"Census Tract 227.07, Clackamas County, Oregon",7024,2770,259,270,41,005,022707,41005022707
-"Census Tract 227.08, Clackamas County, Oregon",4580,1455,86,116,41,005,022708,41005022708
-"Census Tract 227.10, Clackamas County, Oregon",2808,1201,64,97,41,005,022710,41005022710
-"Census Tract 228, Clackamas County, Oregon",4136,1992,56,56,41,005,022800,41005022800
-"Census Tract 229.01, Clackamas County, Oregon",3971,1420,59,59,41,005,022901,41005022901
-"Census Tract 229.04, Clackamas County, Oregon",3843,1546,394,422,41,005,022904,41005022904
-"Census Tract 229.05, Clackamas County, Oregon",4261,1582,82,118,41,005,022905,41005022905
-"Census Tract 229.06, Clackamas County, Oregon",3291,1302,165,187,41,005,022906,41005022906
-"Census Tract 229.07, Clackamas County, Oregon",4351,1294,238,264,41,005,022907,41005022907
-"Census Tract 230.01, Clackamas County, Oregon",3434,1278,52,52,41,005,023001,41005023001
-"Census Tract 230.02, Clackamas County, Oregon",4106,1433,90,122,41,005,023002,41005023002
-"Census Tract 231, Clackamas County, Oregon",5778,2263,212,212,41,005,023100,41005023100
-"Census Tract 232.01, Clackamas County, Oregon",4435,1513,64,73,41,005,023201,41005023201
-"Census Tract 232.02, Clackamas County, Oregon",8727,2802,203,227,41,005,023202,41005023202
-"Census Tract 233, Clackamas County, Oregon",5389,1899,48,80,41,005,023300,41005023300
-"Census Tract 234.01, Clackamas County, Oregon",4884,1726,155,155,41,005,023401,41005023401
-"Census Tract 234.03, Clackamas County, Oregon",5537,2027,304,316,41,005,023403,41005023403
-"Census Tract 234.04, Clackamas County, Oregon",5962,2262,293,307,41,005,023404,41005023404
-"Census Tract 235, Clackamas County, Oregon",5615,2113,356,367,41,005,023500,41005023500
-"Census Tract 236, Clackamas County, Oregon",3547,1480,168,176,41,005,023600,41005023600
-"Census Tract 237, Clackamas County, Oregon",4967,1678,123,132,41,005,023700,41005023700
-"Census Tract 238, Clackamas County, Oregon",6884,2028,172,227,41,005,023800,41005023800
-"Census Tract 239.01, Clackamas County, Oregon",5303,1916,220,220,41,005,023901,41005023901
-"Census Tract 239.02, Clackamas County, Oregon",5398,1906,513,530,41,005,023902,41005023902
-"Census Tract 9601.02, Tillamook County, Oregon",1801,887,77,94,41,057,960102,41057960102
-"Census Tract 9602, Tillamook County, Oregon",2661,1094,264,270,41,057,960200,41057960200
-"Census Tract 9603, Tillamook County, Oregon",3130,1265,237,242,41,057,960300,41057960300
-"Census Tract 9604.01, Tillamook County, Oregon",3201,1035,128,128,41,057,960401,41057960401
-"Census Tract 9604.02, Tillamook County, Oregon",4841,1814,427,443,41,057,960402,41057960402
-"Census Tract 9605, Tillamook County, Oregon",1960,862,324,324,41,057,960500,41057960500
-"Census Tract 9606, Tillamook County, Oregon",2499,1158,39,55,41,057,960600,41057960600
-"Census Tract 9607, Tillamook County, Oregon",2219,1015,155,155,41,057,960700,41057960700
-"Census Tract 9608, Tillamook County, Oregon",2512,1022,103,103,41,057,960800,41057960800
-"Census Tract 9901, Tillamook County, Oregon",0,0,0,0,41,057,990100,41057990100
-"Census Tract 9400, Umatilla County, Oregon",2818,986,201,212,41,059,940000,41059940000
-"Census Tract 9501, Umatilla County, Oregon",4325,1780,274,320,41,059,950100,41059950100
-"Census Tract 9502.01, Umatilla County, Oregon",4111,1274,243,243,41,059,950201,41059950201
-"Census Tract 9502.02, Umatilla County, Oregon",3534,1357,525,533,41,059,950202,41059950202
-"Census Tract 9503, Umatilla County, Oregon",3249,1227,147,162,41,059,950300,41059950300
-"Census Tract 9504, Umatilla County, Oregon",5956,1698,377,383,41,059,950400,41059950400
-"Census Tract 9505, Umatilla County, Oregon",4793,1835,153,174,41,059,950500,41059950500
-"Census Tract 9506.01, Umatilla County, Oregon",2565,979,338,338,41,059,950601,41059950601
-"Census Tract 9506.02, Umatilla County, Oregon",2918,1162,422,427,41,059,950602,41059950602
-"Census Tract 9507, Umatilla County, Oregon",2665,975,259,268,41,059,950700,41059950700
-"Census Tract 9508, Umatilla County, Oregon",7602,1924,342,342,41,059,950800,41059950800
-"Census Tract 9509, Umatilla County, Oregon",5273,1994,447,485,41,059,950900,41059950900
-"Census Tract 9510, Umatilla County, Oregon",6002,2136,707,720,41,059,951000,41059951000
-"Census Tract 9511, Umatilla County, Oregon",5556,1867,288,288,41,059,951100,41059951100
-"Census Tract 9512.01, Umatilla County, Oregon",5261,1762,348,353,41,059,951201,41059951201
-"Census Tract 9512.02, Umatilla County, Oregon",4168,1463,168,168,41,059,951202,41059951202
-"Census Tract 9513, Umatilla County, Oregon",4111,1462,157,169,41,059,951300,41059951300
-"Census Tract 9514, Umatilla County, Oregon",2412,942,170,179,41,059,951400,41059951400
-"Census Tract 9701, Union County, Oregon",3339,1381,179,201,41,061,970100,41061970100
-"Census Tract 9702, Union County, Oregon",3211,1330,252,269,41,061,970200,41061970200
-"Census Tract 9703, Union County, Oregon",2411,926,53,59,41,061,970300,41061970300
-"Census Tract 9704, Union County, Oregon",2685,1210,262,283,41,061,970400,41061970400
-"Census Tract 9705, Union County, Oregon",3265,1298,344,357,41,061,970500,41061970500
-"Census Tract 9706, Union County, Oregon",3943,1490,72,85,41,061,970600,41061970600
-"Census Tract 9707, Union County, Oregon",3576,1380,430,461,41,061,970700,41061970700
-"Census Tract 9708, Union County, Oregon",4072,1770,440,450,41,061,970800,41061970800
-"Census Tract 9601, Wallowa County, Oregon",1967,957,124,124,41,063,960100,41063960100
-"Census Tract 9602, Wallowa County, Oregon",1944,825,87,93,41,063,960200,41063960200
-"Census Tract 9603, Wallowa County, Oregon",3154,1413,198,203,41,063,960300,41063960300
-"Census Tract 9701, Wasco County, Oregon",3643,1525,154,154,41,065,970100,41065970100
-"Census Tract 9702, Wasco County, Oregon",2824,1251,311,344,41,065,970200,41065970200
-"Census Tract 9703, Wasco County, Oregon",3298,1125,130,130,41,065,970300,41065970300
-"Census Tract 9704, Wasco County, Oregon",3346,1224,458,458,41,065,970400,41065970400
-"Census Tract 9705, Wasco County, Oregon",3542,1474,511,538,41,065,970500,41065970500
-"Census Tract 9706, Wasco County, Oregon",3081,1224,202,202,41,065,970600,41065970600
-"Census Tract 9707, Wasco County, Oregon",2027,709,74,74,41,065,970700,41065970700
-"Census Tract 240, Clackamas County, Oregon",2560,905,126,131,41,005,024000,41005024000
-"Census Tract 241, Clackamas County, Oregon",5359,1880,242,256,41,005,024100,41005024100
-"Census Tract 242, Clackamas County, Oregon",6827,2513,312,312,41,005,024200,41005024200
-"Census Tract 243.02, Clackamas County, Oregon",5291,2054,204,204,41,005,024302,41005024302
-"Census Tract 243.03, Clackamas County, Oregon",3030,1475,243,258,41,005,024303,41005024303
-"Census Tract 243.04, Clackamas County, Oregon",2341,1080,126,134,41,005,024304,41005024304
-"Census Tract 244.01, Clackamas County, Oregon",2873,1122,67,67,41,005,024401,41005024401
-"Census Tract 244.02, Clackamas County, Oregon",4966,2204,170,189,41,005,024402,41005024402
-"Census Tract 9800, Clackamas County, Oregon",64,6,0,0,41,005,980000,41005980000
-"Census Tract 9501, Clatsop County, Oregon",3624,1465,193,213,41,007,950100,41007950100
-"Census Tract 9502, Clatsop County, Oregon",3532,1738,300,306,41,007,950200,41007950200
-"Census Tract 9503, Clatsop County, Oregon",2969,1135,230,230,41,007,950300,41007950300
-"Census Tract 9504, Clatsop County, Oregon",3848,1242,143,174,41,007,950400,41007950400
-"Census Tract 9505, Clatsop County, Oregon",4869,1847,236,236,41,007,950500,41007950500
-"Census Tract 9506, Clatsop County, Oregon",3374,1052,134,134,41,007,950600,41007950600
-"Census Tract 9507, Clatsop County, Oregon",2334,943,102,118,41,007,950700,41007950700
-"Census Tract 9509, Clatsop County, Oregon",4490,2354,414,563,41,007,950900,41007950900
-"Census Tract 9511, Clatsop County, Oregon",4563,1842,346,354,41,007,951100,41007951100
-"Census Tract 9512, Clatsop County, Oregon",3382,1306,216,227,41,007,951200,41007951200
-"Census Tract 9513, Clatsop County, Oregon",2671,1095,98,102,41,007,951300,41007951300
-"Census Tract 9900, Clatsop County, Oregon",0,0,0,0,41,007,990000,41007990000
-"Census Tract 9702.01, Columbia County, Oregon",3410,1424,256,256,41,009,970201,41009970201
-"Census Tract 9702.02, Columbia County, Oregon",3194,1187,250,258,41,009,970202,41009970202
-"Census Tract 9703, Columbia County, Oregon",4743,1744,279,297,41,009,970300,41009970300
-"Census Tract 9704, Columbia County, Oregon",2378,919,245,245,41,009,970400,41009970400
-"Census Tract 9705, Columbia County, Oregon",6800,2635,412,498,41,009,970500,41009970500
-"Census Tract 9706, Columbia County, Oregon",6121,2235,139,180,41,009,970600,41009970600
-"Census Tract 9707, Columbia County, Oregon",4276,1740,450,482,41,009,970700,41009970700
-"Census Tract 9708, Columbia County, Oregon",7559,2722,806,843,41,009,970800,41009970800
-"Census Tract 9709, Columbia County, Oregon",4671,1853,161,188,41,009,970900,41009970900
-"Census Tract 9710, Columbia County, Oregon",5487,1971,243,277,41,009,971000,41009971000
-"Census Tract 9711, Columbia County, Oregon",3478,1442,296,300,41,009,971100,41009971100
-"Census Tract 1.01, Coos County, Oregon",1397,701,133,133,41,011,000101,41011000101
-"Census Tract 1.02, Coos County, Oregon",2016,812,184,184,41,011,000102,41011000102
-"Census Tract 1.03, Coos County, Oregon",2805,1050,53,53,41,011,000103,41011000103
-"Census Tract 2, Coos County, Oregon",2570,1047,169,176,41,011,000200,41011000200
-"Census Tract 3, Coos County, Oregon",3361,1288,286,286,41,011,000300,41011000300
-"Census Tract 4.01, Coos County, Oregon",2886,1147,314,314,41,011,000401,41011000401
-"Census Tract 4.02, Coos County, Oregon",3496,1562,395,395,41,011,000402,41011000402
-"Census Tract 5.02, Coos County, Oregon",2628,1202,164,164,41,011,000502,41011000502
-"Census Tract 5.03, Coos County, Oregon",3111,1202,474,483,41,011,000503,41011000503
-"Census Tract 5.05, Coos County, Oregon",4035,1971,550,550,41,011,000505,41011000505
-"Census Tract 5.06, Coos County, Oregon",1753,840,279,279,41,011,000506,41011000506
-"Census Tract 6, Coos County, Oregon",2847,1265,214,234,41,011,000600,41011000600
-"Census Tract 7.01, Coos County, Oregon",4225,1945,515,515,41,011,000701,41011000701
-"Census Tract 7.02, Coos County, Oregon",3197,1182,335,335,41,011,000702,41011000702
-"Census Tract 301.03, Washington County, Oregon",4578,2325,24,130,41,067,030103,41067030103
-"Census Tract 301.04, Washington County, Oregon",3645,1537,31,31,41,067,030104,41067030104
-"Census Tract 301.05, Washington County, Oregon",3131,1692,122,130,41,067,030105,41067030105
-"Census Tract 301.06, Washington County, Oregon",4626,1484,0,0,41,067,030106,41067030106
-"Census Tract 302, Washington County, Oregon",6581,2832,374,420,41,067,030200,41067030200
-"Census Tract 303, Washington County, Oregon",4538,1853,41,41,41,067,030300,41067030300
-"Census Tract 304.01, Washington County, Oregon",4516,2093,160,238,41,067,030401,41067030401
-"Census Tract 304.02, Washington County, Oregon",5043,2152,110,147,41,067,030402,41067030402
-"Census Tract 305.01, Washington County, Oregon",5432,2453,217,217,41,067,030501,41067030501
-"Census Tract 305.02, Washington County, Oregon",3786,1882,117,128,41,067,030502,41067030502
-"Census Tract 306, Washington County, Oregon",5833,2272,376,386,41,067,030600,41067030600
-"Census Tract 307, Washington County, Oregon",1243,733,123,123,41,067,030700,41067030700
-"Census Tract 308.01, Washington County, Oregon",7142,2716,182,200,41,067,030801,41067030801
-"Census Tract 308.03, Washington County, Oregon",6203,2926,181,196,41,067,030803,41067030803
-"Census Tract 308.05, Washington County, Oregon",3884,1725,206,224,41,067,030805,41067030805
-"Census Tract 308.06, Washington County, Oregon",2800,1033,87,92,41,067,030806,41067030806
-"Census Tract 309, Washington County, Oregon",5569,2306,282,336,41,067,030900,41067030900
-"Census Tract 310.05, Washington County, Oregon",5680,2014,361,361,41,067,031005,41067031005
-"Census Tract 310.07, Washington County, Oregon",2992,1218,59,95,41,067,031007,41067031007
-"Census Tract 310.08, Washington County, Oregon",4870,2099,104,105,41,067,031008,41067031008
-"Census Tract 310.09, Washington County, Oregon",5427,2147,109,109,41,067,031009,41067031009
-"Census Tract 310.10, Washington County, Oregon",2502,1144,97,97,41,067,031010,41067031010
-"Census Tract 310.11, Washington County, Oregon",3473,1603,143,170,41,067,031011,41067031011
-"Census Tract 310.12, Washington County, Oregon",3258,1383,106,106,41,067,031012,41067031012
-"Census Tract 311, Washington County, Oregon",3249,1343,375,375,41,067,031100,41067031100
-"Census Tract 312.01, Washington County, Oregon",3265,1397,213,233,41,067,031201,41067031201
-"Census Tract 312.02, Washington County, Oregon",4626,1998,420,451,41,067,031202,41067031202
-"Census Tract 313.01, Washington County, Oregon",2581,1192,133,167,41,067,031301,41067031301
-"Census Tract 313.02, Washington County, Oregon",4569,2006,238,251,41,067,031302,41067031302
-"Census Tract 314.02, Washington County, Oregon",2774,1252,127,138,41,067,031402,41067031402
-"Census Tract 314.03, Washington County, Oregon",4913,1875,138,153,41,067,031403,41067031403
-"Census Tract 314.04, Washington County, Oregon",6341,2629,462,462,41,067,031404,41067031404
-"Census Tract 315.04, Washington County, Oregon",6881,2671,365,387,41,067,031504,41067031504
-"Census Tract 315.06, Washington County, Oregon",3461,1377,65,73,41,067,031506,41067031506
-"Census Tract 315.07, Washington County, Oregon",5391,2103,134,134,41,067,031507,41067031507
-"Census Tract 315.09, Washington County, Oregon",7765,2661,234,234,41,067,031509,41067031509
-"Census Tract 315.11, Washington County, Oregon",2817,996,46,62,41,067,031511,41067031511
-"Census Tract 9708, Wasco County, Oregon",4513,1801,342,373,41,065,970800,41065970800
-"Census Tract 315.14, Washington County, Oregon",7157,2763,172,193,41,067,031514,41067031514
-"Census Tract 315.15, Washington County, Oregon",5915,1793,27,39,41,067,031515,41067031515
-"Census Tract 315.16, Washington County, Oregon",3884,1333,47,47,41,067,031516,41067031516
-"Census Tract 315.17, Washington County, Oregon",4877,1451,177,177,41,067,031517,41067031517
-"Census Tract 315.18, Washington County, Oregon",3344,1122,11,38,41,067,031518,41067031518
-"Census Tract 315.19, Washington County, Oregon",6313,2371,114,114,41,067,031519,41067031519
-"Census Tract 315.20, Washington County, Oregon",7726,2033,82,82,41,067,031520,41067031520
-"Census Tract 8, Coos County, Oregon",3463,1346,161,177,41,011,000800,41011000800
-"Census Tract 9.01, Coos County, Oregon",3581,1582,291,310,41,011,000901,41011000901
-"Census Tract 9.02, Coos County, Oregon",3489,1702,277,294,41,011,000902,41011000902
-"Census Tract 10.01, Coos County, Oregon",3386,1666,314,316,41,011,001001,41011001001
-"Census Tract 10.02, Coos County, Oregon",3909,1635,309,309,41,011,001002,41011001002
-"Census Tract 11.01, Coos County, Oregon",3042,1221,354,368,41,011,001101,41011001101
-"Census Tract 11.02, Coos County, Oregon",2978,1453,319,322,41,011,001102,41011001102
-"Census Tract 9901.01, Coos County, Oregon",0,0,0,0,41,011,990101,41011990101
-"Census Tract 9501.01, Crook County, Oregon",3117,1330,205,205,41,013,950101,41013950101
-"Census Tract 9501.02, Crook County, Oregon",4969,2077,335,356,41,013,950102,41013950102
-"Census Tract 9502, Crook County, Oregon",5102,2179,416,437,41,013,950200,41013950200
-"Census Tract 9503.01, Crook County, Oregon",3246,1253,156,196,41,013,950301,41013950301
-"Census Tract 9503.02, Crook County, Oregon",3130,1292,487,500,41,013,950302,41013950302
-"Census Tract 9504.01, Crook County, Oregon",2149,1010,83,83,41,013,950401,41013950401
-"Census Tract 9504.02, Crook County, Oregon",2020,857,103,119,41,013,950402,41013950402
-"Census Tract 9501, Curry County, Oregon",2971,1596,466,466,41,015,950100,41015950100
-"Census Tract 9502.01, Curry County, Oregon",3584,1668,280,306,41,015,950201,41015950201
-"Census Tract 9502.02, Curry County, Oregon",2423,1010,94,199,41,015,950202,41015950202
-"Census Tract 9503.01, Curry County, Oregon",4467,1965,201,215,41,015,950301,41015950301
-"Census Tract 9503.02, Curry County, Oregon",4660,2159,245,258,41,015,950302,41015950302
-"Census Tract 9504.01, Curry County, Oregon",3216,1390,237,258,41,015,950401,41015950401
-"Census Tract 9504.02, Curry County, Oregon",1568,1002,74,74,41,015,950402,41015950402
-"Census Tract 9901.01, Curry County, Oregon",0,0,0,0,41,015,990101,41015990101
-"Census Tract 1, Deschutes County, Oregon",2006,864,11,11,41,017,000100,41017000100
-"Census Tract 2.01, Deschutes County, Oregon",2985,1305,331,331,41,017,000201,41017000201
-"Census Tract 2.02, Deschutes County, Oregon",2459,1181,186,186,41,017,000202,41017000202
-"Census Tract 3.01, Deschutes County, Oregon",3834,1715,130,130,41,017,000301,41017000301
-"Census Tract 3.02, Deschutes County, Oregon",5330,2005,422,422,41,017,000302,41017000302
-"Census Tract 4.01, Deschutes County, Oregon",6009,2134,234,240,41,017,000401,41017000401
-"Census Tract 4.03, Deschutes County, Oregon",1008,499,0,0,41,017,000403,41017000403
-"Census Tract 4.04, Deschutes County, Oregon",1651,660,62,103,41,017,000404,41017000404
-"Census Tract 5.01, Deschutes County, Oregon",2948,1395,118,145,41,017,000501,41017000501
-"Census Tract 5.02, Deschutes County, Oregon",3845,1684,107,107,41,017,000502,41017000502
-"Census Tract 6.01, Deschutes County, Oregon",1470,653,49,63,41,017,000601,41017000601
-"Census Tract 6.02, Deschutes County, Oregon",2812,952,55,55,41,017,000602,41017000602
-"Census Tract 6.03, Deschutes County, Oregon",4116,1880,47,62,41,017,000603,41017000603
-"Census Tract 7.01, Deschutes County, Oregon",3134,1297,150,168,41,017,000701,41017000701
-"Census Tract 7.02, Deschutes County, Oregon",4532,1753,280,291,41,017,000702,41017000702
-"Census Tract 8, Deschutes County, Oregon",7382,2738,448,509,41,017,000800,41017000800
-"Census Tract 9.01, Deschutes County, Oregon",5148,1785,605,618,41,017,000901,41017000901
-"Census Tract 9.02, Deschutes County, Oregon",2817,1072,260,326,41,017,000902,41017000902
-"Census Tract 10.02, Deschutes County, Oregon",2454,936,37,42,41,017,001002,41017001002
-"Census Tract 10.03, Deschutes County, Oregon",4794,1849,122,122,41,017,001003,41017001003
-"Census Tract 10.04, Deschutes County, Oregon",7489,2530,497,497,41,017,001004,41017001004
-"Census Tract 10.05, Deschutes County, Oregon",3244,1652,185,214,41,017,001005,41017001005
-"Census Tract 11.01, Deschutes County, Oregon",6972,2340,133,133,41,017,001101,41017001101
-"Census Tract 316.06, Washington County, Oregon",6401,2009,300,303,41,067,031606,41067031606
-"Census Tract 316.12, Washington County, Oregon",4338,1602,206,235,41,067,031612,41067031612
-"Census Tract 316.14, Washington County, Oregon",6463,1872,203,241,41,067,031614,41067031614
-"Census Tract 316.15, Washington County, Oregon",4727,1646,190,190,41,067,031615,41067031615
-"Census Tract 316.16, Washington County, Oregon",3799,1846,111,128,41,067,031616,41067031616
-"Census Tract 316.17, Washington County, Oregon",5348,2326,132,277,41,067,031617,41067031617
-"Census Tract 316.18, Washington County, Oregon",4901,1917,149,149,41,067,031618,41067031618
-"Census Tract 316.19, Washington County, Oregon",4242,1540,157,157,41,067,031619,41067031619
-"Census Tract 316.20, Washington County, Oregon",3844,1626,136,136,41,067,031620,41067031620
-"Census Tract 316.21, Washington County, Oregon",3466,1548,62,73,41,067,031621,41067031621
-"Census Tract 316.22, Washington County, Oregon",3876,1392,170,215,41,067,031622,41067031622
-"Census Tract 316.23, Washington County, Oregon",4219,1591,255,255,41,067,031623,41067031623
-"Census Tract 316.24, Washington County, Oregon",4455,1613,176,176,41,067,031624,41067031624
-"Census Tract 316.25, Washington County, Oregon",6226,2367,380,380,41,067,031625,41067031625
-"Census Tract 316.26, Washington County, Oregon",2756,1450,182,182,41,067,031626,41067031626
-"Census Tract 317.03, Washington County, Oregon",5303,1732,194,208,41,067,031703,41067031703
-"Census Tract 317.05, Washington County, Oregon",4743,1870,310,351,41,067,031705,41067031705
-"Census Tract 317.06, Washington County, Oregon",5654,1888,422,434,41,067,031706,41067031706
-"Census Tract 317.07, Washington County, Oregon",5530,1952,41,41,41,067,031707,41067031707
-"Census Tract 317.08, Washington County, Oregon",2842,1096,58,71,41,067,031708,41067031708
-"Census Tract 318.04, Washington County, Oregon",7180,2493,250,324,41,067,031804,41067031804
-"Census Tract 318.06, Washington County, Oregon",5936,2098,160,160,41,067,031806,41067031806
-"Census Tract 318.07, Washington County, Oregon",3587,1589,214,214,41,067,031807,41067031807
-"Census Tract 318.13, Washington County, Oregon",5662,2161,180,210,41,067,031813,41067031813
-"Census Tract 318.14, Washington County, Oregon",4373,1356,116,139,41,067,031814,41067031814
-"Census Tract 318.16, Washington County, Oregon",3840,1245,102,102,41,067,031816,41067031816
-"Census Tract 318.17, Washington County, Oregon",3185,1100,18,18,41,067,031817,41067031817
-"Census Tract 318.18, Washington County, Oregon",3855,2013,168,187,41,067,031818,41067031818
-"Census Tract 318.19, Washington County, Oregon",2435,996,36,63,41,067,031819,41067031819
-"Census Tract 318.20, Washington County, Oregon",3152,1237,0,0,41,067,031820,41067031820
-"Census Tract 318.21, Washington County, Oregon",4262,1644,121,121,41,067,031821,41067031821
-"Census Tract 319.04, Washington County, Oregon",3236,1112,36,48,41,067,031904,41067031904
-"Census Tract 319.09, Washington County, Oregon",5509,1709,64,66,41,067,031909,41067031909
-"Census Tract 319.11, Washington County, Oregon",6215,2421,173,368,41,067,031911,41067031911
-"Census Tract 319.12, Washington County, Oregon",4470,1580,174,202,41,067,031912,41067031912
-"Census Tract 319.13, Washington County, Oregon",2047,633,27,27,41,067,031913,41067031913
-"Census Tract 319.14, Washington County, Oregon",4135,2313,210,210,41,067,031914,41067031914
-"Census Tract 319.15, Washington County, Oregon",4500,1594,47,47,41,067,031915,41067031915
-"Census Tract 319.16, Washington County, Oregon",3894,1380,65,99,41,067,031916,41067031916
-"Census Tract 319.17, Washington County, Oregon",4482,1555,97,257,41,067,031917,41067031917
-"Census Tract 319.18, Washington County, Oregon",4510,1742,79,97,41,067,031918,41067031918
-"Census Tract 320.01, Washington County, Oregon",5665,2159,181,206,41,067,032001,41067032001
-"Census Tract 320.03, Washington County, Oregon",4572,1920,307,363,41,067,032003,41067032003
-"Census Tract 320.04, Washington County, Oregon",2213,914,29,34,41,067,032004,41067032004
-"Census Tract 320.05, Washington County, Oregon",4459,1971,297,311,41,067,032005,41067032005
-"Census Tract 12, Deschutes County, Oregon",7774,3022,223,246,41,017,001200,41017001200
-"Census Tract 13.01, Deschutes County, Oregon",6647,2362,106,125,41,017,001301,41017001301
-"Census Tract 13.02, Deschutes County, Oregon",8165,3326,209,209,41,017,001302,41017001302
-"Census Tract 14.01, Deschutes County, Oregon",6253,2704,105,129,41,017,001401,41017001401
-"Census Tract 14.02, Deschutes County, Oregon",1259,595,22,22,41,017,001402,41017001402
-"Census Tract 15.01, Deschutes County, Oregon",4047,1908,412,423,41,017,001501,41017001501
-"Census Tract 15.02, Deschutes County, Oregon",2580,1161,55,55,41,017,001502,41017001502
-"Census Tract 16.01, Deschutes County, Oregon",4522,1905,280,280,41,017,001601,41017001601
-"Census Tract 16.02, Deschutes County, Oregon",2242,1043,270,283,41,017,001602,41017001602
-"Census Tract 17.01, Deschutes County, Oregon",5338,2396,197,231,41,017,001701,41017001701
-"Census Tract 17.02, Deschutes County, Oregon",3777,1445,129,142,41,017,001702,41017001702
-"Census Tract 18.01, Deschutes County, Oregon",4056,2175,305,319,41,017,001801,41017001801
-"Census Tract 18.02, Deschutes County, Oregon",5377,1949,337,337,41,017,001802,41017001802
-"Census Tract 19.01, Deschutes County, Oregon",1920,721,6,13,41,017,001901,41017001901
-"Census Tract 19.03, Deschutes County, Oregon",6416,2655,148,148,41,017,001903,41017001903
-"Census Tract 19.04, Deschutes County, Oregon",4310,1800,85,85,41,017,001904,41017001904
-"Census Tract 20.01, Deschutes County, Oregon",1400,595,0,13,41,017,002001,41017002001
-"Census Tract 20.02, Deschutes County, Oregon",8173,3274,395,395,41,017,002002,41017002002
-"Census Tract 21.01, Deschutes County, Oregon",4417,1890,170,170,41,017,002101,41017002101
-"Census Tract 21.02, Deschutes County, Oregon",2177,959,66,66,41,017,002102,41017002102
-"Census Tract 21.03, Deschutes County, Oregon",5918,2109,148,148,41,017,002103,41017002103
-"Census Tract 100, Douglas County, Oregon",2522,1082,239,249,41,019,010000,41019010000
-"Census Tract 200, Douglas County, Oregon",3317,1491,223,223,41,019,020000,41019020000
-"Census Tract 300, Douglas County, Oregon",3609,1606,187,191,41,019,030000,41019030000
-"Census Tract 400, Douglas County, Oregon",2522,1188,310,310,41,019,040000,41019040000
-"Census Tract 500.01, Douglas County, Oregon",5277,2182,440,440,41,019,050001,41019050001
-"Census Tract 500.03, Douglas County, Oregon",3392,1580,254,290,41,019,050003,41019050003
-"Census Tract 500.04, Douglas County, Oregon",3333,1433,289,302,41,019,050004,41019050004
-"Census Tract 600, Douglas County, Oregon",3907,1516,117,127,41,019,060000,41019060000
-"Census Tract 700, Douglas County, Oregon",5392,2152,139,161,41,019,070000,41019070000
-"Census Tract 800.01, Douglas County, Oregon",3052,1384,209,232,41,019,080001,41019080001
-"Census Tract 800.02, Douglas County, Oregon",5189,2040,296,319,41,019,080002,41019080002
-"Census Tract 900.01, Douglas County, Oregon",4638,2302,424,467,41,019,090001,41019090001
-"Census Tract 900.02, Douglas County, Oregon",962,449,32,32,41,019,090002,41019090002
-"Census Tract 1000, Douglas County, Oregon",3311,1288,326,326,41,019,100000,41019100000
-"Census Tract 1100, Douglas County, Oregon",2938,1092,62,63,41,019,110000,41019110000
-"Census Tract 11.02, Deschutes County, Oregon",6542,2167,87,87,41,017,001102,41017001102
-"Census Tract 1200.01, Douglas County, Oregon",2581,1110,279,300,41,019,120001,41019120001
-"Census Tract 1200.02, Douglas County, Oregon",4686,2321,619,619,41,019,120002,41019120002
-"Census Tract 1300.01, Douglas County, Oregon",2470,920,181,181,41,019,130001,41019130001
-"Census Tract 1300.02, Douglas County, Oregon",2666,1269,230,230,41,019,130002,41019130002
-"Census Tract 1400, Douglas County, Oregon",5762,2569,417,436,41,019,140000,41019140000
-"Census Tract 1500.01, Douglas County, Oregon",5215,1938,401,401,41,019,150001,41019150001
-"Census Tract 1500.02, Douglas County, Oregon",2780,1087,201,201,41,019,150002,41019150002
-"Census Tract 1600.01, Douglas County, Oregon",2819,1153,154,154,41,019,160001,41019160001
-"Census Tract 1600.02, Douglas County, Oregon",4768,1867,503,503,41,019,160002,41019160002
-"Census Tract 321.04, Washington County, Oregon",5283,1758,55,63,41,067,032104,41067032104
-"Census Tract 321.07, Washington County, Oregon",2218,736,9,9,41,067,032107,41067032107
-"Census Tract 321.08, Washington County, Oregon",4034,1531,8,35,41,067,032108,41067032108
-"Census Tract 321.09, Washington County, Oregon",3057,978,24,40,41,067,032109,41067032109
-"Census Tract 321.10, Washington County, Oregon",3694,911,37,122,41,067,032110,41067032110
-"Census Tract 321.11, Washington County, Oregon",2960,984,0,0,41,067,032111,41067032111
-"Census Tract 321.12, Washington County, Oregon",6740,2555,70,106,41,067,032112,41067032112
-"Census Tract 322.01, Washington County, Oregon",5283,1626,31,38,41,067,032201,41067032201
-"Census Tract 322.02, Washington County, Oregon",3114,1102,0,9,41,067,032202,41067032202
-"Census Tract 323.01, Washington County, Oregon",1135,396,25,49,41,067,032301,41067032301
-"Census Tract 323.02, Washington County, Oregon",5046,1828,96,96,41,067,032302,41067032302
-"Census Tract 324.04, Washington County, Oregon",7409,2682,341,377,41,067,032404,41067032404
-"Census Tract 324.07, Washington County, Oregon",5997,1939,258,280,41,067,032407,41067032407
-"Census Tract 324.09, Washington County, Oregon",5189,1502,495,504,41,067,032409,41067032409
-"Census Tract 324.10, Washington County, Oregon",4423,1345,221,231,41,067,032410,41067032410
-"Census Tract 324.11, Washington County, Oregon",4667,1511,33,64,41,067,032411,41067032411
-"Census Tract 324.12, Washington County, Oregon",4949,1616,68,89,41,067,032412,41067032412
-"Census Tract 324.13, Washington County, Oregon",3425,1048,46,75,41,067,032413,41067032413
-"Census Tract 324.14, Washington County, Oregon",5318,1923,97,119,41,067,032414,41067032414
-"Census Tract 325.01, Washington County, Oregon",3244,918,250,281,41,067,032501,41067032501
-"Census Tract 325.02, Washington County, Oregon",3079,1061,112,121,41,067,032502,41067032502
-"Census Tract 325.03, Washington County, Oregon",4373,1479,103,103,41,067,032503,41067032503
-"Census Tract 326.03, Washington County, Oregon",7479,2322,160,160,41,067,032603,41067032603
-"Census Tract 326.04, Washington County, Oregon",7236,2159,281,303,41,067,032604,41067032604
-"Census Tract 326.06, Washington County, Oregon",5288,2059,385,442,41,067,032606,41067032606
-"Census Tract 326.08, Washington County, Oregon",2347,977,43,48,41,067,032608,41067032608
-"Census Tract 326.09, Washington County, Oregon",2336,890,41,46,41,067,032609,41067032609
-"Census Tract 326.10, Washington County, Oregon",2940,912,50,57,41,067,032610,41067032610
-"Census Tract 326.11, Washington County, Oregon",2537,1540,37,72,41,067,032611,41067032611
-"Census Tract 326.12, Washington County, Oregon",2976,1437,28,49,41,067,032612,41067032612
-"Census Tract 327, Washington County, Oregon",5617,1998,131,140,41,067,032700,41067032700
-"Census Tract 328, Washington County, Oregon",1034,399,37,37,41,067,032800,41067032800
-"Census Tract 329.01, Washington County, Oregon",6862,2271,211,293,41,067,032901,41067032901
-"Census Tract 329.03, Washington County, Oregon",3049,1178,43,43,41,067,032903,41067032903
-"Census Tract 329.04, Washington County, Oregon",4782,1352,119,170,41,067,032904,41067032904
-"Census Tract 330, Washington County, Oregon",5960,2219,142,168,41,067,033000,41067033000
-"Census Tract 331.01, Washington County, Oregon",3049,1210,89,89,41,067,033101,41067033101
-"Census Tract 331.02, Washington County, Oregon",3906,1333,181,189,41,067,033102,41067033102
-"Census Tract 332.01, Washington County, Oregon",3517,1418,257,281,41,067,033201,41067033201
-"Census Tract 332.02, Washington County, Oregon",3899,954,194,239,41,067,033202,41067033202
-"Census Tract 333.01, Washington County, Oregon",6274,2155,323,333,41,067,033301,41067033301
-"Census Tract 333.02, Washington County, Oregon",5587,1932,22,28,41,067,033302,41067033302
-"Census Tract 334, Washington County, Oregon",2536,829,28,35,41,067,033400,41067033400
-"Census Tract 335, Washington County, Oregon",4241,1431,169,184,41,067,033500,41067033500
-"Census Tract 336, Washington County, Oregon",2564,830,56,70,41,067,033600,41067033600
-"Census Tract 1700, Douglas County, Oregon",3881,1555,325,330,41,019,170000,41019170000
-"Census Tract 1800, Douglas County, Oregon",4702,1664,249,249,41,019,180000,41019180000
-"Census Tract 1900, Douglas County, Oregon",4990,2078,380,389,41,019,190000,41019190000
-"Census Tract 2000, Douglas County, Oregon",5057,2154,509,533,41,019,200000,41019200000
-"Census Tract 2100, Douglas County, Oregon",4277,1969,410,410,41,019,210000,41019210000
-"Census Tract 9900, Douglas County, Oregon",0,0,0,0,41,019,990000,41019990000
-"Census Tract 9601, Gilliam County, Oregon",1896,905,161,161,41,021,960100,41021960100
-"Census Tract 9601, Grant County, Oregon",1923,994,148,154,41,023,960100,41023960100
-"Census Tract 9602.01, Grant County, Oregon",1888,846,115,116,41,023,960201,41023960201
-"Census Tract 9602.02, Grant County, Oregon",3363,1613,241,246,41,023,960202,41023960202
-"Census Tract 9601.01, Harney County, Oregon",2632,1044,152,159,41,025,960101,41025960101
-"Census Tract 9601.02, Harney County, Oregon",2793,1357,365,370,41,025,960102,41025960102
-"Census Tract 9602, Harney County, Oregon",1885,775,44,51,41,025,960200,41025960200
-"Census Tract 9501, Hood River County, Oregon",4699,1584,423,423,41,027,950100,41027950100
-"Census Tract 9502.01, Hood River County, Oregon",3283,1306,68,68,41,027,950201,41027950201
-"Census Tract 9502.02, Hood River County, Oregon",3935,1655,133,133,41,027,950202,41027950202
-"Census Tract 9503.01, Hood River County, Oregon",2956,1451,206,206,41,027,950301,41027950301
-"Census Tract 9503.02, Hood River County, Oregon",2720,1095,161,161,41,027,950302,41027950302
-"Census Tract 9504, Hood River County, Oregon",5677,1801,143,151,41,027,950400,41027950400
-"Census Tract 1, Jackson County, Oregon",1966,795,402,404,41,029,000100,41029000100
-"Census Tract 2.01, Jackson County, Oregon",3802,1438,613,613,41,029,000201,41029000201
-"Census Tract 2.02, Jackson County, Oregon",3642,1334,424,424,41,029,000202,41029000202
-"Census Tract 2.03, Jackson County, Oregon",3734,1608,529,536,41,029,000203,41029000203
-"Census Tract 3, Jackson County, Oregon",6379,2731,815,815,41,029,000300,41029000300
-"Census Tract 4.03, Jackson County, Oregon",4127,1729,60,69,41,029,000403,41029000403
-"Census Tract 4.04, Jackson County, Oregon",5828,1994,208,208,41,029,000404,41029000404
-"Census Tract 4.05, Jackson County, Oregon",4303,1746,606,612,41,029,000405,41029000405
-"Census Tract 4.06, Jackson County, Oregon",4953,2228,313,331,41,029,000406,41029000406
-"Census Tract 5.01, Jackson County, Oregon",3027,1387,272,279,41,029,000501,41029000501
-"Census Tract 5.02, Jackson County, Oregon",6014,2418,984,984,41,029,000502,41029000502
-"Census Tract 6.03, Jackson County, Oregon",3664,1311,16,16,41,029,000603,41029000603
-"Census Tract 6.04, Jackson County, Oregon",3590,1520,140,152,41,029,000604,41029000604
-"Census Tract 6.05, Jackson County, Oregon",3512,1594,313,313,41,029,000605,41029000605
-"Census Tract 6.06, Jackson County, Oregon",1828,955,116,116,41,029,000606,41029000606
-"Census Tract 7.01, Jackson County, Oregon",5114,1873,295,295,41,029,000701,41029000701
-"Census Tract 7.02, Jackson County, Oregon",5084,1759,187,187,41,029,000702,41029000702
-"Census Tract 8, Jackson County, Oregon",6409,2665,846,846,41,029,000800,41029000800
-"Census Tract 9.01, Jackson County, Oregon",3368,1237,61,72,41,029,000901,41029000901
-"Census Tract 9.02, Jackson County, Oregon",6451,2445,365,432,41,029,000902,41029000902
-"Census Tract 10.01, Jackson County, Oregon",6468,2581,325,325,41,029,001001,41029001001
-"Census Tract 10.02, Jackson County, Oregon",4362,1645,347,361,41,029,001002,41029001002
-"Census Tract 11, Jackson County, Oregon",5718,2277,293,311,41,029,001100,41029001100
-"Census Tract 12, Jackson County, Oregon",3803,1494,167,188,41,029,001200,41029001200
-"Census Tract 13.01, Jackson County, Oregon",5125,1739,327,339,41,029,001301,41029001301
-"Census Tract 13.03, Jackson County, Oregon",6012,1981,384,384,41,029,001303,41029001303
-"Census Tract 13.04, Jackson County, Oregon",5286,1956,292,309,41,029,001304,41029001304
-"Census Tract 9601, Wheeler County, Oregon",1417,669,95,97,41,069,960100,41069960100
-"Census Tract 301.01, Yamhill County, Oregon",5856,2095,172,172,41,071,030101,41071030101
-"Census Tract 301.02, Yamhill County, Oregon",8115,2931,116,135,41,071,030102,41071030102
-"Census Tract 302.01, Yamhill County, Oregon",6251,1931,143,143,41,071,030201,41071030201
-"Census Tract 302.02, Yamhill County, Oregon",6598,2546,404,458,41,071,030202,41071030202
-"Census Tract 303.02, Yamhill County, Oregon",1989,736,17,34,41,071,030302,41071030302
-"Census Tract 303.03, Yamhill County, Oregon",3810,1345,110,110,41,071,030303,41071030303
-"Census Tract 303.04, Yamhill County, Oregon",6326,2098,390,396,41,071,030304,41071030304
-"Census Tract 304, Yamhill County, Oregon",7914,2629,186,216,41,071,030400,41071030400
-"Census Tract 305.01, Yamhill County, Oregon",8189,2399,332,397,41,071,030501,41071030501
-"Census Tract 305.02, Yamhill County, Oregon",5619,2164,484,522,41,071,030502,41071030502
-"Census Tract 306.01, Yamhill County, Oregon",3448,1344,249,263,41,071,030601,41071030601
-"Census Tract 306.02, Yamhill County, Oregon",6243,2377,199,219,41,071,030602,41071030602
-"Census Tract 307.02, Yamhill County, Oregon",6575,2915,736,826,41,071,030702,41071030702
-"Census Tract 307.03, Yamhill County, Oregon",4411,1805,330,346,41,071,030703,41071030703
-"Census Tract 307.04, Yamhill County, Oregon",4501,1734,339,367,41,071,030704,41071030704
-"Census Tract 308.01, Yamhill County, Oregon",6180,2223,945,945,41,071,030801,41071030801
-"Census Tract 308.02, Yamhill County, Oregon",5373,1397,380,398,41,071,030802,41071030802
-"Census Tract 309, Yamhill County, Oregon",4683,1453,238,262,41,071,030900,41071030900
-"Census Tract 310, Yamhill County, Oregon",4006,1420,260,276,41,071,031000,41071031000
-"Census Tract 9501, Baker County, Oregon",2770,1337,148,153,41,001,950100,41001950100
-"Census Tract 9502, Baker County, Oregon",3252,1432,325,333,41,001,950200,41001950200
-"Census Tract 9503, Baker County, Oregon",2522,1144,316,316,41,001,950300,41001950300
-"Census Tract 9504, Baker County, Oregon",2749,1250,158,161,41,001,950400,41001950400
-"Census Tract 9505, Baker County, Oregon",2672,973,122,122,41,001,950500,41001950500
-"Census Tract 9506, Baker County, Oregon",2125,1022,192,201,41,001,950600,41001950600
-"Census Tract 14.01, Jackson County, Oregon",6345,2208,147,197,41,029,001401,41029001401
-"Census Tract 14.02, Jackson County, Oregon",1366,524,0,0,41,029,001402,41029001402
-"Census Tract 14.03, Jackson County, Oregon",3860,1737,159,195,41,029,001403,41029001403
-"Census Tract 15, Jackson County, Oregon",5170,2210,89,89,41,029,001500,41029001500
-"Census Tract 16.01, Jackson County, Oregon",5662,2504,704,704,41,029,001601,41029001601
-"Census Tract 16.02, Jackson County, Oregon",6391,2853,402,402,41,029,001602,41029001602
-"Census Tract 17.01, Jackson County, Oregon",3411,1499,450,457,41,029,001701,41029001701
-"Census Tract 17.02, Jackson County, Oregon",4502,2085,333,334,41,029,001702,41029001702
-"Census Tract 18.01, Jackson County, Oregon",4690,2261,349,391,41,029,001801,41029001801
-"Census Tract 18.02, Jackson County, Oregon",3904,1916,76,76,41,029,001802,41029001802
-"Census Tract 19, Jackson County, Oregon",3164,1145,268,286,41,029,001900,41029001900
-"Census Tract 20, Jackson County, Oregon",2101,1098,107,107,41,029,002000,41029002000
-"Census Tract 21, Jackson County, Oregon",3284,1653,175,175,41,029,002100,41029002100
-"Census Tract 22, Jackson County, Oregon",4672,2266,219,232,41,029,002200,41029002200
-"Census Tract 23, Jackson County, Oregon",1642,668,75,77,41,029,002300,41029002300
-"Census Tract 24, Jackson County, Oregon",1800,572,41,46,41,029,002400,41029002400
-"Census Tract 25, Jackson County, Oregon",2360,953,75,90,41,029,002500,41029002500
-"Census Tract 26, Jackson County, Oregon",2627,1147,233,236,41,029,002600,41029002600
-"Census Tract 27.01, Jackson County, Oregon",2961,1177,197,197,41,029,002701,41029002701
-"Census Tract 27.02, Jackson County, Oregon",4689,2056,409,426,41,029,002702,41029002702
-"Census Tract 28, Jackson County, Oregon",4396,1782,231,234,41,029,002800,41029002800
-"Census Tract 29.01, Jackson County, Oregon",3155,1471,260,277,41,029,002901,41029002901
-"Census Tract 29.02, Jackson County, Oregon",4172,1546,417,417,41,029,002902,41029002902
-"Census Tract 30.01, Jackson County, Oregon",4065,1757,94,117,41,029,003001,41029003001
-"Census Tract 30.02, Jackson County, Oregon",4823,2162,132,168,41,029,003002,41029003002
-"Census Tract 9400, Jefferson County, Oregon",2921,828,437,450,41,031,940000,41031940000
-"Census Tract 9601, Jefferson County, Oregon",2469,570,116,127,41,031,960100,41031960100
-"Census Tract 9602.01, Jefferson County, Oregon",3409,1247,622,629,41,031,960201,41031960201
-"Census Tract 9602.02, Jefferson County, Oregon",5795,2236,680,690,41,031,960202,41031960202
-"Census Tract 9603.01, Jefferson County, Oregon",4179,1813,214,214,41,031,960301,41031960301
-"Census Tract 9603.03, Jefferson County, Oregon",902,293,0,0,41,031,960303,41031960303
-"Census Tract 9603.04, Jefferson County, Oregon",2676,818,150,163,41,031,960304,41031960304
-"Census Tract 9603.05, Jefferson County, Oregon",1697,590,130,130,41,031,960305,41031960305
-"Census Tract 3601, Josephine County, Oregon",2064,903,257,263,41,033,360100,41033360100
-"Census Tract 3603, Josephine County, Oregon",5965,2481,416,446,41,033,360300,41033360300
-"Census Tract 3604, Josephine County, Oregon",5034,1964,326,335,41,033,360400,41033360400
-"Census Tract 3605, Josephine County, Oregon",5927,2402,922,987,41,033,360500,41033360500
-"Census Tract 3606.01, Josephine County, Oregon",2454,1123,411,411,41,033,360601,41033360601
-"Census Tract 3606.02, Josephine County, Oregon",3362,1376,148,170,41,033,360602,41033360602
-"Census Tract 3607.01, Josephine County, Oregon",4376,1832,611,620,41,033,360701,41033360701
-"Census Tract 3607.03, Josephine County, Oregon",2662,1394,330,330,41,033,360703,41033360703
-"Census Tract 3607.04, Josephine County, Oregon",3023,1332,501,501,41,033,360704,41033360704
-"Census Tract 3608, Josephine County, Oregon",5602,2254,458,458,41,033,360800,41033360800
-"Census Tract 3609, Josephine County, Oregon",2636,965,115,137,41,033,360900,41033360900
-"Census Tract 3610, Josephine County, Oregon",5233,2031,352,371,41,033,361000,41033361000
-"Census Tract 3611.01, Josephine County, Oregon",6420,2716,381,381,41,033,361101,41033361101
-"Census Tract 3611.02, Josephine County, Oregon",4044,1621,499,522,41,033,361102,41033361102
-"Census Tract 3612.01, Josephine County, Oregon",4665,2046,762,762,41,033,361201,41033361201
-"Census Tract 3612.02, Josephine County, Oregon",3485,1302,250,250,41,033,361202,41033361202
-"Census Tract 3613.01, Josephine County, Oregon",3820,1667,109,109,41,033,361301,41033361301
-"Census Tract 3613.02, Josephine County, Oregon",3555,1380,329,334,41,033,361302,41033361302
-"Census Tract 3614, Josephine County, Oregon",2731,1188,121,121,41,033,361400,41033361400
-"Census Tract 3615, Josephine County, Oregon",2402,992,71,71,41,033,361500,41033361500
-"Census Tract 3616.01, Josephine County, Oregon",4566,2273,897,905,41,033,361601,41033361601
-"Census Tract 3616.02, Josephine County, Oregon",3071,1364,290,301,41,033,361602,41033361602
-"Census Tract 9701, Klamath County, Oregon",3270,1310,285,285,41,035,970100,41035970100
-"Census Tract 9702.01, Klamath County, Oregon",1879,773,259,275,41,035,970201,41035970201
-"Census Tract 9702.02, Klamath County, Oregon",3003,1345,288,304,41,035,970202,41035970202
-"Census Tract 9703, Klamath County, Oregon",2884,1215,101,116,41,035,970300,41035970300
-"Census Tract 9704, Klamath County, Oregon",1459,625,76,76,41,035,970400,41035970400
-"Census Tract 9705, Klamath County, Oregon",1468,662,146,146,41,035,970500,41035970500
-"Census Tract 9706, Klamath County, Oregon",1829,559,106,110,41,035,970600,41035970600
-"Census Tract 9707, Klamath County, Oregon",2014,862,105,105,41,035,970700,41035970700
-"Census Tract 9708, Klamath County, Oregon",2404,984,121,131,41,035,970800,41035970800
-"Census Tract 9709.01, Klamath County, Oregon",2123,980,68,82,41,035,970901,41035970901
-"Census Tract 9709.02, Klamath County, Oregon",2575,1078,305,328,41,035,970902,41035970902
-"Census Tract 9710, Klamath County, Oregon",2868,1266,90,99,41,035,971000,41035971000
-"Census Tract 9711, Klamath County, Oregon",5393,2031,154,154,41,035,971100,41035971100
-"Census Tract 9712, Klamath County, Oregon",2357,979,364,364,41,035,971200,41035971200
-"Census Tract 9713, Klamath County, Oregon",5171,2220,582,582,41,035,971300,41035971300
-"Census Tract 9714, Klamath County, Oregon",5317,2034,331,331,41,035,971400,41035971400
-"Census Tract 9715, Klamath County, Oregon",4787,1818,514,546,41,035,971500,41035971500
-"Census Tract 9716, Klamath County, Oregon",3366,1743,864,963,41,035,971600,41035971600
-"Census Tract 9717, Klamath County, Oregon",3330,1544,514,533,41,035,971700,41035971700
-"Census Tract 9718, Klamath County, Oregon",2220,1064,623,623,41,035,971800,41035971800
-"Census Tract 9719, Klamath County, Oregon",3442,1470,511,536,41,035,971900,41035971900
-"Census Tract 9720, Klamath County, Oregon",4447,1814,117,117,41,035,972000,41035972000
-"Census Tract 9601, Lake County, Oregon",3056,1487,190,200,41,037,960100,41037960100
-"Census Tract 9602, Lake County, Oregon",4840,2046,420,430,41,037,960200,41037960200
-"Census Tract 1, Lane County, Oregon",4917,2209,283,298,41,039,000100,41039000100
-"Census Tract 2, Lane County, Oregon",5817,1983,179,183,41,039,000200,41039000200
-"Census Tract 3, Lane County, Oregon",2421,834,163,163,41,039,000300,41039000300
-"Census Tract 4.02, Lane County, Oregon",3591,1351,181,188,41,039,000402,41039000402
-"Census Tract 4.03, Lane County, Oregon",5094,2029,270,321,41,039,000403,41039000403
-"Census Tract 4.04, Lane County, Oregon",4503,1545,319,319,41,039,000404,41039000404
-"Census Tract 5, Lane County, Oregon",2118,860,204,204,41,039,000500,41039000500
-"Census Tract 7.02, Lane County, Oregon",2597,1225,150,150,41,039,000702,41039000702
-"Census Tract 7.05, Lane County, Oregon",3689,1967,296,321,41,039,000705,41039000705
-"Census Tract 7.06, Lane County, Oregon",3008,1349,138,147,41,039,000706,41039000706
-"Census Tract 7.07, Lane County, Oregon",3896,2089,259,260,41,039,000707,41039000707
-"Census Tract 7.08, Lane County, Oregon",2671,1206,240,279,41,039,000708,41039000708
-"Census Tract 8, Lane County, Oregon",1486,582,39,39,41,039,000800,41039000800
+NAME,Population,Households,Receipt of SNAP,Public Assist,ZIP,geometry,Percent SNAP,Percent Public Assist,city,county,pop
+ZCTA5 97535,5454,2289,355,355,97535,,15.509,15.509,Phoenix,Jackson,5406
+ZCTA5 97625,360,100,23,23,97625,,23.0,23.0,Dairy,Klamath,387
+ZCTA5 97626,58,58,0,0,97626,,0.0,0.0,Fort Klamath,Klamath,45
+ZCTA5 97637,126,54,5,5,97637,,9.2593,9.2593,Plush,Lake,127
+ZCTA5 97640,179,94,2,2,97640,,2.1277,2.1277,Summer Lake,Lake,127
+ZCTA5 97009,8198,2919,251,282,97009,,8.5988,9.6608,Boring,Clackamas,8603
+ZCTA5 97014,1589,710,264,264,97014,,37.1831,37.1831,Cascade Locks,Hood River,1388
+ZCTA5 97030,38980,14978,3339,3638,97030,,22.2927,24.289,Gresham,Multnomah,38358
+ZCTA5 97039,494,202,31,35,97039,,15.3465,17.3267,Moro,Sherman,552
+ZCTA5 97042,2877,1023,99,99,97042,,9.6774,9.6774,Mulino,Clackamas,2964
+ZCTA5 97049,1725,809,89,97,97049,,11.0012,11.9901,Rhododendron,Clackamas,1647
+ZCTA5 97054,1368,603,35,35,97054,,5.8043,5.8043,Deer Island,Columbia,1541
+ZCTA5 97118,672,325,62,64,97118,,19.0769,19.6923,Garibaldi,Tillamook,797
+ZCTA5 97141,13557,5295,1005,1037,97141,,18.9802,19.5845,Tillamook,Tillamook,14035
+ZCTA5 97149,458,211,2,2,97149,,0.9479,0.9479,Neskowin,Tillamook,721
+ZCTA5 97201,17558,9310,1028,1096,97201,,11.0419,11.7723,Portland,Multnomah,17993
+ZCTA5 97216,17757,7001,1373,1401,97216,,19.6115,20.0114,Portland,Multnomah,16965
+ZCTA5 97331,2868,0,0,0,97331,,,,Corvallis,Benton,2865
+ZCTA5 97358,2610,1106,79,79,97358,,7.1429,7.1429,Lyons,Linn,2488
+ZCTA5 97034,20108,8155,225,278,97034,,2.759,3.409,Lake Oswego,Clackamas,18656
+ZCTA5 97048,7591,2737,621,639,97048,,22.6891,23.3467,Rainier,Columbia,7756
+ZCTA5 97056,12161,4672,488,635,97056,,10.4452,13.5916,Scappoose,Columbia,11678
+ZCTA5 97080,44907,15745,1749,1838,97080,,11.1083,11.6735,Gresham,Multnomah,44335
+ZCTA5 97103,17892,6910,1040,1097,97103,,15.0507,15.8755,Astoria,Clatsop,17677
+ZCTA5 97110,1286,577,128,136,97110,,22.1837,23.5702,Cannon Beach,Clatsop,1166
+ZCTA5 97114,4675,1473,256,280,97114,,17.3795,19.0088,Dayton,Yamhill,5102
+ZCTA5 97122,526,166,17,17,97122,,10.241,10.241,Hebo,Tillamook,396
+ZCTA5 97210,11395,6325,345,443,97210,,5.4545,7.004,Portland,Multnomah,11877
+ZCTA5 97225,25965,11736,910,1177,97225,,7.7539,10.029,Portland,Washington,26095
+ZCTA5 97453,882,378,77,77,97453,,20.3704,20.3704,Mapleton,Lane,835
+ZCTA5 97222,36904,16090,1912,2279,97222,,11.8832,14.1641,Portland,Clackamas,36952
+ZCTA5 97229,71529,25804,1451,1559,97229,,5.6232,6.0417,Portland,Washington,69450
+ZCTA5 97266,36818,13439,2993,3194,97266,,22.271,23.7666,Portland,Multnomah,35727
+ZCTA5 97338,22449,8517,1494,1524,97338,,17.5414,17.8936,Dallas,Polk,21880
+ZCTA5 97344,1742,567,209,209,97344,,36.8607,36.8607,Falls City,Polk,1491
+ZCTA5 97368,3326,1388,303,303,97368,,21.83,21.83,Otis,Lincoln,3319
+ZCTA5 97376,1046,515,89,94,97376,,17.2816,18.2524,Seal Rock,Lincoln,1254
+ZCTA5 97383,10185,3859,557,577,97383,,14.4338,14.9521,Stayton,Marion,10046
+ZCTA5 97391,6399,2447,618,640,97391,,25.2554,26.1545,Toledo,Lincoln,6012
+ZCTA5 97411,7568,3411,631,633,97411,,18.499,18.5576,Bandon,Coos,7337
+ZCTA5 97444,5974,2691,333,464,97444,,12.3746,17.2427,Gold Beach,Curry,5643
+ZCTA5 97448,13409,5255,708,766,97448,,13.4729,14.5766,Junction City,Lane,13080
+ZCTA5 97484,136,69,6,6,97484,,8.6957,8.6957,Tiller,Douglas,178
+ZCTA5 97486,668,324,4,4,97486,,1.2346,1.2346,Umpqua,Douglas,663
+ZCTA5 97496,7663,2967,674,674,97496,,22.7165,22.7165,Winston,Douglas,7737
+ZCTA5 97526,35302,14783,3640,3758,97526,,24.6229,25.4211,Grants Pass,Josephine,35920
+ZCTA5 97534,719,458,318,318,97534,,69.4323,69.4323,O Brien,Josephine,927
+ZCTA5 97537,7104,2879,673,690,97537,,23.3762,23.9667,Rogue River,Jackson,7463
+ZCTA5 97538,1809,719,108,108,97538,,15.0209,15.0209,Selma,Josephine,1463
+ZCTA5 97630,4797,2009,404,414,97630,,20.1095,20.6073,Lakeview,Lake,4969
+ZCTA5 97707,5970,2643,116,157,97707,,4.389,5.9402,Bend,Deschutes,6115
+ZCTA5 97721,199,100,0,0,97721,,0.0,0.0,Princeton,Harney,222
+ZCTA5 97730,327,116,0,0,97730,,0.0,0.0,Camp Sherman,Jefferson,222
+ZCTA5 97732,113,46,0,0,97732,,0.0,0.0,Crane,Harney,123
+ZCTA5 97734,3606,1157,191,204,97734,,16.5082,17.6318,Culver,Jefferson,3413
+ZCTA5 97752,0,0,0,0,97752,,,,Post,Crook,0
+ZCTA5 97801,20859,7247,1722,1774,97801,,23.7616,24.4791,Pendleton,Umatilla,20563
+ZCTA5 97826,1274,452,35,35,97826,,7.7434,7.7434,Echo,Umatilla,1144
+ZCTA5 97827,2485,1109,149,171,97827,,13.4355,15.4193,Elgin,Union,2407
+ZCTA5 97833,673,338,37,37,97833,,10.9467,10.9467,Haines,Baker,740
+ZCTA5 97843,747,312,43,43,97843,,13.7821,13.7821,Ione,Morrow,643
+ZCTA5 97035,26721,10962,327,463,97035,,2.983,4.2237,Lake Oswego,Clackamas,26977
+ZCTA5 97051,17126,6360,1580,1675,97051,,24.8428,26.3365,Saint Helens,Columbia,16977
+ZCTA5 97053,3633,1307,86,101,97053,,6.58,7.7276,Warren,Columbia,3248
+ZCTA5 97067,2004,1058,206,221,97067,,19.4707,20.8885,Welches,Clackamas,1745
+ZCTA5 97101,4141,1390,215,224,97101,,15.4676,16.1151,Amity,Yamhill,4278
+ZCTA5 97351,11551,3511,781,792,97351,,22.2444,22.5577,Independence,Polk,11150
+ZCTA5 97378,10637,3349,558,639,97378,,16.6617,19.0803,Sheridan,Yamhill,8442
+ZCTA5 97394,5090,2423,502,522,97394,,20.7181,21.5435,Waldport,Lincoln,5224
+ZCTA5 97403,14024,4261,825,825,97403,,19.3617,19.3617,Eugene,Lane,13398
+ZCTA5 97413,944,475,113,123,97413,,23.7895,25.8947,Blue River,Lane,944
+ZCTA5 97414,154,73,0,0,97414,,0.0,0.0,Broadbent,Coos,306
+ZCTA5 97441,466,155,40,40,97441,,25.8065,25.8065,Gardiner,Douglas,586
+ZCTA5 97736,88,36,0,0,97736,,0.0,0.0,Frenchglen,Harney,105
+ZCTA5 97738,2045,823,142,149,97738,,17.2539,18.1045,Hines,Harney,1772
+ZCTA5 97739,13158,5416,1122,1122,97739,,20.7164,20.7164,La Pine,Deschutes,12595
+ZCTA5 97759,7530,3258,216,243,97759,,6.6298,7.4586,Sisters,Deschutes,7896
+ZCTA5 97812,832,340,69,69,97812,,20.2941,20.2941,Arlington,Gilliam,909
+ZCTA5 97813,1435,553,75,78,97813,,13.5624,14.1049,Athena,Umatilla,1392
+ZCTA5 97836,2148,914,107,107,97836,,11.7068,11.7068,Heppner,Morrow,1941
+ZCTA5 97481,875,346,147,147,97481,,42.4855,42.4855,Tenmile,Douglas,757
+ZCTA5 97504,48053,19656,3244,3339,97504,,16.5039,16.9872,Medford,Jackson,47947
+ZCTA5 97539,3296,1522,314,331,97539,,20.6307,21.7477,Shady Cove,Jackson,3311
+ZCTA5 97624,3519,1591,321,337,97624,,20.176,21.1816,Chiloquin,Klamath,3573
+ZCTA5 97634,284,98,16,16,97634,,16.3265,16.3265,Midland,Klamath,242
+ZCTA5 97636,508,220,33,43,97636,,15.0,19.5455,Paisley,Lake,503
+ZCTA5 97638,575,188,25,25,97638,,13.2979,13.2979,Silver Lake,Lake,559
+ZCTA5 97702,50395,20316,1750,1811,97702,,8.6139,8.9142,Bend,Deschutes,50164
+ZCTA5 97751,62,27,0,0,97751,,0.0,0.0,Paulina,Crook,77
+ZCTA5 97761,3631,1030,553,570,97761,,53.6893,55.3398,Warm Springs,Jefferson,4181
+ZCTA5 97817,55,7,0,0,97817,,0.0,0.0,Bates,Grant,60
+ZCTA5 97823,1014,539,89,89,97823,,16.5121,16.5121,Condon,Gilliam,922
+ZCTA5 97824,1853,722,45,51,97824,,6.2327,7.0637,Cove,Union,1774
+ZCTA5 97839,291,128,11,11,97839,,8.5938,8.5938,Lexington,Morrow,283
+ZCTA5 97841,540,195,8,8,97841,,4.1026,4.1026,Imbler,Union,553
+ZCTA5 97844,3803,1274,326,326,97844,,25.5887,25.5887,Irrigon,Morrow,4133
+ZCTA5 97846,1954,947,118,118,97846,,12.4604,12.4604,Joseph,Wallowa,1878
+ZCTA5 97859,230,72,15,15,97859,,20.8333,20.8333,Meacham,Umatilla,151
+ZCTA5 97862,12014,4462,1017,1071,97862,,22.7925,24.0027,Milton Freewater,Umatilla,11949
+ZCTA5 97875,2885,1059,122,134,97875,,11.5203,12.6534,Stanfield,Umatilla,3126
+ZCTA5 97882,7958,2258,464,502,97882,,20.5492,22.2321,Umatilla,Umatilla,7972
+ZCTA5 97904,249,117,10,17,97904,,8.547,14.5299,Drewsey,Harney,253
+ZCTA5 97908,31,17,0,0,97908,,0.0,0.0,Ironside,Malheur,38
+ZCTA5 97810,1197,444,31,43,97810,,6.982,9.6847,Adams,Umatilla,1105
+ZCTA5 97819,19,12,0,0,97819,,0.0,0.0,Bridgeport,Baker,17
+ZCTA5 97452,1518,594,53,53,97452,,8.9226,8.9226,Lowell,Lane,1719
+ZCTA5 97454,1136,411,50,50,97454,,12.1655,12.1655,Marcola,Lane,1471
+ZCTA5 97457,10365,4100,709,718,97457,,17.2927,17.5122,Myrtle Creek,Douglas,10288
+ZCTA5 97469,2789,1076,213,226,97469,,19.7955,21.0037,Riddle,Douglas,2731
+ZCTA5 97477,38073,16194,4530,4658,97477,,27.9733,28.7637,Springfield,Lane,37535
+ZCTA5 97487,9047,3581,963,970,97487,,26.8919,27.0874,Veneta,Lane,9106
+ZCTA5 97497,1502,744,237,243,97497,,31.8548,32.6613,Wolf Creek,Josephine,1514
+ZCTA5 97499,1869,821,206,206,97499,,25.0914,25.0914,Yoncalla,Douglas,1839
+ZCTA5 97116,27349,9534,1092,1194,97116,,11.4537,12.5236,Forest Grove,Washington,27281
+ZCTA5 97125,141,25,0,0,97125,,0.0,0.0,Manning,Washington,281
+ZCTA5 97130,528,297,7,19,97130,,2.3569,6.3973,Manzanita,Tillamook,435
+ZCTA5 97131,3065,1329,125,172,97131,,9.4056,12.9421,Nehalem,Tillamook,2751
+ZCTA5 97134,108,67,0,0,97134,,0.0,0.0,Oceanside,Tillamook,290
+ZCTA5 97144,138,74,16,16,97144,,21.6216,21.6216,Timber,Washington,117
+ZCTA5 97146,6980,2595,269,273,97146,,10.3661,10.5202,Warrenton,Clatsop,6698
+ZCTA5 97147,376,179,55,55,97147,,30.7263,30.7263,Wheeler,Tillamook,349
+ZCTA5 97202,43744,18194,1767,2023,97202,,9.712,11.1191,Portland,Multnomah,43371
+ZCTA5 97218,14666,5500,942,987,97218,,17.1273,17.9455,Portland,Multnomah,15191
+ZCTA5 97227,5911,3150,400,404,97227,,12.6984,12.8254,Portland,Multnomah,5146
+ZCTA5 97303,41596,15214,2745,2843,97303,,18.0426,18.6867,Salem,Marion,41173
+ZCTA5 97325,6837,2296,410,410,97325,,17.8571,17.8571,Aumsville,Marion,6997
+ZCTA5 97327,3511,1373,216,231,97327,,15.732,16.8245,Brownsville,Linn,3386
+ZCTA5 97007,71896,26407,2308,2585,97007,,8.7401,9.7891,Beaverton,Washington,72299
+ZCTA5 97019,3304,1198,70,70,97019,,5.8431,5.8431,Corbett,Multnomah,3167
+ZCTA5 97857,641,246,33,39,97857,,13.4146,15.8537,Lostine,Wallowa,551
+ZCTA5 97032,5210,1808,174,203,97032,,9.6239,11.2279,Hubbard,Marion,5048
+ZCTA5 97023,10481,4065,477,496,97023,,11.7343,12.2017,Estacada,Clackamas,9968
+ZCTA5 97476,357,148,0,0,97476,,0.0,0.0,Sixes,Curry,343
+ZCTA5 97493,300,125,24,24,97493,,19.2,19.2,Westlake,Lane,367
+ZCTA5 97603,29797,12200,2622,2772,97603,,21.4918,22.7213,Klamath Falls,Klamath,29357
+ZCTA5 97604,137,0,0,0,97604,,,,Crater Lake,Klamath,135
+ZCTA5 97633,1263,545,65,65,97633,,11.9266,11.9266,Merrill,Klamath,1263
+ZCTA5 97711,28,16,0,0,97711,,0.0,0.0,Ashwood,Jefferson,32
+ZCTA5 97233,38779,13657,4207,4636,97233,,30.8047,33.946,Portland,Multnomah,40477
+ZCTA5 97236,39669,12817,3600,3931,97236,,28.0877,30.6702,Portland,Multnomah,40892
+ZCTA5 97305,44536,14176,3236,3312,97305,,22.8273,23.3634,Salem,Marion,43917
+ZCTA5 97329,107,56,42,42,97329,,75.0,75.0,Cascadia,Linn,146
+ZCTA5 97341,2628,1398,157,168,97341,,11.2303,12.0172,Depoe Bay,Lincoln,2682
+ZCTA5 97343,293,135,59,59,97343,,43.7037,43.7037,Eddyville,Lincoln,222
+ZCTA5 97347,1584,653,177,178,97347,,27.1057,27.2588,Grand Ronde,Polk,1902
+ZCTA5 97348,1533,587,73,73,97348,,12.4361,12.4361,Halsey,Linn,1572
+ZCTA5 97364,501,277,23,23,97364,,8.3032,8.3032,Neotsu,Lincoln,464
+ZCTA5 97390,891,614,377,377,97390,,61.4007,61.4007,Tidewater,Lincoln,750
+ZCTA5 97396,3753,1363,374,380,97396,,27.4395,27.8797,Willamina,Yamhill,3384
+ZCTA5 97406,355,162,80,80,97406,,49.3827,49.3827,Agness,Curry,48
+ZCTA5 97408,13761,5787,677,715,97408,,11.6986,12.3553,Eugene,Lane,13360
+ZCTA5 97909,0,0,0,0,97909,,,,Jamieson,Malheur,97
+ZCTA5 97920,36,19,0,0,97920,,0.0,0.0,Westfall,Malheur,73
+ZCTA5 97008,30485,12581,1019,1083,97008,,8.0995,8.6082,Beaverton,Washington,29916
+ZCTA5 97020,1197,418,45,45,97020,,10.7656,10.7656,Donald,Marion,918
+ZCTA5 97026,3926,951,141,141,97026,,14.8265,14.8265,Gervais,Marion,4468
+ZCTA5 97027,12984,4928,652,727,97027,,13.2305,14.7524,Gladstone,Clackamas,12521
+ZCTA5 97045,56558,20332,2108,2242,97045,,10.3679,11.027,Oregon City,Clackamas,56250
+ZCTA5 97050,211,109,23,23,97050,,21.1009,21.1009,Rufus,Sherman,173
+ZCTA5 97062,28740,11007,710,873,97062,,6.4504,7.9313,Tualatin,Washington,28694
+ZCTA5 97068,30085,11267,462,588,97068,,4.1005,5.2188,West Linn,Clackamas,29582
+ZCTA5 97127,4222,1377,324,330,97127,,23.5294,23.9651,Lafayette,Yamhill,4149
+ZCTA5 97031,18643,7331,711,719,97031,,9.6985,9.8077,Hood River,Hood River,18902
+ZCTA5 97392,5695,1974,110,110,97392,,5.5724,5.5724,Turner,Marion,7011
+ZCTA5 97404,34126,13222,2348,2481,97404,,17.7583,18.7642,Eugene,Lane,34616
+ZCTA5 97405,45184,19350,2531,2787,97405,,13.0801,14.4031,Eugene,Lane,45250
+ZCTA5 97410,566,278,5,5,97410,,1.7986,1.7986,Azalea,Douglas,637
+ZCTA5 97415,13857,6462,757,805,97415,,11.7146,12.4574,Brookings,Curry,14182
+ZCTA5 97416,1241,404,47,52,97416,,11.6337,12.8713,Camas Valley,Douglas,1349
+ZCTA5 97430,394,160,38,38,97430,,23.75,23.75,Deadwood,Lane,349
+ZCTA5 97435,2170,934,118,122,97435,,12.6338,13.0621,Drain,Douglas,2135
+ZCTA5 97439,15101,7552,1048,1122,97439,,13.8771,14.857,Florence,Lane,14713
+ZCTA5 97442,2319,1052,252,252,97442,,23.9544,23.9544,Glendale,Douglas,2047
+ZCTA5 97443,2939,1006,243,243,97443,,24.1551,24.1551,Glide,Douglas,2135
+ZCTA5 97446,5826,1991,384,391,97446,,19.2868,19.6384,Harrisburg,Linn,6106
+ZCTA5 97447,485,210,63,63,97447,,30.0,30.0,Idleyld Park,Douglas,590
+ZCTA5 97070,25163,10007,671,849,97070,,6.7053,8.4841,Wilsonville,Clackamas,25101
+ZCTA5 97071,31034,10001,1922,2060,97071,,19.2181,20.5979,Woodburn,Marion,29796
+ZCTA5 97102,328,183,0,0,97102,,0.0,0.0,Arch Cape,Clatsop,318
+ZCTA5 97108,518,221,28,28,97108,,12.6697,12.6697,Beaver,Tillamook,640
+ZCTA5 97117,727,255,36,43,97117,,14.1176,16.8627,Gales Creek,Washington,719
+ZCTA5 97121,1352,553,73,73,97121,,13.2007,13.2007,Hammond,Clatsop,1402
+ZCTA5 97124,56101,20864,1628,2029,97124,,7.8029,9.7249,Hillsboro,Washington,55170
+ZCTA5 97128,38246,14389,3243,3455,97128,,22.538,24.0114,Mcminnville,Yamhill,37993
+ZCTA5 97135,1016,408,57,57,97135,,13.9706,13.9706,Pacific City,Tillamook,716
+ZCTA5 97136,1909,823,154,158,97136,,18.712,19.1981,Rockaway Beach,Tillamook,1590
+ZCTA5 97213,32815,14667,1431,1707,97213,,9.7566,11.6384,Portland,Multnomah,33011
+ZCTA5 97217,34881,14838,2008,2053,97217,,13.5328,13.8361,Portland,Multnomah,34709
+ZCTA5 97220,29318,11615,2359,2460,97220,,20.3099,21.1795,Portland,Multnomah,29629
+ZCTA5 97221,12104,4997,264,303,97221,,5.2832,6.0636,Portland,Multnomah,12467
+ZCTA5 97006,74152,27309,2858,3039,97006,,10.4654,11.1282,Beaverton,Washington,74070
+ZCTA5 97038,15504,5522,960,982,97038,,17.385,17.7834,Molalla,Clackamas,15676
+ZCTA5 97055,18600,6831,869,895,97055,,12.7214,13.102,Sandy,Clackamas,18923
+ZCTA5 97058,20627,8101,1850,1910,97058,,22.8367,23.5773,The Dalles,Wasco,20619
+ZCTA5 97064,3244,1357,296,300,97064,,21.8128,22.1076,Vernonia,Columbia,3167
+ZCTA5 97106,4942,1656,123,136,97106,,7.4275,8.2126,Banks,Washington,4908
+ZCTA5 97107,2302,922,172,177,97107,,18.6551,19.1974,Bay City,Tillamook,1828
+ZCTA5 97109,736,220,11,11,97109,,5.0,5.0,Buxton,Washington,538
+ZCTA5 97112,1688,767,132,132,97112,,17.2099,17.2099,Cloverdale,Tillamook,1867
+ZCTA5 97115,4021,1384,147,147,97115,,10.6214,10.6214,Dundee,Yamhill,4008
+ZCTA5 97140,25778,8739,203,254,97140,,2.3229,2.9065,Sherwood,Washington,26248
+ZCTA5 97148,3553,1096,76,106,97148,,6.9343,9.6715,Yamhill,Yamhill,4288
+ZCTA5 97219,43274,17694,932,1162,97219,,5.2673,6.5672,Portland,Multnomah,42528
+ZCTA5 97230,39900,15326,2383,2589,97230,,15.5487,16.8929,Portland,Multnomah,39776
+ZCTA5 97459,14434,5737,1247,1247,97459,,21.7361,21.7361,North Bend,Coos,13643
+ZCTA5 97470,18659,8589,1748,1813,97470,,20.3516,21.1084,Roseburg,Douglas,19785
+ZCTA5 97478,40357,14735,2598,2780,97478,,17.6315,18.8666,Springfield,Lane,39939
+ZCTA5 97480,291,137,46,46,97480,,33.5766,33.5766,Swisshome,Lane,333
+ZCTA5 97489,873,384,30,30,97489,,7.8125,7.8125,Walterville,Lane,785
+ZCTA5 97492,1071,509,113,115,97492,,22.2004,22.5933,Westfir,Lane,667
+ZCTA5 97502,28769,11211,1447,1557,97502,,12.907,13.8881,Central Point,Jackson,28975
+ZCTA5 97520,25345,11717,1356,1444,97520,,11.5729,12.324,Ashland,Jackson,25177
+ZCTA5 97524,15174,6002,521,607,97524,,8.6804,10.1133,Eagle Point,Jackson,14974
+ZCTA5 97527,37120,15275,3274,3350,97527,,21.4337,21.9313,Grants Pass,Josephine,36180
+ZCTA5 97530,7806,3451,155,155,97530,,4.4915,4.4915,Jacksonville,Jackson,6913
+ZCTA5 97532,2621,1105,157,180,97532,,14.2081,16.2896,Merlin,Josephine,2562
+ZCTA5 97137,1087,357,14,19,97137,,3.9216,5.3221,St. Paul,Marion,1385
+ZCTA5 97324,1495,632,193,193,97324,,30.538,30.538,Alsea,Benton,1322
+ZCTA5 97057,12,6,0,0,97057,,0.0,0.0,Shaniko,Wasco,9
+ZCTA5 97208,0,0,0,0,97208,,,,Portland,Multnomah,0
+ZCTA5 97369,139,67,8,8,97369,,11.9403,11.9403,Otter Rock,Lincoln,187
+ZCTA5 97373,178,0,0,0,97373,,,,Saint Benedict,Marion,196
+ZCTA5 97384,67,34,0,0,97384,,0.0,0.0,Mehama,Marion,0
+ZCTA5 97388,1014,460,17,17,97388,,3.6957,3.6957,Gleneden Beach,Lincoln,790
+ZCTA5 97494,51,51,0,0,97494,,0.0,0.0,Wilbur,Douglas,67
+ZCTA5 97495,1568,681,65,65,97495,,9.5448,9.5448,Winchester,Douglas,1673
+ZCTA5 97820,985,443,44,49,97820,,9.9323,11.0609,Canyon City,Grant,899
+ZCTA5 97830,660,342,53,53,97830,,15.4971,15.4971,Fossil,Wheeler,642
+ZCTA5 97834,1116,571,150,159,97834,,26.2697,27.8459,Halfway,Baker,904
+ZCTA5 97911,106,60,2,2,97911,,3.3333,3.3333,Juntura,Malheur,69
+ZCTA5 97840,168,48,0,0,97840,,0.0,0.0,Oxbow,Baker,216
+ZCTA5 97868,1718,676,110,110,97868,,16.2722,16.2722,Pilot Rock,Umatilla,1781
+ZCTA5 97330,43155,17954,1870,1949,97330,,10.4155,10.8555,Corvallis,Benton,42956
+ZCTA5 97342,80,49,5,5,97342,,10.2041,10.2041,Detroit,Marion,89
+ZCTA5 97345,549,192,55,55,97345,,28.6458,28.6458,Foster,Linn,731
+ZCTA5 97352,6860,2037,363,367,97352,,17.8203,18.0167,Jefferson,Marion,6518
+ZCTA5 97361,12528,3985,844,923,97361,,21.1794,23.1619,Monmouth,Polk,12297
+ZCTA5 97365,11338,4766,1066,1103,97365,,22.3668,23.1431,Newport,Lincoln,11348
+ZCTA5 97386,15584,5878,1517,1581,97386,,25.8081,26.8969,Sweet Home,Linn,14693
+ZCTA5 97401,47985,21770,3260,3385,97401,,14.9747,15.5489,Eugene,Lane,45830
+ZCTA5 97402,52481,21782,5365,5520,97402,,24.6304,25.342,Eugene,Lane,52310
+ZCTA5 97417,2249,1093,316,327,97417,,28.9113,29.9177,Canyonville,Douglas,2407
+ZCTA5 97419,892,385,74,74,97419,,19.2208,19.2208,Cheshire,Lane,1074
+ZCTA5 97437,2489,928,163,163,97437,,17.5647,17.5647,Elmira,Lane,2939
+ZCTA5 97438,1127,424,69,69,97438,,16.2736,16.2736,Fall Creek,Lane,1084
+ZCTA5 97223,51513,20246,1663,2153,97223,,8.214,10.6342,Portland,Washington,50585
+ZCTA5 97224,35949,14893,1149,1253,97224,,7.715,8.4133,Portland,Washington,35434
+ZCTA5 97302,40113,17021,2355,2548,97302,,13.8358,14.9697,Salem,Marion,38706
+ZCTA5 97346,1087,393,72,72,97346,,18.3206,18.3206,Gates,Marion,988
+ZCTA5 97355,31118,12014,2323,2393,97355,,19.3358,19.9184,Lebanon,Linn,30364
+ZCTA5 97374,4394,1817,120,148,97374,,6.6043,8.1453,Scio,Linn,4521
+ZCTA5 97381,16420,5739,700,831,97381,,12.1972,14.4799,Silverton,Marion,16158
+ZCTA5 97412,681,230,36,36,97412,,15.6522,15.6522,Blachly,Lane,518
+ZCTA5 97431,2289,745,218,218,97431,,29.2617,29.2617,Dexter,Lane,2341
+ZCTA5 97436,740,338,60,60,97436,,17.7515,17.7515,Elkton,Douglas,698
+ZCTA5 97455,3184,991,78,90,97455,,7.8708,9.0817,Pleasant Hill,Lane,3175
+ZCTA5 97463,3801,1658,646,659,97463,,38.9626,39.7467,Oakridge,Lane,3899
+ZCTA5 97473,293,143,6,16,97473,,4.1958,11.1888,Scottsburg,Douglas,254
+ZCTA5 97536,1151,511,118,121,97536,,23.092,23.6791,Prospect,Jackson,1031
+ZCTA5 97540,8554,3886,792,802,97540,,20.3809,20.6382,Talent,Jackson,8484
+ZCTA5 97601,23020,10107,2654,2750,97601,,26.259,27.2089,Klamath Falls,Klamath,22726
+ZCTA5 97818,4352,1433,272,280,97818,,18.9812,19.5394,Boardman,Morrow,4244
+ZCTA5 97639,479,177,85,101,97639,,48.0226,57.0621,Sprague River,Klamath,659
+ZCTA5 97712,65,20,0,0,97712,,0.0,0.0,Brothers,Deschutes,86
+ZCTA5 97753,2594,1021,111,148,97753,,10.8717,14.4956,Powell Butte,Crook,2570
+ZCTA5 97869,944,448,79,85,97869,,17.6339,18.9732,Prairie City,Grant,930
+ZCTA5 97877,334,203,36,36,97877,,17.734,17.734,Sumpter,Baker,282
+ZCTA5 97870,644,318,13,13,97870,,4.0881,4.0881,Richland,Baker,798
+ZCTA5 97828,3135,1429,198,203,97828,,13.8558,14.2057,Enterprise,Wallowa,3162
+ZCTA5 97016,6329,2615,442,450,97016,,16.9025,17.2084,Clatskanie,Columbia,6224
+ZCTA5 97267,33250,13886,1520,1566,97267,,10.9463,11.2775,Portland,Clackamas,33636
+ZCTA5 97461,823,372,73,73,97461,,19.6237,19.6237,Noti,Lane,834
+ZCTA5 97884,103,62,4,5,97884,,6.4516,8.0645,Unity,Baker,129
+ZCTA5 97449,1955,1004,144,144,97449,,14.3426,14.3426,Lakeside,Coos,2170
+ZCTA5 97501,47160,18685,4909,4918,97501,,26.2724,26.3206,Medford,Jackson,45993
+ZCTA5 97531,307,134,0,0,97531,,0.0,0.0,Kerby,Josephine,578
+ZCTA5 97627,558,206,7,7,97627,,3.3981,3.3981,Keno,Klamath,638
+ZCTA5 97758,76,32,8,8,97758,,25.0,25.0,Riley,Harney,89
+ZCTA5 97063,727,374,47,59,97063,,12.5668,15.7754,Tygh Valley,Wasco,900
+ZCTA5 97024,10014,4565,664,705,97024,,14.5455,15.4436,Fairview,Multnomah,10344
+ZCTA5 97028,162,127,0,0,97028,,0.0,0.0,Government Camp,Clackamas,192
+ZCTA5 97041,3084,882,166,166,97041,,18.8209,18.8209,Mount Hood Parkdale,Hood River,2979
+ZCTA5 97060,22133,6933,853,938,97060,,12.3035,13.5295,Troutdale,Multnomah,22471
+ZCTA5 97111,3441,1222,102,102,97111,,8.347,8.347,Carlton,Yamhill,3572
+ZCTA5 97119,5309,1749,185,204,97119,,10.5775,11.6638,Gaston,Washington,4527
+ZCTA5 97145,298,186,0,0,97145,,0.0,0.0,Tolovana Park,Clatsop,352
+ZCTA5 97203,34759,12805,2162,2340,97203,,16.884,18.2741,Portland,Multnomah,34890
+ZCTA5 97206,54248,21211,2858,3270,97206,,13.4741,15.4165,Portland,Multnomah,52996
+ZCTA5 97209,19824,13633,1930,2176,97209,,14.1568,15.9613,Portland,Multnomah,18982
+ZCTA5 97211,35738,14336,1709,1803,97211,,11.921,12.5767,Portland,Multnomah,35429
+ZCTA5 97214,28348,14052,1312,1493,97214,,9.3367,10.6248,Portland,Multnomah,26853
+ZCTA5 97231,3975,1675,99,109,97231,,5.9104,6.5075,Portland,Multnomah,3957
+ZCTA5 97304,32435,12593,1493,1604,97304,,11.8558,12.7372,Salem,Polk,31863
+ZCTA5 97306,32741,12387,1211,1399,97306,,9.7764,11.2941,Salem,Marion,32416
+ZCTA5 97357,194,120,0,0,97357,,0.0,0.0,Logsden,Lincoln,174
+ZCTA5 97366,1980,880,107,128,97366,,12.1591,14.5455,South Beach,Lincoln,1772
+ZCTA5 97371,592,304,93,93,97371,,30.5921,30.5921,Rickreall,Polk,659
+ZCTA5 97385,3355,1355,47,47,97385,,3.4686,3.4686,Sublimity,Marion,3151
+ZCTA5 97389,1929,699,75,75,97389,,10.7296,10.7296,Tangent,Linn,1858
+ZCTA5 97424,18361,7310,1819,2032,97424,,24.8837,27.7975,Cottage Grove,Lane,17909
+ZCTA5 97426,9987,3758,503,511,97426,,13.3848,13.5977,Creswell,Lane,10119
+ZCTA5 97434,903,296,70,70,97434,,23.6486,23.6486,Dorena,Lane,959
+ZCTA5 97458,4488,2072,559,576,97458,,26.9788,27.7992,Myrtle Point,Coos,4390
+ZCTA5 97462,4014,1669,313,313,97462,,18.7537,18.7537,Oakland,Douglas,3730
+ZCTA5 97465,1838,1055,402,402,97465,,38.1043,38.1043,Port Orford,Curry,2021
+ZCTA5 97466,1197,450,132,132,97466,,29.3333,29.3333,Powers,Coos,1272
+ZCTA5 97488,1165,474,64,69,97488,,13.5021,14.557,Vida,Lane,1219
+ZCTA5 97490,439,132,35,35,97490,,26.5152,26.5152,Walton,Lane,257
+ZCTA5 97503,13008,4364,886,898,97503,,20.3025,20.5775,White City,Jackson,12819
+ZCTA5 97522,650,270,69,69,97522,,25.5556,25.5556,Butte Falls,Jackson,588
+ZCTA5 97523,5885,2771,817,836,97523,,29.4839,30.1696,Cave Junction,Josephine,5485
+ZCTA5 97543,482,198,8,8,97543,,4.0404,4.0404,Wilderville,Josephine,600
+ZCTA5 97544,2594,1066,93,93,97544,,8.7242,8.7242,Williams,Josephine,2606
+ZCTA5 97731,458,208,85,85,97731,,40.8654,40.8654,Chemult,Klamath,371
+ZCTA5 97754,20985,8913,1674,1748,97754,,18.7816,19.6118,Prineville,Crook,20270
+ZCTA5 97620,106,75,9,9,97620,,12.0,12.0,Adel,Lake,177
+ZCTA5 97621,260,126,42,42,97621,,33.3333,33.3333,Beatty,Klamath,150
+ZCTA5 97622,335,166,58,58,97622,,34.9398,34.9398,Bly,Klamath,458
+ZCTA5 97623,2672,1161,240,240,97623,,20.6718,20.6718,Bonanza,Klamath,2566
+ZCTA5 97710,102,52,0,0,97710,,0.0,0.0,Fields,Harney,115
+ZCTA5 97720,4383,1944,401,406,97720,,20.6276,20.8848,Burns,Harney,4435
+ZCTA5 97735,48,37,0,0,97735,,0.0,0.0,Fort Rock,Lake,97
+ZCTA5 97360,2415,901,209,218,97360,,23.1964,24.1953,Mill City,Linn,2458
+ZCTA5 97362,4322,1540,239,239,97362,,15.5195,15.5195,Mount Angel,Marion,4287
+ZCTA5 97367,10023,4514,808,824,97367,,17.8999,18.2543,Lincoln City,Lincoln,9746
+ZCTA5 97370,8861,3314,260,283,97370,,7.8455,8.5395,Philomath,Benton,8695
+ZCTA5 97380,2272,818,261,261,97380,,31.9071,31.9071,Siletz,Lincoln,2583
+ZCTA5 97456,3056,1200,218,218,97456,,18.1667,18.1667,Monroe,Benton,2826
+ZCTA5 97632,1731,531,106,110,97632,,19.9623,20.7156,Malin,Klamath,1571
+ZCTA5 97865,1511,680,99,99,97865,,14.5588,14.5588,Mount Vernon,Grant,1091
+ZCTA5 97873,274,140,8,9,97873,,5.7143,6.4286,Seneca,Grant,295
+ZCTA5 97876,1034,357,34,34,97876,,9.5238,9.5238,Summerville,Union,960
+ZCTA5 97880,367,167,53,62,97880,,31.7365,37.1257,Ukiah,Umatilla,338
+ZCTA5 97886,990,348,67,67,97886,,19.2529,19.2529,Weston,Umatilla,1256
+ZCTA5 97901,710,269,36,36,97901,,13.3829,13.3829,Adrian,Malheur,710
+ZCTA5 97903,21,10,0,0,97903,,0.0,0.0,Brogan,Malheur,51
+ZCTA5 97420,27906,12092,2801,2853,97420,,23.1641,23.5941,Coos Bay,Coos,27926
+ZCTA5 97040,1725,616,22,22,97040,,3.5714,3.5714,Mosier,Wasco,1623
+ZCTA5 97132,29851,10602,881,964,97132,,8.3098,9.0926,Newberg,Yamhill,29732
+ZCTA5 97232,14140,7996,790,993,97232,,9.8799,12.4187,Portland,Multnomah,13706
+ZCTA5 97033,42,26,0,0,97033,,0.0,0.0,Kent,Sherman,50
+ZCTA5 97333,23493,9775,1062,1108,97333,,10.8645,11.335,Corvallis,Benton,23302
+ZCTA5 97377,827,297,0,0,97377,,0.0,0.0,Shedd,Linn,967
+ZCTA5 97423,6521,3006,585,621,97423,,19.4611,20.6587,Coquille,Coos,6670
+ZCTA5 97837,83,57,0,0,97837,,0.0,0.0,Hereford,Baker,60
+ZCTA5 97856,357,205,34,34,97856,,16.5854,16.5854,Long Creek,Grant,358
+ZCTA5 97205,7679,5286,1515,1545,97205,,28.6606,29.2281,Portland,Multnomah,7462
+ZCTA5 97301,57194,19310,5657,6034,97301,,29.2957,31.2481,Salem,Marion,56196
+ZCTA5 97375,1241,395,31,50,97375,,7.8481,12.6582,Scotts Mills,Marion,1477
+ZCTA5 97429,881,355,61,61,97429,,17.1831,17.1831,Days Creek,Douglas,746
+ZCTA5 97467,5017,2242,407,407,97467,,18.1534,18.1534,Reedsport,Douglas,5014
+ZCTA5 97541,1720,691,203,203,97541,,29.3777,29.3777,Trail,Jackson,1559
+ZCTA5 97450,508,272,25,25,97450,,9.1912,9.1912,Langlois,Curry,413
+ZCTA5 97451,464,167,14,14,97451,,8.3832,8.3832,Lorane,Lane,391
+ZCTA5 97479,9876,4410,811,860,97479,,18.39,19.5011,Sutherlin,Douglas,9710
+ZCTA5 97498,1830,868,86,86,97498,,9.9078,9.9078,Yachats,Lincoln,1673
+ZCTA5 97525,4293,1909,204,253,97525,,10.6862,13.253,Gold Hill,Jackson,4350
+ZCTA5 97635,164,94,28,28,97635,,29.7872,29.7872,New Pine Creek,Lake,170
+ZCTA5 97641,1440,783,116,116,97641,,14.8148,14.8148,Christmas Valley,Lake,1196
+ZCTA5 97701,74255,29648,2498,2619,97701,,8.4255,8.8336,Bend,Deschutes,69499
+ZCTA5 97722,54,25,0,0,97722,,0.0,0.0,Diamond,Harney,65
+ZCTA5 97733,462,239,81,81,97733,,33.8912,33.8912,Crescent,Klamath,391
+ZCTA5 97737,467,236,23,23,97737,,9.7458,9.7458,Gilchrist,Klamath,591
+ZCTA5 97741,12791,4430,1507,1535,97741,,34.0181,34.6501,Madras,Jefferson,12608
+ZCTA5 97750,340,157,18,18,97750,,11.465,11.465,Mitchell,Wheeler,354
+ZCTA5 97756,39342,15252,2474,2690,97756,,16.2208,17.637,Redmond,Deschutes,38844
+ZCTA5 97760,7364,3076,369,380,97760,,11.9961,12.3537,Terrebonne,Deschutes,6872
+ZCTA5 97906,262,95,12,12,97906,,12.6316,12.6316,Harper,Malheur,317
+ZCTA5 97913,5007,1777,430,434,97913,,24.1981,24.4232,Nyssa,Malheur,4875
+ZCTA5 97015,24332,9403,1293,1345,97015,,13.7509,14.3039,Clackamas,Clackamas,23633
+ZCTA5 97037,805,399,67,67,97037,,16.792,16.792,Maupin,Wasco,975
+ZCTA5 97065,626,275,56,56,97065,,20.3636,20.3636,Wasco,Sherman,598
+ZCTA5 97113,14689,4919,368,450,97113,,7.4812,9.1482,Cornelius,Washington,14918
+ZCTA5 97123,49522,16231,1851,2065,97123,,11.4041,12.7226,Hillsboro,Washington,49317
+ZCTA5 97133,4948,1813,76,85,97133,,4.1919,4.6884,North Plains,Washington,4734
+ZCTA5 97138,10799,4700,846,1022,97138,,18.0,21.7447,Seaside,Clatsop,10693
+ZCTA5 97326,1397,489,72,72,97326,,14.7239,14.7239,Blodgett,Benton,1205
+ZCTA5 97204,1162,512,234,234,97204,,45.7031,45.7031,Portland,Multnomah,1036
+ZCTA5 97212,28770,11547,1056,1270,97212,,9.1452,10.9985,Portland,Multnomah,26562
+ZCTA5 97215,17354,7356,762,820,97215,,10.3589,11.1474,Portland,Multnomah,18934
+ZCTA5 97321,27131,10407,1310,1393,97321,,12.5877,13.3852,Albany,Linn,26995
+ZCTA5 97350,149,54,14,18,97350,,25.9259,33.3333,Idanha,Marion,210
+ZCTA5 97814,12269,5275,930,941,97814,,17.6303,17.8389,Baker City,Baker,12348
+ZCTA5 97835,421,180,19,19,97835,,10.5556,10.5556,Helix,Umatilla,264
+ZCTA5 97867,975,368,102,115,97867,,27.7174,31.25,North Powder,Union,811
+ZCTA5 97874,431,184,25,27,97874,,13.587,14.6739,Spray,Wheeler,444
+ZCTA5 97905,91,44,29,29,97905,,65.9091,65.9091,Durkee,Baker,85
+ZCTA5 97907,546,238,72,72,97907,,30.2521,30.2521,Huntington,Baker,501
+ZCTA5 97918,4533,1652,411,428,97918,,24.8789,25.908,Vale,Malheur,4224
+ZCTA5 97850,17388,7071,1544,1632,97850,,21.8357,23.0802,La Grande,Union,17294
+ZCTA5 97864,260,168,15,15,97864,,8.9286,8.9286,Monument,Grant,226
+ZCTA5 97910,626,214,17,36,97910,,7.9439,16.8224,Jordan Valley,Malheur,526
+ZCTA5 97004,3964,1651,75,95,97004,,4.5427,5.7541,Beavercreek,Clackamas,4241
+ZCTA5 97017,3787,1245,232,246,97017,,18.6345,19.759,Colton,Clackamas,3407
+ZCTA5 97021,1283,553,51,53,97021,,9.2224,9.5841,Dufur,Wasco,1012
+ZCTA5 97845,2152,1062,197,197,97845,,18.5499,18.5499,John Day,Grant,2835
+ZCTA5 97825,336,170,9,9,97825,,5.2941,5.2941,Dayville,Grant,248
+ZCTA5 97838,26071,8938,1836,1854,97838,,20.5415,20.7429,Hermiston,Umatilla,26153
+ZCTA5 97842,91,54,6,6,97842,,11.1111,11.1111,Imnaha,Wallowa,118
+ZCTA5 97848,236,90,2,2,97848,,2.2222,2.2222,Kimberly,Grant,192
+ZCTA5 97883,2256,974,144,152,97883,,14.7844,15.6057,Union,Union,2526
+ZCTA5 97885,1244,519,54,54,97885,,10.4046,10.4046,Wallowa,Wallowa,1295
+ZCTA5 97914,19281,5945,1859,1887,97914,,31.27,31.741,Ontario,Malheur,19400
+ZCTA5 97029,313,115,24,28,97029,,20.8696,24.3478,Grass Valley,Sherman,269
+ZCTA5 97001,385,82,29,42,97001,,35.3659,51.2195,Antelope,Wasco,338
+ZCTA5 97013,24396,8505,1075,1187,97013,,12.6396,13.9565,Canby,Clackamas,24138
+ZCTA5 97022,3918,1532,228,228,97022,,14.8825,14.8825,Eagle Creek,Clackamas,3386
+ZCTA5 97002,6418,2270,273,306,97002,,12.0264,13.4802,Aurora,Marion,6657
+ZCTA5 97005,27393,11850,1965,2069,97005,,16.5823,17.4599,Beaverton,Washington,26329
+ZCTA5 97011,813,370,36,36,97011,,9.7297,9.7297,Brightwood,Clackamas,840
+ZCTA5 97018,1696,715,45,45,97018,,6.2937,6.2937,Columbia City,Columbia,1789

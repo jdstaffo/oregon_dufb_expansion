@@ -12,12 +12,8 @@ import requests
 # setting variable api to the American Community Survey 5-Year API endpoint for 2020
 api = "https://api.census.gov/data/2020/acs/acs5"
 
-# setting the for clause of the query
-for_clause = "tract:*"
-
-# setting the in clause of the query
-# state = Oregon
-in_clause = "state:41"
+# setting the for clause of the query to zip code tabulation areas
+for_clause = "zip code tabulation area:*"
 
 # my Census API key
 key_value = "8a0c471829f0b6d031bc0e9f473f796194d1323f"
@@ -27,7 +23,7 @@ key_value = "8a0c471829f0b6d031bc0e9f473f796194d1323f"
 # B11001_001E: TOTAL HOUSEHOLDS (FAMILY AND NONFAMILY)
 # B22001_002E: RECEIPT OF FOOD STAMPS/SNAP IN THE PAST 12 MONTHS FOR HOUSEHOLDS (002 = YES)
 # B19058_002E: PUBLIC ASSISTANCE INCOME OR FOOD STAMPS/SNAP IN THE PAST 12 MONTHS FOR HOUSEHOLDS (002 = YES)
-payload = {"get":"NAME,B01003_001E,B11001_001E,B22001_002E,B19058_002E", "for":for_clause, "in":in_clause, "key":key_value}
+payload = {"get":"NAME,B01003_001E,B11001_001E,B22001_002E,B19058_002E", "for":for_clause, "key":key_value}
 
 # calling the request
 response = requests.get(api, payload)
@@ -57,11 +53,26 @@ acs_data = pd.DataFrame(columns=colnames, data=datarows)
 acs_data = acs_data.rename(columns = {"B01003_001E":"Population",
                                       "B11001_001E":"Households",
                                       "B22001_002E":"Receipt of SNAP",
-                                      "B19058_002E":"Public Assist"})
+                                      "B19058_002E":"Public Assist",
+                                      "zip code tabulation area": "ZIP"})
 
-# creating new column for each tract's GEOID
-# GEOID: state, county, and tract IDs
-acs_data["GEOID"] = acs_data["state"]+acs_data["county"]+acs_data["tract"]
+#%% Selecting out Oregon zip codes
+
+# reading in list of Oregon zip codes
+or_zips = pd.read_csv("oregon_zip_codes_database.csv", dtype=str)
+
+# renaming columns
+or_zips = or_zips.rename(columns = {"zip": "ZIP"})
+
+# merging the two sets of data on the GEIOD column
+oregon_acs_data = acs_data.merge(or_zips, on="ZIP", how="inner", validate="1:1", indicator=True)
+
+# printing the merge indicator
+print("\nMerge indicator:")
+print(oregon_acs_data["_merge"].value_counts())
+
+# dropping the "_merge" column
+oregon_acs_data = oregon_acs_data.drop(columns = ["_merge"])
 
 # writing to output csv
-acs_data.to_csv("2020_ACS_API_request.csv", index=False)
+oregon_acs_data.to_csv("2020_ACS_API_request.csv", index=False)

@@ -7,8 +7,6 @@ Created on Fri Apr 29 14:19:49 2022
 """
 
 import pandas as pd
-import geopandas as gpd
-import os
 
 # reading in input file of high need tracts
 high_need = pd.read_csv("high_need.csv")
@@ -40,4 +38,5 @@ dup_high_need = high_need.duplicated(subset = "GEOID", keep=False)
 dups = high_need[dup_high_need]
 print("\nDuplicated records:")
 print(dups)
+
 
