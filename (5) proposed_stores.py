@@ -8,13 +8,20 @@ Created on Fri Apr 29 14:19:49 2022
 
 import pandas as pd
 
-# reading in input file of high need tracts
-high_need = pd.read_csv("high_need.csv")
 
-# converting geography codes to strings as needed
-high_need["COUNTYFP"] = high_need["COUNTYFP"].astype(str)
-high_need["TRACTCE"] = high_need["TRACTCE"].astype(str)
-high_need["GEOID"] = high_need["GEOID"].astype(str)
+## OREGON API FOR GROCERY STORES IN HIGH NEED ZIP CODES
+# use input file to print list of zip codes
+# and then do oregon api
+# somehow narrow down to stores with "grocery" or "market" or "co-op"
+
+
+# reading in input file of high need tracts
+high_need = pd.read_csv("high_need_geodata.csv", dtype=str)
+
+
+
+
+#%%
 
 # reading in input crosswalk file of zip codes and census tracts and prepping for merge
 zip_tracts = pd.read_csv("ZIP_TRACT_122021.csv", dtype=str)

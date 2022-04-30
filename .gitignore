@@ -4,3 +4,5 @@
 tract_data.gpkg-shm
 tract_data.gpkg-wal
 *.icloud
+*.gpkg-shm
+*.gpkg-wal
