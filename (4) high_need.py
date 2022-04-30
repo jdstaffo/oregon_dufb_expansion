@@ -51,3 +51,6 @@ if os.path.exists("high_need_data.gpkg"):
 new_geodata.to_file("high_need_data.gpkg", layer="GEOID", index=False)
 new_geodata.to_file("high_need_data.gpkg", layer="COUNTYFP", index=False)
 new_geodata.to_file("high_need_data.gpkg", layer="Percent SNAP", index=False)
+
+# writing to output csv file
+new_geodata.to_csv("zip_geodata.csv", index=False)

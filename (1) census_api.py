@@ -58,21 +58,43 @@ acs_data = acs_data.rename(columns = {"B01003_001E":"Population",
 
 #%% Selecting out Oregon zip codes
 
-# reading in list of Oregon zip codes
-or_zips = pd.read_csv("oregon_zip_codes_database.csv", dtype=str)
+# reading in list of zip codes in every state
+us_zips_list = pd.read_csv("zip_code_database.csv", dtype=str)
 
 # renaming columns
-or_zips = or_zips.rename(columns = {"zip": "ZIP"})
+us_zips_list = us_zips_list.rename(columns = {"zip":"ZIP",
+                                              "state":"State",
+                                              "county":"County",
+                                              "type": "Type",
+                                              "primary_city":"Primary City"})
 
-# merging the two sets of data on the GEIOD column
-oregon_acs_data = acs_data.merge(or_zips, on="ZIP", how="inner", validate="1:1", indicator=True)
+# dropping unnecessary columns
+us_zips_list = us_zips_list.drop(columns = ["decommissioned",
+                                            "acceptable_cities",
+                                            "unacceptable_cities",
+                                            "timezone",
+                                            "area_codes",
+                                            "world_region",
+                                            "country",
+                                            "latitude",
+                                            "longitude",
+                                            "irs_estimated_population"])
+
+# selecting out Oregon zip codes
+oregon_zips = us_zips_list.query("State == 'OR'")
+
+#%%
+# merging the two sets of data on the ZIP column
+oregon_geodata = acs_data.merge(oregon_zips, on="ZIP", how="inner", validate="1:1", indicator=True)
 
 # printing the merge indicator
 print("\nMerge indicator:")
-print(oregon_acs_data["_merge"].value_counts())
+print(oregon_geodata["_merge"].value_counts())
 
 # dropping the "_merge" column
-oregon_acs_data = oregon_acs_data.drop(columns = ["_merge"])
+oregon_geodata = oregon_geodata.drop(columns = ["_merge"])
+
+#%%
 
 # writing to output csv
-oregon_acs_data.to_csv("2020_ACS_API_request.csv", index=False)
+oregon_geodata.to_csv("2020_ACS_API_ZCTA_request.csv", index=False)
