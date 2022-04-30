@@ -39,13 +39,28 @@ print(zip_geodata["_merge"].value_counts())
 # dropping the "_merge" column
 zip_geodata = zip_geodata.drop(columns = ["_merge"])
 
+#%% SPATIAL JOIN 
+
+# reading in states shapefile
+states = gpd.read_file("s_22mr22.zip")
+
+# selecting Oregon (state 41)
+oregon_state = states.query("STATE == 'OR'")
+
+# clipping the zip_geodata at the state boundary - to cut zip codes that are partially outside of the state
+or_zips_geodata = zip_geodata.clip(oregon_state, keep_geom_type=True)
+
+# setting to desired projection
+or_zips_geodata = or_zips_geodata.to_crs(epsg = 2992)
+
 # checking to see if the output file already exists
-if os.path.exists("zip_geodata.gpkg"):
-    os.remove("zip_geodata.gpkg")
+if os.path.exists("oregon_zip_geodata.gpkg"):
+    os.remove("oregon_zip_geodata.gpkg")
 
 # writing to output geopackage file
-zip_geodata.to_file("zip_geodata.gpkg", layer="ZIP", index=False)
-zip_geodata.to_file("zip_geodata.gpkg", layer="Percent SNAP", index=False)
+or_zips_geodata.to_file("oregon_zip_geodata.gpkg", layer="ZIP", index=False)
+or_zips_geodata.to_file("oregon_zip_geodata.gpkg", layer="Percent SNAP", index=False)
+oregon_state.to_file("oregon_state_geodata.gpkg", layer = "geometry", index=False)
 
 # writing to output csv file
 zip_geodata.to_csv("zip_geodata.csv", index=False)
