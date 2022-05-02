@@ -7,43 +7,42 @@ Created on Fri Apr 29 14:19:49 2022
 """
 
 import pandas as pd
+from sodapy import Socrata
+import requests
+import os
 
 
 ## OREGON API FOR GROCERY STORES IN HIGH NEED ZIP CODES
 # use input file to print list of zip codes
 # and then do oregon api
-# somehow narrow down to stores with "grocery" or "market" or "co-op"
+# somehow narrow down to stores with "grocery" or "food" or "market" or "co-op"
 
 
-# reading in input file of high need tracts
+# reading in input file of high need zip codes
 high_need = pd.read_csv("high_need_geodata.csv", dtype=str)
 
+# narrowing down to just the zip codes themselves
+hn_zips = high_need["ZIP"]
 
+print("\nHigh-need zip codes:")
+print(hn_zips)
 
+#%% OREGON API
 
-#%%
+# setting the api destination - url and specific data set
+data_url = "data.oregon.gov"
+data_set = "tckn-sxa6.json?zip="
 
-# reading in input crosswalk file of zip codes and census tracts and prepping for merge
-zip_tracts = pd.read_csv("ZIP_TRACT_122021.csv", dtype=str)
-zip_tracts = zip_tracts.rename(columns={"tract":"GEOID"})
-OR_zip_tracts = zip_tracts.query("usps_zip_pref_state == 'OR'")
-zip_tracts_trim = OR_zip_tracts[["zip", "GEOID"]].copy()
+# pointing to the api endpoint
+client = Socrata(data_url, None, timeout=20)
 
-# merging the two sets of data on the tract ID column
-high_need = high_need.merge(zip_tracts_trim, on="GEOID", how="left", validate="m:m", indicator=True)
-
-# printing the merge indicator
-print("\nMerge indicator:")
-print(high_need["_merge"].value_counts())
-
-# printing the tracts without zip codes
-print("\nTracts without zip codes:")
-print(high_need["zip"].isna())
-
-# finding duplicate records - some census tracts overlap with multiple zip codes
-dup_high_need = high_need.duplicated(subset = "GEOID", keep=False)
-dups = high_need[dup_high_need]
-print("\nDuplicated records:")
-print(dups)
-
-
+# setting up for loop
+for z in hn_zips:
+    response = client.get(data_set, where="zip == z", limit=1000)
+    if response.status_code == 200:
+        print("\nSuccess: response status code is", response.status_code)
+    else:
+        print(response.status_code)
+        print(response.text)
+        assert False
+    row_list = response.json()
