@@ -7,11 +7,8 @@ Created on Fri Apr 29 14:19:49 2022
 """
 
 import pandas as pd
-from sodapy import Socrata
 import requests
 import json
-import os
-
 
 # reading in input file of high need zip codes
 high_need = pd.read_csv("high_need_geodata.csv")
@@ -25,13 +22,11 @@ hn_zips = high_need["ZIP"].to_list()
 print("\nHigh-need zip codes:")
 print(hn_zips)
 
-#%% OREGON API
-
 # setting up the API endpoint
 api = "https://data.oregon.gov/resource/tckn-sxa6.json"
 
 # setting up the payload
-payload = {"entity_type":"DOMESTIC BUSINESS CORPORATION"}
+payload = {"state":"OR"}
 
 # looping through zips of interest and collecting the results in a large dictionary
 # using zip codes as keys
@@ -45,29 +40,15 @@ result = {}
 for z in hn_zips:
     payload["zip"] = z
     response = requests.get(api,payload)
-    print(response.status_code)
-    result[z] = response.json() 
+    print("\nResponse status code is", response.status_code)
+    result[z] = pd.DataFrame.from_records(response.json())
 
-#%% writing dictionary of results to output csv file
+# creating dataframe from results
+high_need_businesses = pd.concat(result)
 
-import csv
+# dropping unnecessary columns
+high_need_businesses = high_need_businesses.drop(columns = ["jurisdiction", "first_name", "middle_name", "last_name",
+                                                            "suffix", "entity_of_record_reg_number", "entity_of_record_name"])
 
-# setting up fields for the dataframe
-fields = ["registry_number", "business_name", "entity_type", "registry_date", "associated_name_type", "first_name",
-          "last name", "address", "city", "state", "zip", "jurisdiction", "business_details"]
-
-# opening output file for writing
-fh = open("high_need_businesses.csv", "w", newline = "")
-
-# setting up the writer object
-writer = csv.DictWriter(fh, fields)
-
-# calling writer to write the field names in the first line of the output file
-writer.writeheader()
-
-# writing the rows based on the values in result
-for key in result:
-    writer.writerow(result[key])
-
-fh.close()
-
+# writing to output file
+high_need_businesses.to_csv("high_need_businesses.csv", index=False)

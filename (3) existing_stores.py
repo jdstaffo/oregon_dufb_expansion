@@ -20,7 +20,7 @@ stores_list = stores["Full address"].tolist()
 
 # geolocating coordinates of stores
 
-# API endpoint
+# coordinates API endpoint
 api = "https://nominatim.openstreetmap.org/search"
 
 # looping through the addresses and building a list of results

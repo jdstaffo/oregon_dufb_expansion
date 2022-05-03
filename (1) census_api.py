@@ -9,7 +9,7 @@ Created on Wed Apr  6 16:40:02 2022
 import pandas as pd
 import requests
 
-# setting variable api to the American Community Survey 5-Year API endpoint for 2020
+# setting variable api to the American Community Survey 5-Year API endpoint for 2019
 api = "https://api.census.gov/data/2019/acs/acs5"
 
 # setting the for clause of the query to zip code tabulation areas
