@@ -27,7 +27,7 @@ print(hn_zips)
 api = "https://data.oregon.gov/resource/tckn-sxa6.json"
 
 # setting up the payload
-payload = {"state":"OR"}
+payload = {"state":"OR", "$limit":"50000"}
 
 # looping through zips of interest and collecting the results in a large dictionary
 # using zip codes as keys
@@ -43,6 +43,7 @@ for z in hn_zips:
     response = requests.get(api,payload)
     print("\nResponse status code is", response.status_code)
     result[z] = pd.DataFrame.from_records(response.json())
+    print(len(result[z]))
 
 # creating dataframe from results
 high_need_businesses = pd.concat(result)

@@ -28,9 +28,9 @@ print("\nDuplicate business records:", dups.sum())
 high_need_biz = high_need_biz.drop_duplicates(subset = "registry_number")
 
 # sorting through high need business API results to find grocery-adjacent stores
-search_hn_biz1 = high_need_biz.loc[high_need_biz["business_name"].str.contains("food | foods", case=False)]
-search_hn_biz2 = high_need_biz.loc[high_need_biz["business_name"].str.contains("grocery | market", case=False)]
-search_hn_biz3 = high_need_biz.loc[high_need_biz["business_name"].str.contains("fruit | vegetable", case=False)]
+search_hn_biz1 = high_need_biz.loc[high_need_biz["business_name"].str.contains("\bfood\b|\bfoods\b", case=False, regex=True)]
+search_hn_biz2 = high_need_biz.loc[high_need_biz["business_name"].str.contains("\bgrocery\b|\bmarket\b", case=False, regex=True)]
+search_hn_biz3 = high_need_biz.loc[high_need_biz["business_name"].str.contains("\bfruit\b|\bvegetable\b", case=False, regex=True)]
 
 # joining the search databases
 sorted_hn_biz = pd.concat([search_hn_biz1, search_hn_biz2, search_hn_biz3])
