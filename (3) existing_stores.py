@@ -55,6 +55,7 @@ store_coords = store_coords.dropna()
 # finding duplicate records
 dup_store_coords = store_coords.duplicated(subset = "query", keep=False)
 dups = store_coords[dup_store_coords]
+print("\nDuplicated records:")
 print(dups)
 
 # selecting duplicate records to keep - reivew of coordinates has to be done by hand
