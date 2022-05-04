@@ -11,14 +11,14 @@ import geopandas as gpd
 import os
 
 # reading in input file of ACS data
-oregon_acs_data = pd.read_csv("2020_ACS_API_ZCTA_request.csv", dtype=str)
+oregon_acs_data = pd.read_csv("2019_ACS_API_ZCTA_request.csv", dtype=str)
 
 # creating new column for percentage of households recieving SNAP or public assistance more broadly in each tracto
 oregon_acs_data["Percent SNAP"] = round(oregon_acs_data["Receipt of SNAP"].astype(float) / oregon_acs_data["Households"].astype(float) * 100, 4)
 oregon_acs_data["Percent Public Assist"] = round(oregon_acs_data["Public Assist"].astype(float) / oregon_acs_data["Households"].astype(float) * 100, 4)
 
 # saving new columns to new csv
-oregon_acs_data.to_csv("2020_ACS_with_percents.csv", index=False)
+oregon_acs_data.to_csv("2019_ACS_with_percents.csv", index=False)
 
 # trimming it for joining onto geography data
 oregon_acs_trim = oregon_acs_data[["ZIP", "Percent SNAP", "County", "Households"]].copy()
@@ -61,6 +61,10 @@ if os.path.exists("oregon_zip_geodata.gpkg"):
 or_zips_geodata.to_file("oregon_zip_geodata.gpkg", layer="ZIP", index=False)
 or_zips_geodata.to_file("oregon_zip_geodata.gpkg", layer="Percent SNAP", index=False)
 oregon_state.to_file("oregon_state_geodata.gpkg", layer = "geometry", index=False)
+
+# checking to see if the output file already exists
+if os.path.exists("zip_geodata.csv"):
+    os.remove("zip_geodata.csv")
 
 # writing to output csv file
 zip_geodata.to_csv("zip_geodata.csv", index=False)

@@ -9,6 +9,7 @@ Created on Mon May  2 19:24:10 2022
 import pandas as pd
 import requests
 import json
+import os
 
 # reading in input file of high need business data from Oregon API
 high_need_biz = pd.read_csv("high_need_businesses.csv", dtype=str)
@@ -38,7 +39,8 @@ print(sorted_hn_biz["business_name"])
 
 
 
-## DO NOT REDO THIS SECTION WITHOUT CHECKING REMAINDER OF SCRIPT BY HAND
+## CHECK REMAINDER OF SCRIPT BY HAND
+## BECAUSE OF NEW API CALL 5/4/22 9:30am
 
 
 
@@ -118,5 +120,9 @@ proposed_hn_biz.at[0,"lon"] = "-121.89524677488562"
 
 # dropping the "_merge" column
 proposed_hn_biz = proposed_hn_biz.drop(columns = ["_merge"])
+
+# checking to see if the output file already exists
+if os.path.exists("proposed_hn_biz_geodata.csv"):
+    os.remove("proposed_hn_biz_geodata.csv")
 
 proposed_hn_biz.to_csv("proposed_hn_biz_geodata.csv", index=False)

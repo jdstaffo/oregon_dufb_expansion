@@ -8,6 +8,7 @@ Created on Wed Apr  6 16:40:02 2022
 
 import pandas as pd
 import requests
+import os
 
 # setting variable api to the American Community Survey 5-Year API endpoint for 2019
 api = "https://api.census.gov/data/2019/acs/acs5"
@@ -59,5 +60,9 @@ acs_data = acs_data.rename(columns = {"B01003_001E":"Population",
                                       "B19058_002E":"Public Assist",
                                       "zip code tabulation area": "ZIP"})
 
+# checking to see if the output file already exists
+if os.path.exists("2019_ACS_API_ZCTA_request.csv"):
+    os.remove("2019_ACS_API_ZCTA_request.csv")
+
 # writing to output csv
-acs_data.to_csv("2020_ACS_API_ZCTA_request.csv", index=False)
+acs_data.to_csv("2019_ACS_API_ZCTA_request.csv", index=False)

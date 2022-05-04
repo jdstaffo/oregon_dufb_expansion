@@ -9,6 +9,7 @@ Created on Mon Apr 25 09:36:12 2022
 import pandas as pd
 import requests
 import json
+import os
 
 stores = pd.read_csv("existing_grocery_stores.csv", dtype=str)
 
@@ -82,5 +83,10 @@ stores.at[5,"lon"] = "-123.26453513123064"
 
 # dropping the "_merge" column and the "name" column for clarity
 stores = stores.drop(columns = ["_merge", "name"])
+
+# checking to see if the output file already exists
+if os.path.exists("existing_store_geodata.csv"):
+    os.remove("existing_store_geodata.csv")
+
 
 stores.to_csv("existing_store_geodata.csv", index=False)

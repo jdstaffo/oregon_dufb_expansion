@@ -48,5 +48,9 @@ if os.path.exists("high_need_data.gpkg"):
 # writing to output geopackage file
 new_geodata.to_file("high_need_geodata.gpkg", layer="Percent SNAP", index=False)
 
+# checking to see if the output file already exists
+if os.path.exists("high_need_geodata.csv"):
+    os.remove("high_need_geodata.csv")
+    
 # writing to output csv file
 new_geodata.to_csv("high_need_geodata.csv", index=False)

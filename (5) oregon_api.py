@@ -9,6 +9,7 @@ Created on Fri Apr 29 14:19:49 2022
 import pandas as pd
 import requests
 import json
+import os
 
 # reading in input file of high need zip codes
 high_need = pd.read_csv("high_need_geodata.csv")
@@ -50,5 +51,9 @@ high_need_businesses = pd.concat(result)
 high_need_businesses = high_need_businesses.drop(columns = ["jurisdiction", "first_name", "middle_name", "last_name",
                                                             "suffix", "entity_of_record_reg_number", "entity_of_record_name"])
 
+# checking to see if the output file already exists
+if os.path.exists("high_need_businesses.csv"):
+    os.remove("high_need_businesses.csv")
+    
 # writing to output file
 high_need_businesses.to_csv("high_need_businesses.csv", index=False)
