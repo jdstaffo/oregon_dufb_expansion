@@ -11,56 +11,54 @@ import requests
 import json
 import os
 
-# reading in input file of high need business data from Oregon API
-high_need_biz = pd.read_csv("high_need_businesses.csv", dtype=str)
+# reading in input file of high SNAP business data from Oregon API
+high_snap_biz = pd.read_csv("high_snap_businesses.csv", dtype=str)
 
 # removing duplicates from dataframe
 # specifically removing mailing addreses, authorized representatives, and registered agent entries
 # so that the resulting dataframe should just have principal places of business
 # most businesses are listed in triplicate with several address categories in the original Oregon database
-high_need_biz = high_need_biz[high_need_biz["associated_name_type"].str.contains("MAILING ADDRESS") == False]
-high_need_biz = high_need_biz[high_need_biz["associated_name_type"].str.contains("AUTHORIZED REPRESENTATIVE") == False]
-high_need_biz = high_need_biz[high_need_biz["associated_name_type"].str.contains("REGISTERED AGENT") == False]
+high_snap_biz = high_snap_biz[high_snap_biz["associated_name_type"].str.contains("MAILING ADDRESS") == False]
+high_snap_biz = high_snap_biz[high_snap_biz["associated_name_type"].str.contains("AUTHORIZED REPRESENTATIVE") == False]
+high_snap_biz = high_snap_biz[high_snap_biz["associated_name_type"].str.contains("REGISTERED AGENT") == False]
 
 # final duplicate check to see if any remain
-dups = high_need_biz.duplicated(subset = "registry_number", keep=False)
+dups = high_snap_biz.duplicated(subset = "registry_number", keep=False)
 print("\nDuplicate business records:", dups.sum())
-high_need_biz = high_need_biz.drop_duplicates(subset = "registry_number")
+high_snap_biz = high_snap_biz.drop_duplicates(subset = "registry_number")
 
-# sorting through high need business API results to find grocery-adjacent stores
-search_hn_biz1 = high_need_biz.loc[high_need_biz["business_name"].str.contains("\bfood\b|\bfoods\b", case=False, regex=True)]
-search_hn_biz2 = high_need_biz.loc[high_need_biz["business_name"].str.contains("\bgrocery\b|\bmarket\b", case=False, regex=True)]
-search_hn_biz3 = high_need_biz.loc[high_need_biz["business_name"].str.contains("\bfruit\b|\bvegetable\b", case=False, regex=True)]
+# sorting through high SNAP business API results to find grocery-adjacent stores
+search_hs_biz1 = high_snap_biz.loc[high_snap_biz["business_name"].str.contains(r"\bfood\b|\bfoods\b", case=False, regex=True)]
+search_hs_biz2 = high_snap_biz.loc[high_snap_biz["business_name"].str.contains(r"\bgrocery\b|\bmarket\b", case=False, regex=True)]
+search_hs_biz3 = high_snap_biz.loc[high_snap_biz["business_name"].str.contains(r"\bfruit\b|\bvegetable\b", case=False, regex=True)]
 
 # joining the search databases
-sorted_hn_biz = pd.concat([search_hn_biz1, search_hn_biz2, search_hn_biz3])
-print("\nPossible grocery stores in high need areas:")
-print(sorted_hn_biz["business_name"])
+sorted_hs_biz = pd.concat([search_hs_biz1, search_hs_biz2, search_hs_biz3])
+print("\nPossible grocery stores in high SNAP areas:")
+print(sorted_hs_biz["business_name"])
 
+# writing to output file to make it easier to select records to keep - next step
+# checking to see if the output file already exists
+if os.path.exists("initial_sort_hs_biz_geodata.csv"):
+    os.remove("initial_sort_hs_biz_geodata.csv")
 
+sorted_hs_biz.to_csv("initial_sort_hs_biz_geodata.csv", index=False)
 
-## CHECK REMAINDER OF SCRIPT BY HAND
-## BECAUSE OF NEW API CALL 5/4/22 9:30am
-
-
-
-#%%
 # selecting records to keep - reivew of stores has to be done by hand
-# looked up addresses on google maps to see if businesses were operating at listed address
-# searched for business names to see what industry they were in (grocery vs. restaurants vs. manufacturing)
-# looked at yelp reviews or google street view/photos to try to see if store sells fresh fruits and vegetables
-sorted_hn_biz = sorted_hn_biz.sort_values("business_name", ascending=True)
-sorted_hn_biz = sorted_hn_biz.reset_index()
-sorted_hn_biz = sorted_hn_biz.drop(columns = ["index"])
-proposed_hn_biz = sorted_hn_biz.loc[[7, 8, 9, 19, 23]]
+# looked up addresses on google maps to confirm that the businesses were operating at listed address
+# looked at yelp and google reviews and/or google street view/photos to try to see if store sells fresh fruits and vegetables
+sorted_hs_biz = sorted_hs_biz.sort_values("business_name", ascending=True)
+sorted_hs_biz = sorted_hs_biz.reset_index()
+sorted_hs_biz = sorted_hs_biz.drop(columns = ["index"])
+proposed_hs_biz = sorted_hs_biz.loc[[12, 15, 16, 17, 18, 19, 25, 26, 29, 38, 47, 50, 53, 83]]
 
 #%% Finding store coordinates
 
 # creating new address column and empty list for coordinates
-proposed_hn_biz["Full address"] = proposed_hn_biz["address"] + "," + proposed_hn_biz["city"] + "," + proposed_hn_biz["state"] + "," + proposed_hn_biz["zip"]
+proposed_hs_biz["Full address"] = proposed_hs_biz["address"] + "," + proposed_hs_biz["city"] + "," + proposed_hs_biz["state"] + "," + proposed_hs_biz["zip"]
 
 # creating list of addresses
-stores_list = proposed_hn_biz["Full address"].tolist()
+stores_list = proposed_hs_biz["Full address"].tolist()
 
 # geolocating coordinates of stores
 
@@ -99,30 +97,40 @@ dups = new_store_coords[dup_store_coords]
 print("\nDuplicated records:")
 print(dups)
 
-# selecting duplicate records to keep - reivew of coordinates has to be done by hand
-new_store_coords.drop([2, 4], axis=0, inplace=True)
+# selecting duplicate records to keep
+# reivew of coordinates has to be done by hand
+new_store_coords.drop([0, 3, 5, 11], axis=0, inplace=True)
 
-# merging new_store_coords with proposed_hn_biz to see which stores did not get coordinates
+# merging new_store_coords with proposed_hs_biz to see which stores did not get coordinates
 new_store_coords = new_store_coords.rename(columns = {"query":"Full address"})
-proposed_hn_biz = proposed_hn_biz.merge(new_store_coords, on="Full address", how="outer", validate="1:1", indicator=True)
+proposed_hs_biz = proposed_hs_biz.merge(new_store_coords, on="Full address", how="outer", validate="1:1", indicator=True)
 
 # printing the merge indicator
 print("\nMerge indicator:")
-print(proposed_hn_biz["_merge"].value_counts())
+print(proposed_hs_biz["_merge"].value_counts())
 
 # printing the stores without coordinates
 print("\nStores without coordinates:")
-print(proposed_hn_biz["business_name"], proposed_hn_biz["lat"].isna())
+print(proposed_hs_biz["business_name"], proposed_hs_biz["lat"].isna())
 
 # inputting missing coordinates - collected from google maps by hand
-proposed_hn_biz.at[0,"lat"] = "45.665884996636265"
-proposed_hn_biz.at[0,"lon"] = "-121.89524677488562"
+proposed_hs_biz.at[0,"lat"] = "45.666331132092694"
+proposed_hs_biz.at[0,"lon"] = "-121.89505365396666"
+
+proposed_hs_biz.at[3,"lat"] = "45.51799268882096"
+proposed_hs_biz.at[3,"lon"] = "-122.45628770187388"
+
+proposed_hs_biz.at[6,"lat"] = "44.61460816218274"
+proposed_hs_biz.at[6,"lon"] = "-121.13410590000001"
+
+proposed_hs_biz.at[13,"lat"] = "45.50692529777633"
+proposed_hs_biz.at[13,"lon"] = "-122.47477299999998"
 
 # dropping the "_merge" column
-proposed_hn_biz = proposed_hn_biz.drop(columns = ["_merge"])
+proposed_hs_biz = proposed_hs_biz.drop(columns = ["_merge"])
 
 # checking to see if the output file already exists
-if os.path.exists("proposed_hn_biz_geodata.csv"):
-    os.remove("proposed_hn_biz_geodata.csv")
+if os.path.exists("proposed_hs_biz_geodata.csv"):
+    os.remove("proposed_hs_biz_geodata.csv")
 
-proposed_hn_biz.to_csv("proposed_hn_biz_geodata.csv", index=False)
+proposed_hs_biz.to_csv("proposed_hs_biz_geodata.csv", index=False)
