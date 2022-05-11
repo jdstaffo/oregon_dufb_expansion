@@ -11,21 +11,17 @@ import requests
 import json
 import os
 
+#%% Open Street Map API
+
 stores = pd.read_csv("existing_grocery_stores.csv", dtype=str)
 
-# creating new address column and empty list for coordinates
 stores["Full address"] = stores["Street address"] + "," + stores["City"] + "," + stores["State"] + "," + stores["Zip code"]
 
-# creating list of addresses
 stores_list = stores["Full address"].tolist()
 
-# geolocating coordinates of stores
-
-# coordinates API endpoint
 api = "https://nominatim.openstreetmap.org/search"
 
 # looping through the addresses and building a list of results
-
 output = []
 
 for s in stores_list:
@@ -50,8 +46,10 @@ for s in stores_list:
 
 store_coords = pd.DataFrame(output)
 
-# dropping records with no query
 store_coords = store_coords.dropna()
+
+#%% Cleaning API data
+# some of this must be done manually - follow prompts given in script
 
 # finding duplicate records
 dup_store_coords = store_coords.duplicated(subset = "query", keep=False)
@@ -59,32 +57,32 @@ dups = store_coords[dup_store_coords]
 print("\nDuplicated records:")
 print(dups)
 
-# selecting duplicate records to keep - reivew of coordinates has to be done by hand
+# selecting duplicate records to keep
+# the reivew of coordinates has to be done by hand
+# this is done by looking through dups
 store_coords.drop([3, 5, 7, 8, 11, 19], axis=0, inplace=True)
 
 # merging store_coords with stores to see which stores did not get coordinates
 store_coords = store_coords.rename(columns = {"query":"Full address"})
 stores = stores.merge(store_coords, on="Full address", how="outer", validate="1:1", indicator=True)
-
-# printing the merge indicator
 print("\nMerge indicator:")
 print(stores["_merge"].value_counts())
 
-# printing the stores without coordinates
 print("\nStores without coordinates:")
-print(stores["Store name"], stores["lat"].isna())
+print(stores["lat"].isna())
 
-# inputting missing coordinates - collected from google maps by hand
+# inputting missing coordinates
+# these must be collected from google maps by hand
+# this is done by entering the address and right-clicking on the red marker
+# the coordinates will be at the top of the drop-down menu
 stores.at[2,"lat"] = "45.20671871375452"
 stores.at[2,"lon"] = "-123.95964866004289"
 
 stores.at[5,"lat"] = "44.55393395819116"
 stores.at[5,"lon"] = "-123.26453513123064"
 
-# dropping the "_merge" column and the "name" column for clarity
 stores = stores.drop(columns = ["_merge", "name"])
 
-# checking to see if the output file already exists
 if os.path.exists("existing_store_geodata.csv"):
     os.remove("existing_store_geodata.csv")
 

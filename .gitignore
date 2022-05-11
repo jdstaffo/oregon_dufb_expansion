@@ -7,3 +7,8 @@ tract_data.gpkg-wal
 *.gpkg-shm
 *.gpkg-wal
 *.pgw
+*.pgw
+High_SNAP_existing_grocery_stores.pgw
+Existing_grocery_stores.pgw
+ALL_high_SNAP_grocery_stores.pgw
+SNAP_receipt_zips.pgw
