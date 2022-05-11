@@ -33,7 +33,7 @@ The output files from this script can be used to create a heatmap of SNAP receip
 -	oregon_zip_geodata – Percent SNAP (graduated from dark green [lowest percentage of households receiving SNAP] to dark red [highest percentage of households receiving SNAP] in 8 natural breaks (jenks))
 -	NOTE: The color scheme here uses reds and greens. To make this map more accessible to colorblind folks, use an orange-purple graduated scale or a grayscale graduated scale.
 
-![statewide map of SNAP receipt, color-coded](SNAP_receipt_zips.png)
+![statewide map of SNAP receipt, color-coded](SNAP_receipt_zips.png "statewide map of SNAP receipt")
 
 *Input files:* "2019_ACS_API_ZCTA_request.csv," “cb_2020_us_zcta520_500k.zip," “s_22mr22.zip”
 
@@ -45,7 +45,7 @@ The output files from this script can be used to create a heatmap of SNAP receip
 
 The output file from this script can be used to add the existing grocery stores to the SNAP_receipt_zips map created in step (2).
 
-[PNG]
+![existing DUFB grocery stores on statewide map of SNAP receipt](Existing_grocery_stores.png "existing DUFB grocery stores")
 
 *Input files:* “existing_grocery_stores.csv”
 
@@ -63,7 +63,7 @@ The output files from this script can be used to create a map of the 30 highest-
 
 The map shows how the locations of existing grocery stores do – or do not – overlap with areas of high SNAP participation.
 
-[PNG]
+![existing DUFB grocery stores on map of high SNAP zip codes](High_SNAP_existing_grocery_stores.png "high SNAP zips, existing stores")
 
 *Input files:* “oregon_zip_geodata.csv,” “oregon_zip_geodata.gpkg”
 
@@ -85,7 +85,7 @@ The output file from this script can be used to add the proposed grocery stores 
 
 This map shows the grocery stores that serve high SNAP zip codes. It shows the populations that would be newly served by the proposed grocery store expansion, while also demonstrating that many high SNAP zip codes do not have grocery stores that sell produce.
 
-[PNG]
+![proposed and existing grocery stores on map of high SNAP zip codes](ALL_high_SNAP_grocery_stores.png "high SNAP zips, proposed and existing stores")
 
 *Input files:* “high_snap_businesses.csv” 
 
@@ -97,21 +97,21 @@ This map shows the grocery stores that serve high SNAP zip codes. It shows the p
 
 This analysis proposes that the following 18 grocery stores be added to Oregon’s DUFB grocery store pilot program. By allowing SNAP participants to get a dollar-for-dollar match on produce purchased at these stores, the Oregon DUFB program can make further progress towards increasing food security in the state.
 
-B & D DEXTER MARKET, INC.
-EL PORVENIR MINI MARKET CORP.
-ERICKSON SUPER MARKET
-EXTREME GROCERY DISCOUNTERS, LLC
-FALLS CITY MARKET
-GROCERY OUTLET OF MADRAS
-GUERRERO'S MARKET
-I & E FAMILY MARKET INC.
-IZOBILIE EURO FOODS LLC
-J & D FAMILY MARKET INC.
-MALLARD GROCERY
-MINGALA INTERNATIONAL MARKET
-ONTARIO MINI MARKET AND PRODUCE LLC
-OREGON NATURAL MARKET
-ORIENTAL FOOD VALUE SUPERMARKET, INC.
-TAKILMA FOOD COOP
-YADANAR HALAL MARKET LLC
-ZWE KA BIN GROCERY, LLC 
+-	B & D DEXTER MARKET, INC.
+-	EL PORVENIR MINI MARKET CORP.
+-	ERICKSON SUPER MARKET
+-	EXTREME GROCERY DISCOUNTERS, LLC
+-	FALLS CITY MARKET
+-	GROCERY OUTLET OF MADRAS
+-	GUERRERO'S MARKET
+-	I & E FAMILY MARKET INC.
+-	IZOBILIE EURO FOODS LLC
+-	J & D FAMILY MARKET INC.
+-	MALLARD GROCERY
+-	MINGALA INTERNATIONAL MARKET
+-	ONTARIO MINI MARKET AND PRODUCE LLC
+-	OREGON NATURAL MARKET
+-	ORIENTAL FOOD VALUE SUPERMARKET, INC.
+-	TAKILMA FOOD COOP
+-	YADANAR HALAL MARKET LLC
+-	ZWE KA BIN GROCERY, LLC 
