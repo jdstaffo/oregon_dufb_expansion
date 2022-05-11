@@ -22,6 +22,7 @@ This project will propose a second phase of Oregon’s DUFB grocery store pilot 
 **(1) census_api.py:** This script calls an API request to pull data from the 2019 American Community Survey (ACS) at the ZCTA level for the state of Oregon. Data requested is the total number of households in each ZCTA and the number of households that received SNAP in the past 12 months.
 
 *Input files:* none
+
 *Output files:* "2019_ACS_API_ZCTA_request.csv"
 
 **(2) census_mapping.py:** This script uses the ACS data from script (1) to calculate the percentage of households receiving SNAP in each zip code. The script then reads in geodata files to merge SNAP household data with ZCTA geography, clipping the ZCTA geography at the Oregon state border (to restrict any zip codes that are partially outside of the state boundary to only that geography that is within the state).
@@ -30,11 +31,14 @@ The output files from this script can be used to create a heatmap of SNAP receip
 -	oregon_state_geodata – geometry
 -	oregon_zip_geodata – ZIP
 -	oregon_zip_geodata – Percent SNAP (graduated from dark green [lowest percentage of households receiving SNAP] to dark red [highest percentage of households receiving SNAP] in 8 natural breaks (jenks))
+-	NOTE: The color scheme here uses reds and greens. To make this map more accessible to colorblind folks, use an orange-purple graduated scale or a grayscale graduated scale.
 
-[PNG]
+![statewide map of SNAP receipt, color-coded](SNAP_receipt_zips.png)
 
 *Input files:* "2019_ACS_API_ZCTA_request.csv," “cb_2020_us_zcta520_500k.zip," “s_22mr22.zip”
+
 *Output files:* “oregon_zip_geodata.gpkg,” “oregon_state_geodata.gpkg", “oregon_zip_geodata.csv”
+
 *GIS output:* “SNAP_receipt_zips.qgz”
 
 **(3) existing_stores.py:** This script calls an API request to openstreetmap.org to get coordinates for the grocery stores currently participating in the DUFB pilot program. The script finds duplicates and stores without coordinates; both of these errors must be addressed manually, and prompts are given in the script.
@@ -44,7 +48,9 @@ The output file from this script can be used to add the existing grocery stores 
 [PNG]
 
 *Input files:* “existing_grocery_stores.csv”
+
 *Output files:* "existing_store_geodata.csv”
+
 *GIS output:* “Existing_grocery_stores.qgz”
 
 **(4) high_snap.py:** This script uses the ACS data as edited in script (2) to select the 30 zip codes with the highest percentage of households receiving SNAP. The script then joins those zip codes onto the ZCTA geodata.
@@ -60,12 +66,15 @@ The map shows how the locations of existing grocery stores do – or do not – 
 [PNG]
 
 *Input files:* “oregon_zip_geodata.csv,” “oregon_zip_geodata.gpkg”
+
 *Output files:* "high_snap.csv," “high_snap_geodata.gpkg,” “high_snap_geodata.csv”
+
 *GIS output:* “High_SNAP_existing_grocery_stores.qgz”
 
 **(5) oregon_api.py:** This script uses the high SNAP zip codes from script (4) to call an API request to Oregon’s open data portal to request active businesses in the 30 high SNAP zip codes. 
 
 *Input files:* “high_snap_geodata.csv”
+
 *Output files:* "high_snap_businesses.csv"
 
 **(6) proposed_stores.py:** This script uses the data collected from the API in script (5) to select appropriate grocery store businesses in the high SNAP zip codes. The script cleans the data and selects stores with common grocery store words. These stores must then be sorted through manually to determine if they sell fresh fruit and vegetables and would be good candidates to participate in the DUFB pilot program. 
@@ -79,7 +88,9 @@ This map shows the grocery stores that serve high SNAP zip codes. It shows the p
 [PNG]
 
 *Input files:* “high_snap_businesses.csv” 
+
 *Output files:* "initial_sort_hs_biz_geodata.csv," “proposed_hs_biz_geodata.csv”
+
 *GIS output:* “ALL_high_SNAP_grocery_stores.qgz”
 
 ## Policy Recommendation
