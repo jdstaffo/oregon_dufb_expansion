@@ -1,6 +1,8 @@
 # Proposed Expansion of Oregon's Double Up Food Bucks (DUFB) Program
 Julia Stafford
+\
 PAI 789 Final Project, Spring 2022
+\
 Maxwell School, Syracuse University
 
 ## Background
@@ -24,7 +26,7 @@ This project proposes a second phase of Oregon’s DUFB grocery store pilot prog
 **(1) census_api.py:** This script calls an API request to pull data from the 2019 American Community Survey (ACS) at the ZCTA level for the state of Oregon. Data requested is the total number of households in each ZCTA and the number of households in each ZCTA that received SNAP in the past 12 months.
 
 *Input files:* none
-
+\
 *Output files:* “2019_ACS_API_ZCTA_request.csv”
 
 #
@@ -40,9 +42,9 @@ This project proposes a second phase of Oregon’s DUFB grocery store pilot prog
 ![statewide map of SNAP receipt, color-coded](SNAP_receipt_zips.png “statewide map of SNAP receipt”)
 
 *Input files:* “2019_ACS_API_ZCTA_request.csv,” “cb_2020_us_zcta520_500k.zip,” “s_22mr22.zip”
-
+\
 *Output files:* “oregon_zip_geodata.gpkg,” “oregon_state_geodata.gpkg”, “oregon_zip_geodata.csv”
-
+\
 *QGIS output:* “SNAP_receipt_zips.qgz”
 
 #
@@ -54,9 +56,9 @@ This project proposes a second phase of Oregon’s DUFB grocery store pilot prog
 ![existing DUFB grocery stores on statewide map of SNAP receipt](Existing_grocery_stores.png “existing DUFB grocery stores”)
 
 *Input files:* “existing_grocery_stores.csv”
-
+\
 *Output files:* “existing_store_geodata.csv”
-
+\
 *QGIS output:* “Existing_grocery_stores.qgz”
 
 #
@@ -74,9 +76,9 @@ The map shows how the locations of existing grocery stores do – or do not – 
 ![existing DUFB grocery stores on map of high SNAP zip codes](High_SNAP_existing_grocery_stores.png “high SNAP zips, existing stores”)
 
 *Input files:* “oregon_zip_geodata.csv,” “oregon_zip_geodata.gpkg”
-
+\
 *Output files:* “high_snap.csv,” “high_snap_geodata.gpkg,” “high_snap_geodata.csv”
-
+\
 *QGIS output:* “High_SNAP_existing_grocery_stores.qgz”
 
 #
@@ -84,7 +86,7 @@ The map shows how the locations of existing grocery stores do – or do not – 
 **(5) oregon_api.py:** This script uses the high SNAP zip codes from script (4) to call an API request to the Oregon Open Data Portal to request active businesses in the 30 high SNAP zip codes. 
 
 *Input files:* “high_snap_geodata.csv”
-
+\
 *Output files:* “high_snap_businesses.csv”
 
 #
@@ -100,9 +102,9 @@ This map shows the grocery stores that serve high SNAP zip codes. It shows the p
 ![proposed and existing grocery stores on map of high SNAP zip codes](ALL_high_SNAP_grocery_stores.png “high SNAP zips, proposed and existing stores”)
 
 *Input files:* “high_snap_businesses.csv” 
-
+\
 *Output files:* “initial_sort_hs_biz_geodata.csv,” “proposed_hs_biz_geodata.csv”
-
+\
 *QGIS output:* “ALL_high_SNAP_grocery_stores.qgz”
 
 ## Policy Recommendation
