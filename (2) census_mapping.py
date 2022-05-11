@@ -13,15 +13,14 @@ import os
 # reading in input file of ACS data
 oregon_acs_data = pd.read_csv("2019_ACS_API_ZCTA_request.csv", dtype=str)
 
-# creating new column for percentage of households recieving SNAP or public assistance more broadly in each tracto
+# creating new column for percentage of households recieving SNAP in each zip
 oregon_acs_data["Percent SNAP"] = round(oregon_acs_data["Receipt of SNAP"].astype(float) / oregon_acs_data["Households"].astype(float) * 100, 4)
-oregon_acs_data["Percent Public Assist"] = round(oregon_acs_data["Public Assist"].astype(float) / oregon_acs_data["Households"].astype(float) * 100, 4)
 
 # saving new columns to new csv
 oregon_acs_data.to_csv("2019_ACS_with_percents.csv", index=False)
 
 # trimming it for joining onto geography data
-oregon_acs_trim = oregon_acs_data[["ZIP", "Percent SNAP", "County", "Households"]].copy()
+oregon_acs_trim = oregon_acs_data[["ZIP", "Percent SNAP", "Households"]].copy()
 
 # reading in input file of ZCTA geography
 zip_geodata = gpd.GeoDataFrame()
@@ -46,12 +45,10 @@ states = gpd.read_file("s_22mr22.zip")
 
 # selecting Oregon (state 41)
 oregon_state = states.query("STATE == 'OR'")
+oregon_state = oregon_state.to_crs(epsg = 2992)
 
 # clipping the zip_geodata at the state boundary - to cut zip codes that are partially outside of the state
 or_zips_geodata = zip_geodata.clip(oregon_state, keep_geom_type=True)
-
-# setting to desired projection
-or_zips_geodata = or_zips_geodata.to_crs(epsg = 2992)
 
 # checking to see if the output file already exists
 if os.path.exists("oregon_zip_geodata.gpkg"):
@@ -63,8 +60,10 @@ or_zips_geodata.to_file("oregon_zip_geodata.gpkg", layer="Percent SNAP", index=F
 oregon_state.to_file("oregon_state_geodata.gpkg", layer = "geometry", index=False)
 
 # checking to see if the output file already exists
-if os.path.exists("zip_geodata.csv"):
-    os.remove("zip_geodata.csv")
+if os.path.exists("oregon_zip_geodata.csv"):
+    os.remove("oregon_zip_geodata.csv")
 
 # writing to output csv file
+or_zips_geodata.to_csv("oregon_zip_geodata.csv", index=False)
+
 zip_geodata.to_csv("zip_geodata.csv", index=False)

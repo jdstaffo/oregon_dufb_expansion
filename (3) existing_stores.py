@@ -88,5 +88,4 @@ stores = stores.drop(columns = ["_merge", "name"])
 if os.path.exists("existing_store_geodata.csv"):
     os.remove("existing_store_geodata.csv")
 
-
 stores.to_csv("existing_store_geodata.csv", index=False)

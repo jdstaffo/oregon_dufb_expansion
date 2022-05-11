@@ -11,17 +11,17 @@ import requests
 import json
 import os
 
-# reading in input file of high need zip codes
-high_need = pd.read_csv("high_need_geodata.csv")
+# reading in input file of high SNAP zip codes
+high_snap = pd.read_csv("high_snap_geodata.csv")
 
 # converting zip codes to strings
-high_need["ZIP"] = high_need["ZIP"].astype(str)
+high_snap["ZIP"] = high_snap["ZIP"].astype(str)
 
 # narrowing down to just the zip codes themselves
-hn_zips = high_need["ZIP"].to_list()
+hs_zips = high_snap["ZIP"].to_list()
 
-print("\nHigh-need zip codes:")
-print(hn_zips)
+print("\nHigh-SNAP zip codes:")
+print(hs_zips)
 
 # setting up the API endpoint
 api = "https://data.oregon.gov/resource/tckn-sxa6.json"
@@ -32,13 +32,13 @@ payload = {"state":"OR", "$limit":"50000"}
 # looping through zips of interest and collecting the results in a large dictionary
 # using zip codes as keys
 
-hn_zips = ['97233', '97204', '97014', '97329', '97907', '97905', '97741', '97761', '97001', '97880',
-           '97622', '97639', '97621', '97731', '97733', '97463', '97914', '97147', '97480', '97324',
-           '97390', '97343', '97380', '97344', '97371', '97534', '97497', '97406', '97465', '97481']
+hs_zips = ['97236', '97233', '97204', '97859', '97622', '97639', '97536', '97731', '97463', '97914',
+           '97329', '97345', '97907', '97905', '97350', '97741', '97761', '97001', '97108', '97147',
+           '97480', '97343', '97344', '97534', '97523', '97497', '97406', '97465', '97417', '97431']
 
 result = {}
 
-for z in hn_zips:
+for z in hs_zips:
     payload["zip"] = z
     response = requests.get(api,payload)
     print("\nResponse status code is", response.status_code)
@@ -46,15 +46,15 @@ for z in hn_zips:
     print(len(result[z]))
 
 # creating dataframe from results
-high_need_businesses = pd.concat(result)
+high_snap_businesses = pd.concat(result)
 
 # dropping unnecessary columns
-high_need_businesses = high_need_businesses.drop(columns = ["jurisdiction", "first_name", "middle_name", "last_name",
+high_snap_businesses = high_snap_businesses.drop(columns = ["jurisdiction", "first_name", "middle_name", "last_name",
                                                             "suffix", "entity_of_record_reg_number", "entity_of_record_name"])
 
 # checking to see if the output file already exists
-if os.path.exists("high_need_businesses.csv"):
-    os.remove("high_need_businesses.csv")
+if os.path.exists("high_snap_businesses.csv"):
+    os.remove("high_snap_businesses.csv")
     
 # writing to output file
-high_need_businesses.to_csv("high_need_businesses.csv", index=False)
+high_snap_businesses.to_csv("high_snap_businesses.csv", index=False)

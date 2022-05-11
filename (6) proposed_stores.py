@@ -50,7 +50,7 @@ sorted_hs_biz.to_csv("initial_sort_hs_biz_geodata.csv", index=False)
 sorted_hs_biz = sorted_hs_biz.sort_values("business_name", ascending=True)
 sorted_hs_biz = sorted_hs_biz.reset_index()
 sorted_hs_biz = sorted_hs_biz.drop(columns = ["index"])
-proposed_hs_biz = sorted_hs_biz.loc[[12, 15, 16, 17, 18, 19, 25, 26, 29, 38, 47, 50, 53, 83]]
+proposed_hs_biz = sorted_hs_biz.loc[[11, 30, 31, 33, 34, 42, 43, 46, 48, 49, 66, 72, 80, 83, 84, 115, 125, 126]]
 
 #%% Finding store coordinates
 
@@ -97,10 +97,10 @@ dups = new_store_coords[dup_store_coords]
 print("\nDuplicated records:")
 print(dups)
 
-# selecting duplicate records to keep
+# selecting duplicate records to drop
 # reivew of coordinates has to be done by hand
-new_store_coords.drop([0, 3, 5, 11], axis=0, inplace=True)
-
+new_store_coords.drop([1, 4, 7, 10, 12, 13, 14, 15, 16, 17, 18, 22, 26, 28, 29], axis=0, inplace=True)
+#%%
 # merging new_store_coords with proposed_hs_biz to see which stores did not get coordinates
 new_store_coords = new_store_coords.rename(columns = {"query":"Full address"})
 proposed_hs_biz = proposed_hs_biz.merge(new_store_coords, on="Full address", how="outer", validate="1:1", indicator=True)
@@ -111,20 +111,17 @@ print(proposed_hs_biz["_merge"].value_counts())
 
 # printing the stores without coordinates
 print("\nStores without coordinates:")
-print(proposed_hs_biz["business_name"], proposed_hs_biz["lat"].isna())
+print(proposed_hs_biz["lat"].isna())
 
 # inputting missing coordinates - collected from google maps by hand
-proposed_hs_biz.at[0,"lat"] = "45.666331132092694"
-proposed_hs_biz.at[0,"lon"] = "-121.89505365396666"
+proposed_hs_biz.at[5,"lat"] = "44.61417915022682"
+proposed_hs_biz.at[5,"lon"] = "-121.13409075772348"
 
-proposed_hs_biz.at[3,"lat"] = "45.51799268882096"
-proposed_hs_biz.at[3,"lon"] = "-122.45628770187388"
+proposed_hs_biz.at[15,"lat"] = "42.05009779833905"
+proposed_hs_biz.at[15,"lon"] = "-123.61654453082276"
 
-proposed_hs_biz.at[6,"lat"] = "44.61460816218274"
-proposed_hs_biz.at[6,"lon"] = "-121.13410590000001"
-
-proposed_hs_biz.at[13,"lat"] = "45.50692529777633"
-proposed_hs_biz.at[13,"lon"] = "-122.47477299999998"
+proposed_hs_biz.at[17,"lat"] = "45.5062899164863"
+proposed_hs_biz.at[17,"lon"] = "-122.47476227303814"
 
 # dropping the "_merge" column
 proposed_hs_biz = proposed_hs_biz.drop(columns = ["_merge"])

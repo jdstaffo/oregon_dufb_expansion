@@ -26,8 +26,7 @@ key_value = "8a0c471829f0b6d031bc0e9f473f796194d1323f"
 # B01003_001E: TOTAL POPULATION
 # B11001_001E: TOTAL HOUSEHOLDS (FAMILY AND NONFAMILY)
 # B22001_002E: RECEIPT OF FOOD STAMPS/SNAP IN THE PAST 12 MONTHS FOR HOUSEHOLDS (002 = YES)
-# B19058_002E: PUBLIC ASSISTANCE INCOME OR FOOD STAMPS/SNAP IN THE PAST 12 MONTHS FOR HOUSEHOLDS (002 = YES)
-payload = {"get":"NAME,B01003_001E,B11001_001E,B22001_002E,B19058_002E", "for":for_clause, "in": in_clause, "key":key_value}
+payload = {"get":"NAME,B01003_001E,B11001_001E,B22001_002E", "for":for_clause, "in": in_clause, "key":key_value}
 
 # calling the request
 response = requests.get(api, payload)
@@ -57,7 +56,6 @@ acs_data = pd.DataFrame(columns=colnames, data=datarows)
 acs_data = acs_data.rename(columns = {"B01003_001E":"Population",
                                       "B11001_001E":"Households",
                                       "B22001_002E":"Receipt of SNAP",
-                                      "B19058_002E":"Public Assist",
                                       "zip code tabulation area": "ZIP"})
 
 # checking to see if the output file already exists
