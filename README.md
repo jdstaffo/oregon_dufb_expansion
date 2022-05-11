@@ -39,7 +39,7 @@ This project proposes a second phase of Oregon’s DUFB grocery store pilot prog
 -	oregon_zip_geodata – Percent SNAP (graduated from dark green [lowest percentage of households receiving SNAP] to dark red [highest percentage of households receiving SNAP] in 8 natural breaks (jenks))
 -	NOTE: The color scheme here uses reds and greens. To increase accessibility, an orange-purple graduated scale or a grayscale graduated scale may be more readable for colorblind users.
 
-![statewide map of SNAP receipt, color-coded](SNAP_receipt_zips.png “statewide map of SNAP receipt”)
+![statewide map of SNAP receipt, color-coded](SNAP_receipt_zips.png "statewide map of SNAP receipt")
 
 *Input files:* “2019_ACS_API_ZCTA_request.csv,” “cb_2020_us_zcta520_500k.zip,” “s_22mr22.zip”
 \
@@ -53,7 +53,7 @@ This project proposes a second phase of Oregon’s DUFB grocery store pilot prog
 
 *QGIS:* The output file from this script can be used to add the existing grocery stores to the SNAP_receipt_zips map created in step (2).
 
-![existing DUFB grocery stores on statewide map of SNAP receipt](Existing_grocery_stores.png “existing DUFB grocery stores”)
+![existing DUFB grocery stores on statewide map of SNAP receipt](Existing_grocery_stores.png "existing DUFB grocery stores")
 
 *Input files:* “existing_grocery_stores.csv”
 \
@@ -73,7 +73,7 @@ This project proposes a second phase of Oregon’s DUFB grocery store pilot prog
 
 The map shows how the locations of existing grocery stores do – or do not – overlap with areas of high SNAP participation.
 
-![existing DUFB grocery stores on map of high SNAP zip codes](High_SNAP_existing_grocery_stores.png “high SNAP zips, existing stores”)
+![existing DUFB grocery stores on map of high SNAP zip codes](High_SNAP_existing_grocery_stores.png "high SNAP zips, existing stores")
 
 *Input files:* “oregon_zip_geodata.csv,” “oregon_zip_geodata.gpkg”
 \
@@ -99,7 +99,7 @@ Once the proposed grocery stores have been selected, the script then calls anoth
 
 This map shows the grocery stores that serve high SNAP zip codes. It shows the populations that would be newly served by the proposed grocery store expansion, while also demonstrating that many high SNAP zip codes do not have grocery stores that sell produce.
 
-![proposed and existing grocery stores on map of high SNAP zip codes](ALL_high_SNAP_grocery_stores.png “high SNAP zips, proposed and existing stores”)
+![proposed and existing grocery stores on map of high SNAP zip codes](ALL_high_SNAP_grocery_stores.png "high SNAP zips, proposed and existing stores")
 
 *Input files:* “high_snap_businesses.csv” 
 \
